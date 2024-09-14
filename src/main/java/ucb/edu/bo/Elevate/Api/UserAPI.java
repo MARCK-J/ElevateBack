@@ -2,7 +2,7 @@ package ucb.edu.bo.Elevate.Api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ucb.edu.bo.Elevate.BL.UserBl;
+import ucb.edu.bo.Elevate.BL.UsersBl;
 import ucb.edu.bo.Elevate.Entity.Users;
 import ucb.edu.bo.Elevate.Exception.UserException;
 import ucb.edu.bo.Elevate.DTO.LoginRequestDTO;
@@ -14,11 +14,10 @@ import ucb.edu.bo.Elevate.DTO.ResponseDTO;
 public class UserAPI {
 
     private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(UserAPI.class);
-
-    private UserBl userBl;
+    private UsersBl userBl;
 
     @Autowired
-    public UserAPI(UserBl userBl) {
+    public UserAPI(UsersBl userBl) {
         this.userBl = userBl;
     }
 
@@ -47,5 +46,61 @@ public class UserAPI {
             return new ResponseDTO("USER-1001", e.getMessage());
         }
     }
-}
 
+    // Endpoint para obtener todos los usuarios
+    @GetMapping("/all")
+    public ResponseDTO getAllUsers() {
+        try {
+            return new ResponseDTO(userBl.getAllUsers());
+        } catch (Exception e) {
+            LOGGER.error("Error al obtener usuarios", e);
+            return new ResponseDTO("USER-1002", "Error al obtener la lista de usuarios");
+        }
+    }
+
+    // Endpoint para obtener un usuario por ID
+    @GetMapping("/{id}")
+    public ResponseDTO getUserById(@PathVariable("id") Long id) {
+        try {
+            return new ResponseDTO(userBl.getUserById(id));
+        } catch (UserException e) {
+            LOGGER.error("Error al obtener usuario", e);
+            return new ResponseDTO("USER-1003", e.getMessage());
+        }
+    }
+
+    // Endpoint para actualizar un usuario
+    @PutMapping("/{id}")
+    public ResponseDTO updateUser(@PathVariable("id") Long id, @RequestBody Users userDetails) {
+        try {
+            return new ResponseDTO(userBl.updateUser(id, userDetails));
+        } catch (UserException e) {
+            LOGGER.error("Error al actualizar usuario", e);
+            return new ResponseDTO("USER-1004", e.getMessage());
+        }
+    }
+
+    // Endpoint para eliminar un usuario
+    @DeleteMapping("/{id}")
+    public ResponseDTO deleteUser(@PathVariable("id") Long id) {
+        try {
+            userBl.deleteUser(id);
+            LOGGER.info("Usuario eliminado correctamente");
+            return new ResponseDTO("Usuario eliminado correctamente");
+        } catch (UserException e) {
+            LOGGER.error("Error al eliminar usuario", e);
+            return new ResponseDTO("USER-1005", e.getMessage());
+        }
+    }
+
+    // Endpoint para obtener usuarios por rol
+    @GetMapping("/role/{role}")
+    public ResponseDTO getUsersByRole(@PathVariable("role") int role) {
+        try {
+            return new ResponseDTO(userBl.getUsersByRole(role));
+        } catch (UserException e) {
+            LOGGER.error("Error al obtener usuarios por rol", e);
+            return new ResponseDTO("USER-1006", e.getMessage());
+        }
+    }
+}

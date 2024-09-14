@@ -1,5 +1,7 @@
 package ucb.edu.bo.Elevate.BL;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -13,7 +15,7 @@ import ucb.edu.bo.Elevate.Entity.Users;
 import ucb.edu.bo.Elevate.Exception.UserException;
 
 @Service
-public class UserBl {
+public class UsersBl {
 
     private UsersDAO usersDao;
     private StudentDAO studentDao;
@@ -21,7 +23,7 @@ public class UserBl {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
-    public UserBl(UsersDAO usersDao, StudentDAO studentDao, TeacherDAO teacherDao, BCryptPasswordEncoder bCryptPasswordEncoder) {
+    public UsersBl(UsersDAO usersDao, StudentDAO studentDao, TeacherDAO teacherDao, BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.usersDao = usersDao;
         this.studentDao = studentDao;
         this.teacherDao = teacherDao;
@@ -94,5 +96,45 @@ public class UserBl {
         } else {
             throw new UserException("Rol no válido");
         }
+    }
+
+    // Obtener todos los usuarios
+    public List<Users> getAllUsers() {
+        return usersDao.findAll();
+    }
+
+    // Obtener un usuario por ID
+    public Users getUserById(Long userId) throws UserException {
+        return usersDao.findById(userId).orElseThrow(() -> new UserException("Usuario no encontrado"));
+    }
+
+    // Actualizar un usuario
+    public Users updateUser(Long userId, Users userDetails) throws UserException {
+        Users user = usersDao.findById(userId).orElseThrow(() -> new UserException("Usuario no encontrado"));
+        
+        // Actualizar los detalles del usuario
+        user.setFirstName(userDetails.getFirstName());
+        user.setLastName(userDetails.getLastName());
+        user.setEmail(userDetails.getEmail());
+        if (userDetails.getPassword() != null && !userDetails.getPassword().isEmpty()) {
+            user.setPassword(bCryptPasswordEncoder.encode(userDetails.getPassword()));
+        }
+        
+        return usersDao.save(user);
+    }
+
+    // Eliminar un usuario
+    public void deleteUser(Long userId) throws UserException {
+        Users user = usersDao.findById(userId).orElseThrow(() -> new UserException("Usuario no encontrado"));
+        usersDao.delete(user);
+    }
+
+    // Obtener usuarios por rol
+    public List<Users> getUsersByRole(int role) throws UserException {
+        List<Users> users = usersDao.findUsersByRole(role);
+        if (users.isEmpty()) {
+            throw new UserException("No se encontraron usuarios con este rol");
+        }
+        return users;
     }
 }

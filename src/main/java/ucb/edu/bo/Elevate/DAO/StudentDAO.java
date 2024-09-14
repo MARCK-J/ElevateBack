@@ -11,5 +11,5 @@ import java.util.List;
 public interface StudentDAO extends JpaRepository<Student, Integer> {
 
     @Query(value = "SELECT * FROM student WHERE user_id = ?1", nativeQuery = true)
-    List<Student> findStudentByUserId(int userId);
+    List<Student> findStudentByUserId(Long userId);
 }

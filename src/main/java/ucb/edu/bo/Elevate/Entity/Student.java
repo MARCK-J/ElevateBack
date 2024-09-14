@@ -18,17 +18,17 @@ public class Student {
 
     @Id
     @Column(name = "user_id")
-    private int userId;
+    private Long userId;
 
     @Column(name = "enrollment_date")
     private Date enrollmentDate;
 
     // Getters y Setters
-    public int getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 

@@ -4,7 +4,6 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "userId": 1,
   "firstName": "John",
   "lastName": "Doe",
   "email": "john.doe@example.com",
@@ -22,3 +21,31 @@ Accept: application/json
   "email": "john.doe@example.com",
   "password": "12345"
 }
+
+### Obtener todos los usuarios
+GET http://localhost:9999/api/v1/user/all
+Accept: application/json
+
+### Obtener un usuario por ID
+GET http://localhost:9999/api/v1/user/{id}
+Accept: application/json
+
+### Obtener usuarios por rol
+GET http://localhost:9999/api/v1/user/role/1
+Accept: application/json
+
+### Actualizar un usuario por ID
+PUT http://localhost:9999/api/v1/user/{id}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe.updated@example.com",
+  "password": "67890"
+}
+
+### Eliminar un usuario por ID
+DELETE http://localhost:9999/api/v1/user/{id}
+Accept: application/json

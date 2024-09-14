@@ -23,7 +23,7 @@ public class Users {
 
     @Id
     @Column(name = "user_id")
-    private int userId;
+    private Long userId;
 
     @Column(name = "first_name")
     private String firstName;
@@ -44,11 +44,11 @@ public class Users {
     private Date dateJoin;
 
     // Getters y Setters
-    public int getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 

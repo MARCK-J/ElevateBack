@@ -11,5 +11,5 @@ import ucb.edu.bo.Elevate.Entity.Teacher;
 public interface TeacherDAO extends JpaRepository<Teacher, Integer> {
 
     @Query(value = "SELECT * FROM teacher WHERE user_id = ?1", nativeQuery = true)
-    List<Teacher> findTeacherByUserId(int userId);
+    List<Teacher> findTeacherByUserId(Long userId);
 }
