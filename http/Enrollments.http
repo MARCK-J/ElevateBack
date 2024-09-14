@@ -1,0 +1,33 @@
+### Obtener todas las inscripciones
+GET http://localhost:9999/api/v1/enrollments/all
+Accept: application/json
+
+### Obtener una inscripción por ID
+GET http://localhost:9999/api/v1/enrollments/{id}
+Accept: application/json
+
+### Crear una nueva inscripción
+POST http://localhost:9999/api/v1/enrollments/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "studentId": 1,
+  "courseId": 2,
+  "enrollmentDate": "2024-09-14"
+}
+
+### Actualizar una inscripción por ID
+PUT http://localhost:9999/api/v1/enrollments/{id}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "studentId": 1,
+  "courseId": 2,
+  "enrollmentDate": "2024-09-15"
+}
+
+### Eliminar una inscripción por ID
+DELETE http://localhost:9999/api/v1/enrollments/{id}
+Accept: application/json

@@ -2,7 +2,7 @@ package ucb.edu.bo.Elevate.Api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ucb.edu.bo.Elevate.BL.UsersBl;
+import ucb.edu.bo.Elevate.BL.UsersBL;
 import ucb.edu.bo.Elevate.Entity.Users;
 import ucb.edu.bo.Elevate.Exception.UserException;
 import ucb.edu.bo.Elevate.DTO.LoginRequestDTO;
@@ -11,13 +11,13 @@ import ucb.edu.bo.Elevate.DTO.ResponseDTO;
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/api/v1/user")
-public class UserAPI {
+public class UsersAPI {
 
-    private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(UserAPI.class);
-    private UsersBl userBl;
+    private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(UsersAPI.class);
+    private UsersBL userBl;
 
     @Autowired
-    public UserAPI(UsersBl userBl) {
+    public UsersAPI(UsersBL userBl) {
         this.userBl = userBl;
     }
 

@@ -1,0 +1,35 @@
+### Obtener todos los cursos
+GET http://localhost:9999/api/v1/courses/all
+Accept: application/json
+
+### Obtener un curso por ID
+GET http://localhost:9999/api/v1/courses/{id}
+Accept: application/json
+
+### Crear un nuevo curso
+POST http://localhost:9999/api/v1/courses/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Introducción a Java",
+  "description": "Curso básico de programación en Java.",
+  "categoryId": 1,
+  "duration": 30
+}
+
+### Actualizar un curso por ID
+PUT http://localhost:9999/api/v1/courses/{id}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Java para Desarrolladores",
+  "description": "Curso avanzado de programación en Java.",
+  "categoryId": 1,
+  "duration": 45
+}
+
+### Eliminar un curso por ID
+DELETE http://localhost:9999/api/v1/courses/{id}
+Accept: application/json

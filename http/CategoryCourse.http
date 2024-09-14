@@ -1,0 +1,31 @@
+### Obtener todas las categorías
+GET http://localhost:9999/api/v1/category/all
+Accept: application/json
+
+### Obtener una categoría por ID
+GET http://localhost:9999/api/v1/category/{id}
+Accept: application/json
+
+### Crear una nueva categoría
+POST http://localhost:9999/api/v1/category/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Programación",
+  "description": "Categoría para cursos de programación."
+}
+
+### Actualizar una categoría por ID
+PUT http://localhost:9999/api/v1/category/{id}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Programación Avanzada",
+  "description": "Categoría para cursos avanzados de programación."
+}
+
+### Eliminar una categoría por ID
+DELETE http://localhost:9999/api/v1/category/{id}
+Accept: application/json

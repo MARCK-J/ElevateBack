@@ -15,7 +15,7 @@ import ucb.edu.bo.Elevate.Entity.Users;
 import ucb.edu.bo.Elevate.Exception.UserException;
 
 @Service
-public class UsersBl {
+public class UsersBL {
 
     private UsersDAO usersDao;
     private StudentDAO studentDao;
@@ -23,7 +23,7 @@ public class UsersBl {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
-    public UsersBl(UsersDAO usersDao, StudentDAO studentDao, TeacherDAO teacherDao, BCryptPasswordEncoder bCryptPasswordEncoder) {
+    public UsersBL(UsersDAO usersDao, StudentDAO studentDao, TeacherDAO teacherDao, BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.usersDao = usersDao;
         this.studentDao = studentDao;
         this.teacherDao = teacherDao;

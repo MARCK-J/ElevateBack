@@ -1,0 +1,35 @@
+### Obtener todas las lecciones
+GET http://localhost:9999/api/v1/lessons/all
+Accept: application/json
+
+### Obtener una lección por ID
+GET http://localhost:9999/api/v1/lessons/{id}
+Accept: application/json
+
+### Crear una nueva lección
+POST http://localhost:9999/api/v1/lessons/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Conceptos Básicos de Java",
+  "content": "Lección introductoria sobre los conceptos básicos de Java.",
+  "courseId": 2,
+  "duration": 60
+}
+
+### Actualizar una lección por ID
+PUT http://localhost:9999/api/v1/lessons/{id}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Conceptos Avanzados de Java",
+  "content": "Lección avanzada sobre conceptos avanzados de Java.",
+  "courseId": 2,
+  "duration": 75
+}
+
+### Eliminar una lección por ID
+DELETE http://localhost:9999/api/v1/lessons/{id}
+Accept: application/json
