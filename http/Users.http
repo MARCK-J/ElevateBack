@@ -1,0 +1,24 @@
+### Registro de un nuevo usuario (Sign-up)
+POST http://localhost:9999/api/v1/user/signup
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userId": 1,
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "password": "12345",
+  "role": 1,
+  "dateJoin": "2024-09-14"
+}
+
+### Inicio de sesión (Log-in)
+POST http://localhost:9999/api/v1/user/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "john.doe@example.com",
+  "password": "12345"
+}

@@ -1,0 +1,8 @@
+package ucb.edu.bo.Elevate.Exception;
+
+public class UserException extends Exception {
+
+    public UserException(String message) {
+        super(message);
+    }
+}
