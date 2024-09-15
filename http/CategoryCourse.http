@@ -12,8 +12,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "Programación",
-  "description": "Categoría para cursos de programación."
+  "nameCategory": "Programación"
 }
 
 ### Actualizar una categoría por ID

@@ -22,6 +22,7 @@ public class Lessons {
     */
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "lessons_id")
     private Long lessonsId;
 
