@@ -4,94 +4,84 @@
 -- tables
 -- Table: Assessments
 CREATE TABLE Assessments (
-    assessments_id int  NOT NULL,
+    assessments_id SERIAL PRIMARY KEY,
     title varchar(255)  NOT NULL,
     description text  NOT NULL,
     grade int  NOT NULL,
-    due_date date  NOT NULL,
-    CONSTRAINT Assessments_pk PRIMARY KEY (assessments_id)
+    due_date date  NOT NULL
 );
 
--- Table: Category_course
+-- Tabla Category_course con ID auto-generado
 CREATE TABLE Category_course (
-    id int  NOT NULL,
-    name_category varchar(50)  NOT NULL,
-    CONSTRAINT Category_course_pk PRIMARY KEY (id)
+    id SERIAL PRIMARY KEY,
+    name_category varchar(50) NOT NULL
 );
 
 -- Table: Courses
 CREATE TABLE Courses (
-    course_id int  NOT NULL,
+    course_id SERIAL PRIMARY KEY,
     title varchar(255)  NOT NULL,
     description text  NOT NULL,
     available boolean  NOT NULL,
     Teacher_user_id int  NOT NULL,
-    Category_course_id int  NOT NULL,
-    CONSTRAINT Courses_pk PRIMARY KEY (course_id)
+    Category_course_id int  NOT NULL
 );
 
 -- Table: Enrollments
 CREATE TABLE Enrollments (
-    enrollment_id int  NOT NULL,
+    enrollment_id SERIAL PRIMARY KEY,
     enrollment_date timestamp  NOT NULL,
     Student_user_id int  NOT NULL,
-    Courses_course_id int  NOT NULL,
-    CONSTRAINT Enrollments_pk PRIMARY KEY (enrollment_id)
+    Courses_course_id int  NOT NULL
 );
 
 -- Table: Lessons
 CREATE TABLE Lessons (
-    lessons_id int  NOT NULL,
+    lessons_id SERIAL PRIMARY KEY,
     course_id int  NOT NULL,
     title varchar(255)  NOT NULL,
     content text  NOT NULL,
     archive xml  NOT NULL,
     video text  NOT NULL,
     "order" int  NOT NULL,
-    complete boolean  NOT NULL,
-    CONSTRAINT Lessons_pk PRIMARY KEY (lessons_id)
+    complete boolean  NOT NULL
 );
 
 -- Table: Messages
 CREATE TABLE Messages (
-    message_id int  NOT NULL,
+    message_id SERIAL PRIMARY KEY,
     content text  NOT NULL,
-    time timestamp  NOT NULL,
-    CONSTRAINT Messages_pk PRIMARY KEY (message_id)
+    time timestamp  NOT NULL
 );
 
 -- Table: Results
 CREATE TABLE Results (
-    result_id int  NOT NULL,
+    result_id SERIAL PRIMARY KEY,
     score int  NOT NULL,
-    submission_date date  NOT NULL,
-    CONSTRAINT Results_pk PRIMARY KEY (result_id)
+    submission_date date  NOT NULL
 );
 
 -- Table: Student
 CREATE TABLE Student (
-    user_id int  NOT NULL,
-    enrollment_date date  NOT NULL,
-    CONSTRAINT Student_pk PRIMARY KEY (user_id)
+    user_id SERIAL PRIMARY KEY,
+    enrollment_date date  NOT NULL
 );
 
 -- Table: Teacher
 CREATE TABLE Teacher (
-    user_id int  NOT NULL,
-    enrollment_date date  NOT NULL,
-    CONSTRAINT Teacher_pk PRIMARY KEY (user_id)
+    user_id SERIAL PRIMARY KEY,
+    enrollment_date date  NOT NULL
 );
 
 -- Table: Users
 CREATE TABLE Users (
-    user_id int  NOT NULL,
+    user_id SERIAL PRIMARY KEY,
     first_name varchar(50)  NOT NULL,
     last_name varchar(50)  NOT NULL,
     email varchar(100)  NOT NULL,
     password varchar(100)  NOT NULL,
     role int  NOT NULL,
-    date_join date  NOT NULL,
-    CONSTRAINT Users_pk PRIMARY KEY (user_id)
+    date_join date  NOT NULL
 );
 
 -- foreign keys
