@@ -16,6 +16,7 @@ public class CategoryCourse {
     */
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
 
