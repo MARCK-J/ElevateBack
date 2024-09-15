@@ -14,8 +14,9 @@ Accept: application/json
 {
   "title": "Introducción a Java",
   "description": "Curso básico de programación en Java.",
-  "categoryId": 1,
-  "duration": 30
+  "avaibalable": true,
+  "categoryCourseId": 1,
+  "teacherUserId": 1
 }
 
 ### Actualizar un curso por ID
