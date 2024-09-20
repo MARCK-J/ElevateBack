@@ -6,9 +6,9 @@ Accept: application/json
 {
   "firstName": "Marco",
   "lastName": "Reynolds",
-  "email": "Marco.Reynolds@example.com",
-  "password": "123456",
-  "role": 2,
+  "email": "etedaeamerinst090@gmail.com",
+  "password": "Lolsito_12345",
+  "role": 1,
   "verification": true,
   "dateJoin": "2024-09-14"
 }
@@ -19,8 +19,8 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "email": "Marco.Reynolds@example.com",
-  "password": "123456"
+  "email": "etedaeamerinst090@gmail.com",
+  "password": "Lolsito_12345"
 }
 
 ### Obtener todos los usuarios
@@ -36,17 +36,18 @@ GET http://localhost:9999/api/v1/user/role/1
 Accept: application/json
 
 ### Actualizar un usuario por ID
-PUT http://localhost:9999/api/v1/user/{id}
+PUT http://localhost:9999/api/v1/user/2
 Content-Type: application/json
 Accept: application/json
 
 {
-  "firstName": "John",
-  "lastName": "Doe",
-  "email": "john.doe.updated@example.com",
-  "password": "67890"
+  "firstName": "Marco Fernando",
+  "lastName": "Reynolds Gamez",
+  "email": "etedaeamerinst090@gmail.com",
+  "password": "Lolsito_12345",
+  "verification": true,
 }
 
 ### Eliminar un usuario por ID
-DELETE http://localhost:9999/api/v1/user/{id}
+DELETE http://localhost:9999/api/v1/user/1
 Accept: application/json
