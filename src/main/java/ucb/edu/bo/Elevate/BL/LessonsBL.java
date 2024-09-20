@@ -44,7 +44,6 @@ public class LessonsBL {
         currentLesson.setCourseId(lesson.getCourseId());
         currentLesson.setTitle(lesson.getTitle());
         currentLesson.setContent(lesson.getContent());
-        currentLesson.setArchive(lesson.getArchive());
         currentLesson.setVideo(lesson.getVideo());
         currentLesson.setOrder(lesson.getOrder());
         currentLesson.setComplete(lesson.isComplete());

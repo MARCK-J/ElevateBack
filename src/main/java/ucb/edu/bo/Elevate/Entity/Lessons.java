@@ -13,7 +13,6 @@ public class Lessons {
         course_id int  NOT NULL,
         title varchar(255)  NOT NULL,
         content text  NOT NULL,
-        archive xml  NOT NULL,
         video text  NOT NULL,
         "order" int  NOT NULL,
         complete boolean  NOT NULL,
@@ -34,9 +33,6 @@ public class Lessons {
 
     @Column(name = "content", nullable = false)
     private String content;
-
-    @Column(name = "archive", nullable = false, columnDefinition = "xml")
-    private String archive;
 
     @Column(name = "video", nullable = false)
     private String video;
@@ -80,14 +76,6 @@ public class Lessons {
         this.content = content;
     }
 
-    public String getArchive() {
-        return archive;
-    }
-
-    public void setArchive(String archive) {
-        this.archive = archive;
-    }
-
     public String getVideo() {
         return video;
     }
@@ -120,7 +108,6 @@ public class Lessons {
                 ", courseId=" + courseId +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                ", archive='" + archive + '\'' +
                 ", video='" + video + '\'' +
                 ", order=" + order +
                 ", complete=" + complete +
