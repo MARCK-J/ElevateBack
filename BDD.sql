@@ -41,7 +41,6 @@ CREATE TABLE Lessons (
     course_id int  NOT NULL,
     title varchar(255)  NOT NULL,
     content text  NOT NULL,
-    archive xml  NOT NULL,
     video text  NOT NULL,
     "order" int  NOT NULL,
     complete boolean  NOT NULL
