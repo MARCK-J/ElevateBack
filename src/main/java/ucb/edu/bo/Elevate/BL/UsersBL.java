@@ -118,8 +118,9 @@ public class UsersBL {
         user.setEmail(userDetails.getEmail());
         if (userDetails.getPassword() != null && !userDetails.getPassword().isEmpty()) {
             user.setPassword(bCryptPasswordEncoder.encode(userDetails.getPassword()));
-        }
         
+        }
+        user.setVerification(userDetails.isVerification());
         return usersDao.save(user);
     }
 

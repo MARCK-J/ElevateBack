@@ -36,20 +36,20 @@ GET http://localhost:9999/api/v1/user/role/1
 Accept: application/json
 
 ### Actualizar un usuario por ID
-PUT http://localhost:9999/api/v1/user/2
+PUT http://localhost:9999/api/v1/user/1
 Content-Type: application/json
 Accept: application/json
 
 {
-  "firstName": "Luan",
-  "lastName": "Huanca",
-  "email": "luanhuancam@gmail.com",
-  "password": "Lahm2002.",
-  "verification":true,
+  "firstName": "Marco Fernando",
+  "lastName": "Reynolds Gamez",
+  "email": "marco.reynolds@ucb.edu.bo",
+  "password": "lolsito101",
+  "verification": false
 }
 
 ### Eliminar un usuario por ID
-DELETE http://localhost:9999/api/v1/user/1
+DELETE http://localhost:9999/api/v1/user/2
 Accept: application/json
 
 ### Enviar Correo
