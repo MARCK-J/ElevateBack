@@ -18,4 +18,8 @@ public interface UsersDAO extends JpaRepository<Users, Long> {
 
     @Query(value = "SELECT * FROM users WHERE role = ?1", nativeQuery = true)
     List<Users> findUsersByRole(int role);
+
+    @Query(value = "SELECT * FROM users WHERE verification = ?1", nativeQuery = true)
+    List<Users> findUsersByVerification(boolean verification);
+
 }

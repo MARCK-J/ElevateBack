@@ -9,15 +9,15 @@ public class Users {
 
     /*
     -- Table: Users
-    CREATE TABLE users (
-        user_id int  NOT NULL,
+    CREATE TABLE Users (
+        user_id SERIAL PRIMARY KEY,
         first_name varchar(50)  NOT NULL,
         last_name varchar(50)  NOT NULL,
         email varchar(100)  NOT NULL,
         password varchar(100)  NOT NULL,
         role int  NOT NULL,
-        date_join date  NOT NULL,
-        CONSTRAINT Users_pk PRIMARY KEY (user_id)
+        Verification boolean  NOT NULL,
+        date_join date  NOT NULL
     );
      */
 
@@ -40,6 +40,9 @@ public class Users {
 
     @Column(name = "role")
     private int role;
+
+    @Column(name = "verification")
+    private boolean verification;
 
     @Column(name = "date_join")
     private Date dateJoin;
@@ -93,6 +96,14 @@ public class Users {
         this.role = role;
     }
 
+    public boolean isVerification() {
+        return verification;
+    }
+
+    public void setVerification(boolean verification) {
+        this.verification = verification;
+    }
+
     public Date getDateJoin() {
         return dateJoin;
     }
@@ -111,6 +122,7 @@ public class Users {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", role=" + role +
+                ", verification=" + verification +
                 ", dateJoin=" + dateJoin +
                 '}';
     }

@@ -81,6 +81,7 @@ CREATE TABLE Users (
     email varchar(100)  NOT NULL,
     password varchar(100)  NOT NULL,
     role int  NOT NULL,
+    Verification boolean  NOT NULL,
     date_join date  NOT NULL
 );
 
