@@ -42,7 +42,7 @@ CREATE TABLE Lessons (
     title varchar(255)  NOT NULL,
     content text  NOT NULL,
     video text  NOT NULL,
-    "order" int  NOT NULL,
+    order int  NOT NULL,
     complete boolean  NOT NULL
 );
 
@@ -78,9 +78,11 @@ CREATE TABLE Users (
     first_name varchar(50)  NOT NULL,
     last_name varchar(50)  NOT NULL,
     email varchar(100)  NOT NULL,
+    username varchar(25)  NOT NULL,
     password varchar(100)  NOT NULL,
     role int  NOT NULL,
-    Verification boolean  NOT NULL,
+    verification boolean  NOT NULL,
+    activation boolean
     date_join date  NOT NULL
 );
 
