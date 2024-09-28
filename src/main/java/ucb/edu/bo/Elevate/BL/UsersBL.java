@@ -65,14 +65,17 @@ public class UsersBL {
         return savedUser;
     }
 
-    // Inicio de sesión (Log-in)
-    public Users login(String email, String password) throws UserException {
-        // Buscar al usuario por email
-        Users user = usersDao.findByEmail(email);
+    // Inicio de sesión (Log-in) (email/username y contraseña)
+    public Users login(String identifier, String password) throws UserException {
+        // Buscar al usuario por email o username
+        Users user = usersDao.findByEmail(identifier);
         if (user == null) {
-            throw new UserException("Correo o contraseña incorrectos");
+            user = usersDao.findByUsername(identifier);
+            if (user == null) {
+                throw new UserException("Correo, nombre de usuario o contraseña incorrectos");
+            }
         }
-
+        
         // Verificar si la contraseña proporcionada coincide con la contraseña almacenada
         if (!bCryptPasswordEncoder.matches(password, user.getPassword())) {
             throw new UserException("Correo o contraseña incorrectos");
@@ -137,5 +140,14 @@ public class UsersBL {
             throw new UserException("No se encontraron usuarios con este rol");
         }
         return users;
+    }
+    
+    // Obtener usuarios por username
+    public Users getUserByUsername(String username) throws UserException {
+        Users user = usersDao.findByUsername(username);
+        if (user == null) {
+            throw new UserException("Usuario no encontrado");
+        }
+        return user;
     }
 }

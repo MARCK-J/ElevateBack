@@ -14,9 +14,11 @@ public class Users {
         first_name varchar(50)  NOT NULL,
         last_name varchar(50)  NOT NULL,
         email varchar(100)  NOT NULL,
+        username varchar(25)  NOT NULL,
         password varchar(100)  NOT NULL,
         role int  NOT NULL,
-        Verification boolean  NOT NULL,
+        verification boolean  NOT NULL,
+        activation boolean
         date_join date  NOT NULL
     );
      */
@@ -35,6 +37,9 @@ public class Users {
     @Column(name = "email")
     private String email;
 
+    @Column(name = "username")
+    private String username;
+
     @Column(name = "password")
     private String password;
 
@@ -43,6 +48,9 @@ public class Users {
 
     @Column(name = "verification")
     private boolean verification;
+
+    @Column(name = "activation")
+    private boolean activation;
 
     @Column(name = "date_join")
     private Date dateJoin;
@@ -80,6 +88,14 @@ public class Users {
         this.email = email;
     }
 
+    public String getUsername() { 
+        return username; 
+    }
+
+    public void setUsername(String username) { 
+        this.username = username; 
+    }
+
     public String getPassword() {
         return password;
     }
@@ -104,6 +120,14 @@ public class Users {
         this.verification = verification;
     }
 
+    public boolean isActivation() {
+        return activation;
+    }
+
+    public void setActivation(boolean activation) {
+        this.activation = activation;
+    }
+
     public Date getDateJoin() {
         return dateJoin;
     }
@@ -120,9 +144,11 @@ public class Users {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", role=" + role +
                 ", verification=" + verification +
+                ", activation=" + activation +
                 ", dateJoin=" + dateJoin +
                 '}';
     }

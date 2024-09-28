@@ -1,24 +1,24 @@
 package ucb.edu.bo.Elevate.DTO;
 
 public class LoginRequestDTO {
-    private String email;
+    private String identifier;
     private String password;
 
     public LoginRequestDTO() {
     }
 
-    public LoginRequestDTO(String correo, String password) {
-        this.email = correo;
+    public LoginRequestDTO(String identifies, String password) {
+        this.identifier = identifies;
         this.password = password;
     }
 
     //dame getters y setters
-    public String getEmail() {
-        return email;
+    public String getIdentifier() {
+        return identifier;
     }
 
-    public void setEmail(String correo) {
-        this.email = correo;
+    public void setIdentifier(String identifier) {
+        this.identifier = identifier;
     }
 
     //dame getters y setters
@@ -33,7 +33,10 @@ public class LoginRequestDTO {
     //toString
     @Override
     public String toString() {
-        return "LoginRequestDTO [password=" + password + ", usuario=" + email + "]";
+        return "LoginRequestDTO{" +
+                "identifier='" + identifier + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
 

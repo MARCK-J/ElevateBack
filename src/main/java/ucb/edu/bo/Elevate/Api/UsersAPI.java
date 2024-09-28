@@ -38,7 +38,7 @@ public class UsersAPI {
     @PostMapping("/login")
     public ResponseDTO login(@RequestBody LoginRequestDTO loginRequestDTO) {
         try {
-            Users user = userBl.login(loginRequestDTO.getEmail(), loginRequestDTO.getPassword());
+            Users user = userBl.login(loginRequestDTO.getIdentifier(), loginRequestDTO.getPassword());
             LOGGER.info("Inicio de sesión exitoso");
             return new ResponseDTO(user);
         } catch (UserException e) {
