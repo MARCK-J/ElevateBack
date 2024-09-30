@@ -14,6 +14,7 @@ Accept: application/json
 {
   "title": "Introducción a Java",
   "description": "Curso básico de programación en Java.",
+  "abilities": "Conocimientos básicos de programación.",
   "avaibalable": true,
   "categoryCourseId": 1,
   "teacherUserId": 1

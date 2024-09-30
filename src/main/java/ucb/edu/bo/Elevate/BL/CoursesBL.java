@@ -43,6 +43,7 @@ public class CoursesBL {
         }
         currentCourse.setTitle(course.getTitle());
         currentCourse.setDescription(course.getDescription());
+        currentCourse.setAbilities(course.getAbilities());
         currentCourse.setAvailable(course.isAvailable());
         currentCourse.setTeacherUserId(course.getTeacherUserId());
         currentCourse.setCategoryCourseId(course.getCategoryCourseId());

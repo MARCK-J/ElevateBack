@@ -10,7 +10,7 @@ Accept: application/json
   "username": "marcoreynolds",
   "password": "Lolsito_12345",
   "role": 1,
-  "verification": true,
+  "verification": false,
   "activation": false,
   "dateJoin": "2024-09-14"
 }
