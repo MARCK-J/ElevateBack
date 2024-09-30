@@ -7,9 +7,11 @@ Accept: application/json
   "firstName": "Marco",
   "lastName": "Reynolds",
   "email": "etedaeamerinst090@gmail.com",
+  "username": "marcoreynolds",
   "password": "Lolsito_12345",
   "role": 1,
   "verification": true,
+  "activation": false,
   "dateJoin": "2024-09-14"
 }
 
@@ -19,7 +21,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "email": "etedaeamerinst090@gmail.com",
+  "identifier": "marcoreynolds",
   "password": "Lolsito_12345"
 }
 
