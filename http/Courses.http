@@ -17,7 +17,7 @@ Accept: application/json
   "abilities": "Conocimientos básicos de programación.",
   "avaibalable": true,
   "categoryCourseId": 1,
-  "teacherUserId": 1
+  "teacherUserId": 2
 }
 
 ### Actualizar un curso por ID
