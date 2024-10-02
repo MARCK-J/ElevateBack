@@ -21,6 +21,7 @@ CREATE TABLE Category_course (
 CREATE TABLE Courses (
     course_id SERIAL PRIMARY KEY,
     title varchar(255)  NOT NULL,
+    image text  NOT NULL,
     description text  NOT NULL,
     abilities text NOT NULL,
     available boolean  NOT NULL,

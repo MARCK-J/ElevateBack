@@ -42,6 +42,7 @@ public class CoursesBL {
             return new ResponseDTO("COURSE-1001", "Course does not exist");
         }
         currentCourse.setTitle(course.getTitle());
+        currentCourse.setImage(course.getImage());
         currentCourse.setDescription(course.getDescription());
         currentCourse.setAbilities(course.getAbilities());
         currentCourse.setAvailable(course.isAvailable());

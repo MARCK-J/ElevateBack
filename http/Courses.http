@@ -13,6 +13,7 @@ Accept: application/json
 
 {
   "title": "Introducción a Java",
+  "image": "https://miro.medium.com/v2/resize:fit:1400/0*rYlqvld5ocBguLMw.png",
   "description": "Curso básico de programación en Java.",
   "abilities": "Conocimientos básicos de programación.",
   "avaibalable": true,

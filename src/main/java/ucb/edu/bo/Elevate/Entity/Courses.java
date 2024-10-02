@@ -11,6 +11,7 @@ public class Courses {
     CREATE TABLE Courses (
         course_id SERIAL PRIMARY KEY,
         title varchar(255)  NOT NULL,
+        image text  NOT NULL,
         description text  NOT NULL,
         abilities text NOT NULL,
         available boolean  NOT NULL,
@@ -26,6 +27,9 @@ public class Courses {
 
     @Column(name = "title", nullable = false)
     private String title;
+
+    @Column(name = "image", nullable = false)
+    private String image;
 
     @Column(name = "description", nullable = false)
     private String description;
@@ -57,6 +61,14 @@ public class Courses {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public String getDescription() {
@@ -105,6 +117,7 @@ public class Courses {
         return "Courses{" +
                 "courseId=" + courseId +
                 ", title='" + title + '\'' +
+                ", image='" + image + '\'' +
                 ", description='" + description + '\'' +
                 ", abilities='" + abilities + '\'' +
                 ", available=" + available +
