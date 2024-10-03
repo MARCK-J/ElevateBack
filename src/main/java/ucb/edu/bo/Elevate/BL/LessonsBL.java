@@ -43,6 +43,8 @@ public class LessonsBL {
         }
         currentLesson.setCourseId(lesson.getCourseId());
         currentLesson.setTitle(lesson.getTitle());
+        currentLesson.setDescription(lesson.getDescription());
+        currentLesson.setDuration(lesson.getDuration());
         currentLesson.setContent(lesson.getContent());
         currentLesson.setVideo(lesson.getVideo());
         currentLesson.setOrder(lesson.getOrder());
@@ -57,5 +59,13 @@ public class LessonsBL {
         }
         lessonsDao.delete(lesson);
         return new ResponseDTO("Lesson deleted successfully");
+    }
+
+    public ResponseDTO getLessonsByCourseId(Long courseId) {
+        List<Lessons> lessons = lessonsDao.findByCourseId(courseId);
+        if (lessons.isEmpty()) {
+            return new ResponseDTO("LESSON-1003", "No lessons found for course with id " + courseId);
+        }
+        return new ResponseDTO(lessons);
     }
 }

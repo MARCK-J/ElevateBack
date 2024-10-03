@@ -39,13 +39,16 @@ CREATE TABLE Enrollments (
 
 -- Table: Lessons
 CREATE TABLE Lessons (
-    lessons_id SERIAL PRIMARY KEY,
+    lessons_id SERIAL  NOT NULL,
     course_id int  NOT NULL,
-    title varchar(255)  NOT NULL,
+    title varchar(50)  NOT NULL,
+    description varchar(255)  NOT NULL,
+    duration varchar(25)  NOT NULL,
     content text  NOT NULL,
     video text  NOT NULL,
     "order" int  NOT NULL,
-    complete boolean  NOT NULL
+    complete boolean  NOT NULL,
+    CONSTRAINT Lessons_pk PRIMARY KEY (lessons_id)
 );
 
 -- Table: Messages

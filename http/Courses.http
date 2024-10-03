@@ -21,6 +21,21 @@ Accept: application/json
   "teacherUserId": 2
 }
 
+### Crear un nuevo curso
+POST http://localhost:9999/api/v1/courses/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Introducción a Musica",
+  "image": "https://capian.co/assets/images/uploads/blog/ckia8-music-lockdown-1fa0fb8b.jpg",
+  "description": "Curso básico de Musica.",
+  "abilities": "Conocimientos básicos;leer musica;evaluacion de oido",
+  "avaibalable": true,
+  "categoryCourseId": 5,
+  "teacherUserId": 2
+}
+
 ### Actualizar un curso por ID
 PUT http://localhost:9999/api/v1/courses/{id}
 Content-Type: application/json

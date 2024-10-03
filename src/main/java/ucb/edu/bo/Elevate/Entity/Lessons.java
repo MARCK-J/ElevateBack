@@ -9,9 +9,11 @@ public class Lessons {
     /*
     -- Table: Lessons
     CREATE TABLE Lessons (
-        lessons_id int  NOT NULL,
+        lessons_id SERIAL  NOT NULL,
         course_id int  NOT NULL,
-        title varchar(255)  NOT NULL,
+        title varchar(50)  NOT NULL,
+        description varchar(255)  NOT NULL,
+        duration varchar(25)  NOT NULL,
         content text  NOT NULL,
         video text  NOT NULL,
         "order" int  NOT NULL,
@@ -30,6 +32,12 @@ public class Lessons {
 
     @Column(name = "title", nullable = false)
     private String title;
+
+    @Column(name = "description", nullable = false)
+    private String description;
+
+    @Column(name = "duration", nullable = false)
+    private String duration;
 
     @Column(name = "content", nullable = false)
     private String content;
@@ -66,6 +74,22 @@ public class Lessons {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public void setDuration(String duration) {
+        this.duration = duration;
     }
 
     public String getContent() {
@@ -107,6 +131,8 @@ public class Lessons {
                 "lessonsId=" + lessonsId +
                 ", courseId=" + courseId +
                 ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", duration='" + duration + '\'' +
                 ", content='" + content + '\'' +
                 ", video='" + video + '\'' +
                 ", order=" + order +
