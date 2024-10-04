@@ -32,6 +32,14 @@ public class EnrollmentsBL {
     }
 
     public ResponseDTO createEnrollment(Enrollments enrollment) {
+        // Obtener el último enrollment_id
+        Long lastEnrollmentId = enrollmentsDao.findLastEnrollmentId();
+        
+        // Si no hay inscripciones, comenzamos desde 1
+        long newEnrollmentId = (lastEnrollmentId != null) ? lastEnrollmentId + 1 : 1;
+
+        // Asignar el nuevo enrollmentId al registro
+        enrollment.setEnrollmentId(newEnrollmentId);
         Enrollments createdEnrollment = enrollmentsDao.save(enrollment);
         return new ResponseDTO(createdEnrollment);
     }

@@ -154,5 +154,8 @@ SELECT setval('users_user_id_seq', (SELECT MAX(user_id) FROM users));
 
 SELECT setval('courses_course_id_seq', (SELECT MAX(course_id) FROM courses));
 
+SELECT setval('enrollments_enrollment_id_seq', (SELECT MAX(enrollment_id) FROM enrollments));
+
+
 
 
