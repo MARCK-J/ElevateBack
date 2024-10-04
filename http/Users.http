@@ -52,6 +52,33 @@ Accept: application/json
   "password": "Lahm2002."
 }
 
+### Registro de un nuevo usuario (Sign-up)
+POST http://localhost:9999/api/v1/user/signup
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Luan",
+  "lastName": "Huanca",
+  "email": "luanhaunca@gmail.com",
+  "username": "AngelH",
+  "password": "Lahm2002",
+  "role": 1,
+  "verification": false,
+  "activation": false,
+  "dateJoin": "2024-09-14"
+}
+
+### Inicio de sesión (Log-in)
+POST http://localhost:9999/api/v1/user/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "identifier": "AngelH",
+  "password": "Lahm2002"
+}
+
 ### Obtener todos los usuarios
 GET http://localhost:9999/api/v1/user/all
 Accept: application/json

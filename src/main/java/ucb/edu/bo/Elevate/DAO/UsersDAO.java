@@ -25,4 +25,6 @@ public interface UsersDAO extends JpaRepository<Users, Long> {
     @Query(value = "SELECT * FROM users WHERE verification = ?1", nativeQuery = true)
     List<Users> findUsersByVerification(boolean verification);
 
+    @Query(value = "SELECT user_id FROM users ORDER BY user_id DESC LIMIT 1", nativeQuery = true)
+    Long findLastUserId();
 }

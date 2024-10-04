@@ -38,32 +38,40 @@ public class UsersBL {
             throw new UserException("El correo ya está registrado");
         }
 
+        // Obtener el último user_id
+        Long lastUserId = usersDao.findLastUserId();
+        
+        // Si no hay usuarios, comenzamos desde 1 (o el número que desees)
+        long newUserId = (lastUserId != null) ? lastUserId + 1 : 1;
+
+        // Asignar el nuevo userId al usuario
+        user.setUserId(newUserId);
+    
         // Hashear la contraseña
         String hashedPassword = bCryptPasswordEncoder.encode(user.getPassword());
         user.setPassword(hashedPassword);
 
         // Guardar el usuario
         Users savedUser = usersDao.save(user);
-
-        // Si el rol es de estudiante, registrar en la tabla Student
-        if (user.getRole() == 1) { // 1 representa el rol de Student
+    
+        // Registrar en Student o Teacher según el rol
+        if (user.getRole() == 1) {
             Student student = new Student();
             student.setUserId(savedUser.getUserId());
-            student.setEnrollmentDate(user.getDateJoin()); // Usar la fecha de registro como fecha de inscripción
+            student.setEnrollmentDate(user.getDateJoin());
             studentDao.save(student);
-        } 
-        // Si el rol es de profesor, registrar en la tabla Teacher
-        else if (user.getRole() == 2) { // 2 representa el rol de Teacher
+        } else if (user.getRole() == 2) {
             Teacher teacher = new Teacher();
             teacher.setUserId(savedUser.getUserId());
-            teacher.setEnrollmentDate(user.getDateJoin()); // Usar la fecha de registro como fecha de inscripción
+            teacher.setEnrollmentDate(user.getDateJoin());
             teacherDao.save(teacher);
         } else {
             throw new UserException("Rol no válido");
         }
-
+    
         return savedUser;
     }
+    
 
     // Inicio de sesión (Log-in) (email/username y contraseña)
     public Users login(String identifier, String password) throws UserException {
