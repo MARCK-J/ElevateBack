@@ -150,3 +150,6 @@ ALTER TABLE Teacher ADD CONSTRAINT Teacher_Users
 
 -- End of file.
 
+SELECT setval('users_user_id_seq', (SELECT MAX(user_id) FROM users));
+
+
