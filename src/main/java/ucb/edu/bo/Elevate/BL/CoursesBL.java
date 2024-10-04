@@ -32,6 +32,14 @@ public class CoursesBL {
     }
 
     public ResponseDTO createCourse(Courses course) {
+        // Obtener el último course_id
+        Long lastCourseId = coursesDao.findLastCourseId();
+        
+        // Si no hay cursos, comenzamos desde 1
+        long newCourseId = (lastCourseId != null) ? lastCourseId + 1 : 1;
+
+        // Asignar el nuevo courseId al curso
+        course.setCourseId(newCourseId);
         Courses createdCourse = coursesDao.save(course);
         return new ResponseDTO(createdCourse);
     }

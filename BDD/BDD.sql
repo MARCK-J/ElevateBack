@@ -152,4 +152,7 @@ ALTER TABLE Teacher ADD CONSTRAINT Teacher_Users
 
 SELECT setval('users_user_id_seq', (SELECT MAX(user_id) FROM users));
 
+SELECT setval('courses_course_id_seq', (SELECT MAX(course_id) FROM courses));
+
+
 

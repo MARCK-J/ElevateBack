@@ -21,4 +21,7 @@ public interface CoursesDAO extends JpaRepository<Courses, Long> {
 
     @Query(value = "SELECT * FROM courses WHERE available = ?1", nativeQuery = true)
     List<Courses> findByAvailability(boolean available);
+
+    @Query(value = "SELECT course_id FROM courses ORDER BY course_id DESC LIMIT 1", nativeQuery = true)
+    Long findLastCourseId();
 }
