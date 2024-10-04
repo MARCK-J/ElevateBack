@@ -48,8 +48,8 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "identifier": "AngelH",
-  "password": "Lahm2002."
+  "identifier": "marcor",
+  "password": "Lolsito1502"
 }
 
 ### Registro de un nuevo usuario (Sign-up)
