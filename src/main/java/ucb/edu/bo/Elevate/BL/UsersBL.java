@@ -124,6 +124,7 @@ public class UsersBL {
         
         }
         user.setVerification(userDetails.isVerification());
+        user.setActivation(userDetails.isActivation());
         return usersDao.save(user);
     }
 
