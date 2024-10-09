@@ -31,3 +31,6 @@ Accept: application/json
 ### Eliminar una inscripción por ID
 DELETE http://localhost:9999/api/v1/enrollments/{id}
 Accept: application/json
+### Obtener si se encuentra el usuario registrado
+GET http://localhost:9999/api/v1/enrollments/user/116
+Accept: application/json
