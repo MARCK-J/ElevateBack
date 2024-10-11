@@ -68,4 +68,26 @@ public class CoursesAPI {
             return new ResponseDTO("COURSE-1004", e.getMessage());
         }
     }
+
+    // get para obtener los cursos por duracion
+    @GetMapping("/duration/{duration}")
+    public ResponseDTO getCoursesByDuration(@PathVariable("duration") String duration) {
+        try {
+            return coursesBl.getCoursesByDuration(duration);
+        } catch (Exception e) {
+            LOGGER.error("Error al obtener cursos por duracion", e);
+            return new ResponseDTO("COURSE-1005", e.getMessage());
+        }
+    }
+
+    // get para obtener los cursos por rating
+    @GetMapping("/rating/{rating}")
+    public ResponseDTO getCoursesByRating(@PathVariable("rating") double rating) {
+        try {
+            return coursesBl.getCoursesByRating(rating);
+        } catch (Exception e) {
+            LOGGER.error("Error al obtener cursos por rating", e);
+            return new ResponseDTO("COURSE-1006", e.getMessage());
+        }
+    }
 }

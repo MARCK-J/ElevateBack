@@ -998,3 +998,6 @@ insert into Enrollments (enrollment_id, enrollment_date, Student_user_id, Course
 insert into Enrollments (enrollment_id, enrollment_date, Student_user_id, Courses_course_id) values (998, '2025-03-01', 119, 664);
 insert into Enrollments (enrollment_id, enrollment_date, Student_user_id, Courses_course_id) values (999, '2024-10-13', 358, 128);
 insert into Enrollments (enrollment_id, enrollment_date, Student_user_id, Courses_course_id) values (1000, '2024-11-14', 281, 783);
+
+
+SELECT setval('enrollments_enrollment_id_seq', (SELECT MAX(enrollment_id) FROM enrollments));

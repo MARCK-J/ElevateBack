@@ -24,4 +24,12 @@ public interface CoursesDAO extends JpaRepository<Courses, Long> {
 
     @Query(value = "SELECT course_id FROM courses ORDER BY course_id DESC LIMIT 1", nativeQuery = true)
     Long findLastCourseId();
+
+    // query para obtener los cursos por duracion
+    @Query(value = "SELECT * FROM courses WHERE duration = ?1", nativeQuery = true)
+    List<Courses> findByDuration(String duration);
+
+    // query para obtener los cursos por rating
+    @Query(value = "SELECT * FROM courses WHERE rating = ?1", nativeQuery = true)
+    List<Courses> findByRating(double rating);
 }

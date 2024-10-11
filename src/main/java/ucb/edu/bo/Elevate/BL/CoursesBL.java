@@ -52,6 +52,8 @@ public class CoursesBL {
         currentCourse.setTitle(course.getTitle());
         currentCourse.setImage(course.getImage());
         currentCourse.setDescription(course.getDescription());
+        currentCourse.setDuration(course.getDuration());
+        currentCourse.setRating(course.getRating());
         currentCourse.setAbilities(course.getAbilities());
         currentCourse.setAvailable(course.isAvailable());
         currentCourse.setTeacherUserId(course.getTeacherUserId());
@@ -66,5 +68,17 @@ public class CoursesBL {
         }
         coursesDao.delete(course);
         return new ResponseDTO("Course deleted successfully");
+    }
+
+    // funcion para findByDuration
+    public ResponseDTO getCoursesByDuration(String duration) {
+        List<Courses> courses = coursesDao.findByDuration(duration);
+        return new ResponseDTO(courses);
+    }
+
+    // funcion para findByRating
+    public ResponseDTO getCoursesByRating(double rating) {
+        List<Courses> courses = coursesDao.findByRating(rating);
+        return new ResponseDTO(courses);
     }
 }

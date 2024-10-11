@@ -23,6 +23,8 @@ CREATE TABLE Courses (
     title varchar(255)  NOT NULL,
     image text  NOT NULL,
     description text  NOT NULL,
+    duration varchar(25)  NOT NULL,
+    rating DECIMAL(2, 1) DEFAULT 0,
     abilities text NOT NULL,
     available boolean  NOT NULL,
     Teacher_user_id int  NOT NULL,
@@ -149,13 +151,3 @@ ALTER TABLE Teacher ADD CONSTRAINT Teacher_Users
 ;
 
 -- End of file.
-
-SELECT setval('users_user_id_seq', (SELECT MAX(user_id) FROM users));
-
-SELECT setval('courses_course_id_seq', (SELECT MAX(course_id) FROM courses));
-
-SELECT setval('enrollments_enrollment_id_seq', (SELECT MAX(enrollment_id) FROM enrollments));
-
-
-
-

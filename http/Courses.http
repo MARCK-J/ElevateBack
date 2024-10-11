@@ -15,10 +15,12 @@ Accept: application/json
   "title": "Introducción a Java",
   "image": "https://miro.medium.com/v2/resize:fit:1400/0*rYlqvld5ocBguLMw.png",
   "description": "Curso básico de programación en Java.",
+  "duration" : 45,
+  "rating": 4.5,
   "abilities": "Conocimientos básicos de programación.",
   "avaibalable": true,
   "categoryCourseId": 1,
-  "teacherUserId": 501
+  "teacherUserId": 2
 }
 
 ### Crear un nuevo curso
@@ -30,6 +32,8 @@ Accept: application/json
   "title": "Introducción a Musica",
   "image": "https://capian.co/assets/images/uploads/blog/ckia8-music-lockdown-1fa0fb8b.jpg",
   "description": "Curso básico de Musica.",
+  "duration" : 90,
+  "rating": 3.5,
   "abilities": "Conocimientos básicos;leer musica;evaluacion de oido",
   "avaibalable": true,
   "categoryCourseId": 5,
@@ -50,4 +54,12 @@ Accept: application/json
 
 ### Eliminar un curso por ID
 DELETE http://localhost:9999/api/v1/courses/{id}
+Accept: application/json
+
+### obtener un curso por duracion
+GET http://localhost:9999/api/v1/courses/duration/45
+Accept: application/json
+
+### obtener un curso por rating
+GET http://localhost:9999/api/v1/courses/rating/3.5
 Accept: application/json

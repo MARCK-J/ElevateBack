@@ -998,3 +998,6 @@ insert into Courses (course_id, title, image, description, abilities, available,
 insert into Courses (course_id, title, image, description, abilities, available, Teacher_user_id, Category_course_id) values (998, 'Rev', 'InterdumMaurisUllamcorper.xls', 'Introduction to Biology', 'accuracy', 'TRUE', 974, 4);
 insert into Courses (course_id, title, image, description, abilities, available, Teacher_user_id, Category_course_id) values (999, 'Ms', 'MolestieSed.mp3', 'Introduction to Biology', 'agility', 'TRUE', 536, 4);
 insert into Courses (course_id, title, image, description, abilities, available, Teacher_user_id, Category_course_id) values (1000, 'Dr', 'LeoMaecenas.jpeg', 'History of Art', 'speed', 'TRUE', 826, 1);
+
+
+SELECT setval('courses_course_id_seq', (SELECT MAX(course_id) FROM courses));

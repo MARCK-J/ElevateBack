@@ -1998,3 +1998,6 @@ INSERT INTO Users (user_id, first_name, last_name, email, username, password, ro
  VALUES (999, 'Celina', 'Axelby', 'caxelbyrq@skype.com', 'caxelbyrq', 'MYxFVQTb', 1, FALSE, TRUE, '2024-07-01');
 INSERT INTO Users (user_id, first_name, last_name, email, username, password, role, verification, activation, date_join) 
  VALUES (1000, 'Sophie', 'Pettegree', 'spettegreerr@technorati.com', 'spettegreerr', 'ZfbFRGDc', 2, FALSE, TRUE, '2023-12-01');
+ 
+
+ SELECT setval('users_user_id_seq', (SELECT MAX(user_id) FROM users));
