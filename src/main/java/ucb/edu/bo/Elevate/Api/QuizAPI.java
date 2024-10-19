@@ -47,4 +47,9 @@ public class QuizAPI {
     public ResponseDTO getQuizzesByLessonId(@PathVariable Integer lessonId) {
         return quizBL.getQuizzesByLessonId(lessonId);
     }
+
+    @GetMapping("/course/{courseId}")
+    public ResponseDTO getQuizzesByCourseId(@PathVariable Integer courseId) {
+        return quizBL.getQuizzesByCourseId(courseId);
+    }
 }

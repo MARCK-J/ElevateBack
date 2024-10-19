@@ -45,6 +45,7 @@ public class QuizBL {
         currentQuiz.setDescription(quiz.getDescription());
         currentQuiz.setDueDate(quiz.getDueDate());
         currentQuiz.setLessonsId(quiz.getLessonsId());
+        currentQuiz.setCourseId(quiz.getCourseId());
         return new ResponseDTO(quizDao.save(currentQuiz));
     }
 
@@ -61,6 +62,14 @@ public class QuizBL {
         List<Quizzes> quizzes = quizDao.findByLessonsId(lessonId);
         if (quizzes.isEmpty()) {
             return new ResponseDTO("QUIZ-1003", "No quizzes found for lesson with id " + lessonId);
+        }
+        return new ResponseDTO(quizzes);
+    }
+
+    public ResponseDTO getQuizzesByCourseId(Integer courseId) {
+        List<Quizzes> quizzes = quizDao.findByCourseId(courseId);
+        if (quizzes.isEmpty()) {
+            return new ResponseDTO("QUIZ-1004", "No quizzes found for course with id " + courseId);
         }
         return new ResponseDTO(quizzes);
     }

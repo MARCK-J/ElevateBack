@@ -15,11 +15,12 @@ Accept: application/json
   "title": "Sample Quiz",
   "description": "This is a sample quiz",
   "dueDate": "2023-12-31",
-  "lessonsId": 1
+  "lessonsId": 1,
+  "courseId": 1
 }
 
 ### Actualizar un quiz por ID
-PUT http://localhost:9999/api/v1/quizzes/2
+PUT http://localhost:9999/api/v1/quizzes/1
 Content-Type: application/json
 Accept: application/json
 
@@ -27,7 +28,8 @@ Accept: application/json
   "title": "Updated Quiz",
   "description": "This is an updated quiz",
   "dueDate": "2023-12-31",
-  "lessonsId": 1
+  "lessonsId": 1,
+  "courseId": 1
 }
 
 ### Eliminar un quiz por ID
@@ -35,4 +37,8 @@ DELETE http://localhost:9999/api/v1/quizzes/1
 
 ### Obtener quizzes por ID de lección
 GET http://localhost:9999/api/v1/quizzes/lesson/1
+Accept: application/json
+
+### Obtener quizzes por ID de curso
+GET http://localhost:9999/api/v1/quizzes/course/1
 Accept: application/json

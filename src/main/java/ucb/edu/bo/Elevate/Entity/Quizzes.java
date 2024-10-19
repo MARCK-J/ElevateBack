@@ -37,6 +37,9 @@ public class Quizzes {
     @Column(name = "lessons_id", nullable = false)
     private Integer lessonsId;
 
+    @Column(name = "course_id", nullable = false)
+    private Integer courseId;
+
     // Getters y Setters
     public Integer getQuizId() {
         return quizId;
@@ -78,6 +81,14 @@ public class Quizzes {
         this.lessonsId = lessonsId;
     }
 
+    public Integer getCourseId() {
+        return courseId;
+    }
+
+    public void setCourseId(Integer courseId) {
+        this.courseId = courseId;
+    }
+
     // toString
     @Override
     public String toString() {
@@ -87,6 +98,7 @@ public class Quizzes {
                 ", description='" + description + '\'' +
                 ", dueDate=" + dueDate +
                 ", lessonsId=" + lessonsId +
+                ", courseId=" + courseId +
                 '}';
     }
 }

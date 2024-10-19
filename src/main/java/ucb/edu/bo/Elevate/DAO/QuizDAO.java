@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface QuizDAO extends JpaRepository<Quizzes, Integer> {
     List<Quizzes> findByLessonsId(Integer lessonsId);
+    List<Quizzes> findByCourseId(Integer courseId);
 }
