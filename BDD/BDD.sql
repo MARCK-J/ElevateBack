@@ -60,12 +60,19 @@ CREATE TABLE Messages (
     time timestamp  NOT NULL
 );
 
--- Table: Results
+-- Table: Results (resultados de quizzes)
 CREATE TABLE Results (
     result_id SERIAL PRIMARY KEY,
-    score int  NOT NULL,
-    submission_date date  NOT NULL
+    score int NOT NULL,
+    submission_date date NOT NULL,
+    quiz_id int NOT NULL,
+    Student_user_id int NOT NULL,
+    CONSTRAINT Results_Quizzes_fk FOREIGN KEY (quiz_id)
+        REFERENCES Quizzes (quiz_id),
+    CONSTRAINT Results_Student_fk FOREIGN KEY (Student_user_id)
+        REFERENCES Student (user_id)
 );
+
 
 -- Table: Student
 CREATE TABLE Student (
@@ -151,3 +158,34 @@ ALTER TABLE Teacher ADD CONSTRAINT Teacher_Users
 ;
 
 -- End of file.
+-- Table: Quizzes (quizzes o evaluaciones)
+CREATE TABLE Quizzes (
+    quiz_id SERIAL PRIMARY KEY,
+    title varchar(255) NOT NULL,
+    description text NOT NULL,
+    due_date date NOT NULL,
+    lessons_id int NOT NULL,
+    CONSTRAINT Quizzes_Lessons_fk FOREIGN KEY (lessons_id)
+        REFERENCES Lessons (lessons_id)
+);
+
+-- Table: Questions (preguntas del quiz)
+CREATE TABLE Questions (
+    question_id SERIAL PRIMARY KEY,
+    quiz_id int NOT NULL,
+    content text NOT NULL,
+    question_type varchar(50) NOT NULL, -- tipo de pregunta (e.g. multiple choice, true/false)
+    CONSTRAINT Questions_Quizzes_fk FOREIGN KEY (quiz_id)
+        REFERENCES Quizzes (quiz_id)
+);
+
+-- Table: Options (opciones de preguntas, si es multiple choice)
+CREATE TABLE Options (
+    option_id SERIAL PRIMARY KEY,
+    question_id int NOT NULL,
+    content text NOT NULL,
+    is_correct boolean NOT NULL, -- si es la respuesta correcta o no
+    CONSTRAINT Options_Questions_fk FOREIGN KEY (question_id)
+        REFERENCES Questions (question_id)
+);
+
