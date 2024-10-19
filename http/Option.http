@@ -1,0 +1,36 @@
+### Obtener todas las opciones
+GET http://localhost:9999/api/v1/options
+Accept: application/json
+
+### Obtener una opción por ID
+GET http://localhost:9999/api/v1/options/1
+Accept: application/json
+
+### Crear una nueva opción
+POST http://localhost:9999/api/v1/options
+Content-Type: application/json
+Accept: application/json
+
+{
+  "questionId": 2,
+  "content": "Sample Option",
+  "isCorrect": true
+}
+
+### Actualizar una opción por ID
+PUT http://localhost:9999/api/v1/options/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "questionId": 1,
+  "content": "Updated Option",
+  "isCorrect": false
+}
+
+### Eliminar una opción por ID
+DELETE http://localhost:9999/api/v1/options/1
+
+### Obtener opciones por ID de pregunta
+GET http://localhost:9999/api/v1/options/question/1
+Accept: application/json
