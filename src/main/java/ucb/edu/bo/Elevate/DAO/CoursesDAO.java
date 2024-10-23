@@ -32,4 +32,8 @@ public interface CoursesDAO extends JpaRepository<Courses, Long> {
     // query para obtener los cursos por rating
     @Query(value = "SELECT * FROM courses WHERE rating = ?1", nativeQuery = true)
     List<Courses> findByRating(double rating);
+
+    // query para obtener los cursos por userId
+    @Query(value = "SELECT * FROM courses WHERE teacher_user_id = ?1", nativeQuery = true)
+    List<Courses> findByTeacherUserId(Integer userId);
 }

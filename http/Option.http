@@ -12,9 +12,9 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "questionId": 2,
-  "content": "Sample Option",
-  "isCorrect": true
+  "questionId": 1,
+  "content": "Sample Option 2",
+  "correct": true
 }
 
 ### Actualizar una opción por ID
@@ -25,7 +25,7 @@ Accept: application/json
 {
   "questionId": 1,
   "content": "Updated Option",
-  "isCorrect": false
+  "isCorrect": true
 }
 
 ### Eliminar una opción por ID

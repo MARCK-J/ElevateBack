@@ -81,4 +81,12 @@ public class CoursesBL {
         List<Courses> courses = coursesDao.findByRating(rating);
         return new ResponseDTO(courses);
     }
+
+    public ResponseDTO getCoursesByUserId(Integer userId) {
+        List<Courses> courses = coursesDao.findByTeacherUserId(userId);
+        if (courses.isEmpty()) {
+            return new ResponseDTO("COURSE-1007", "No courses found for user with id " + userId);
+        }
+        return new ResponseDTO(courses);
+    }
 }

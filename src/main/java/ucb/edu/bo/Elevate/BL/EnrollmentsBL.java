@@ -64,9 +64,12 @@ public class EnrollmentsBL {
         return new ResponseDTO("Enrollment deleted successfully");
     }
 
-    // getenrollement by userid
-    public ResponseDTO getEnrollmentByUserId(Long userId) {
-        List<Enrollments> enrollments = enrollmentsDao.findByStudentUserId(userId);
+
+    public ResponseDTO getEnrollmentsByStudentId(Long studentUserId) {
+        List<Enrollments> enrollments = enrollmentsDao.findByStudentUserId(studentUserId);
+        if (enrollments.isEmpty()) {
+            return new ResponseDTO("ENROLLMENT-1002", "No enrollments found for student with id " + studentUserId);
+        }
         return new ResponseDTO(enrollments);
     }
 }

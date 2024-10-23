@@ -90,4 +90,15 @@ public class CoursesAPI {
             return new ResponseDTO("COURSE-1006", e.getMessage());
         }
     }
+
+    // get para obtener los cursos por userId
+    @GetMapping("/teacher/{userId}")
+    public ResponseDTO getCoursesByUserId(@PathVariable("userId") Integer userId) {
+        try {
+            return coursesBl.getCoursesByUserId(userId);
+        } catch (Exception e) {
+            LOGGER.error("Error al obtener cursos por userId", e);
+            return new ResponseDTO("COURSE-1007", e.getMessage());
+        }
+    }
 }

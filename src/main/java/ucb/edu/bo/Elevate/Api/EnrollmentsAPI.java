@@ -69,14 +69,14 @@ public class EnrollmentsAPI {
         }
     }
 
-    //getmapping por userid
-    @GetMapping("/user/{id}")
-    public ResponseDTO getEnrollmentByUserId(@PathVariable("id") Long id) {
+    // getmapping por studentUserId
+    @GetMapping("/student/{studentUserId}")
+    public ResponseDTO getEnrollmentsByStudentId(@PathVariable("studentUserId") Long studentUserId) {
         try {
-            return enrollmentsBl.getEnrollmentByUserId(id);
+            return enrollmentsBl.getEnrollmentsByStudentId(studentUserId);
         } catch (Exception e) {
-            LOGGER.error("Error al obtener inscripción", e);
-            return new ResponseDTO("ENROLLMENT-1001", e.getMessage());
+            LOGGER.error("Error al obtener inscripciones", e);
+            return new ResponseDTO("ENROLLMENT-1002", e.getMessage());
         }
     }
 }
