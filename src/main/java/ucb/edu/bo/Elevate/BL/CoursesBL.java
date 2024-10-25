@@ -1,10 +1,13 @@
 package ucb.edu.bo.Elevate.BL;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import ucb.edu.bo.Elevate.DAO.CoursesDAO;
 import ucb.edu.bo.Elevate.Entity.Courses;
 import ucb.edu.bo.Elevate.DTO.ResponseDTO;
+import ucb.edu.bo.Elevate.DTO.CustomResponseDTO;
 
 import java.util.List;
 
@@ -70,23 +73,55 @@ public class CoursesBL {
         return new ResponseDTO("Course deleted successfully");
     }
 
-    // funcion para findByDuration
     public ResponseDTO getCoursesByDuration(String duration) {
         List<Courses> courses = coursesDao.findByDuration(duration);
         return new ResponseDTO(courses);
     }
 
-    // funcion para findByRating
     public ResponseDTO getCoursesByRating(double rating) {
         List<Courses> courses = coursesDao.findByRating(rating);
         return new ResponseDTO(courses);
     }
 
-    public ResponseDTO getCoursesByUserId(Integer userId) {
+    public ResponseDTO getCoursesByUserId(Long userId) {
         List<Courses> courses = coursesDao.findByTeacherUserId(userId);
         if (courses.isEmpty()) {
             return new ResponseDTO("COURSE-1007", "No courses found for user with id " + userId);
         }
         return new ResponseDTO(courses);
+    }
+
+    public CustomResponseDTO getCoursesByTitle(String title, Pageable pageable) {
+        Page<Courses> courses = coursesDao.findByTitleContainingIgnoreCase(title, pageable);
+        CustomResponseDTO.Result result = new CustomResponseDTO.Result(
+            courses.getContent(),
+            courses.getTotalElements(),
+            courses.getTotalPages(),
+            courses.getNumber()
+        );
+        return new CustomResponseDTO("200-OK", result, null);
+    }
+
+
+    public CustomResponseDTO getCoursesByRating(double rating, Pageable pageable) {
+        Page<Courses> courses = coursesDao.findByRatingGreaterThanEqual(rating, pageable);
+        CustomResponseDTO.Result result = new CustomResponseDTO.Result(
+            courses.getContent(),
+            courses.getTotalElements(),
+            courses.getTotalPages(),
+            courses.getNumber()
+        );
+        return new CustomResponseDTO("200-OK", result, null);
+    }
+
+    public CustomResponseDTO getCoursesByDuration(String duration, Pageable pageable) {
+        Page<Courses> courses = coursesDao.findByDurationContainingIgnoreCase(duration, pageable);
+        CustomResponseDTO.Result result = new CustomResponseDTO.Result(
+            courses.getContent(),
+            courses.getTotalElements(),
+            courses.getTotalPages(),
+            courses.getNumber()
+        );
+        return new CustomResponseDTO("200-OK", result, null);
     }
 }

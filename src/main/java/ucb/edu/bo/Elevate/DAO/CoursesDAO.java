@@ -3,9 +3,11 @@ package ucb.edu.bo.Elevate.DAO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import ucb.edu.bo.Elevate.Entity.Courses;
 
 import java.util.List;
-import ucb.edu.bo.Elevate.Entity.Courses;
 
 @Repository
 public interface CoursesDAO extends JpaRepository<Courses, Long> {
@@ -36,4 +38,13 @@ public interface CoursesDAO extends JpaRepository<Courses, Long> {
     // query para obtener los cursos por userId
     @Query(value = "SELECT * FROM courses WHERE teacher_user_id = ?1", nativeQuery = true)
     List<Courses> findByTeacherUserId(Integer userId);
+
+    @Query("SELECT c FROM Courses c WHERE LOWER(c.title) LIKE LOWER(CONCAT('%', :title, '%'))")
+    Page<Courses> findByTitleContainingIgnoreCase(String title, Pageable pageable);
+
+    @Query("SELECT c FROM Courses c WHERE c.rating >= :rating")
+    Page<Courses> findByRatingGreaterThanEqual(double rating, Pageable pageable);
+
+    @Query("SELECT c FROM Courses c WHERE LOWER(c.duration) LIKE LOWER(CONCAT('%', :duration, '%'))")
+    Page<Courses> findByDurationContainingIgnoreCase(String duration, Pageable pageable);
 }
