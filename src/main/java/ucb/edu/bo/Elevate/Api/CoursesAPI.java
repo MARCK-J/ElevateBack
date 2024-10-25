@@ -1,10 +1,14 @@
 package ucb.edu.bo.Elevate.Api;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
 import ucb.edu.bo.Elevate.BL.CoursesBL;
-import ucb.edu.bo.Elevate.Entity.Courses;
 import ucb.edu.bo.Elevate.DTO.ResponseDTO;
+import ucb.edu.bo.Elevate.DTO.CustomResponseDTO;
+import ucb.edu.bo.Elevate.Entity.Courses;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
@@ -69,8 +73,7 @@ public class CoursesAPI {
         }
     }
 
-    // get para obtener los cursos por duracion
-    @GetMapping("/duration/{duration}")
+    @GetMapping("/duration1/{duration}")
     public ResponseDTO getCoursesByDuration(@PathVariable("duration") String duration) {
         try {
             return coursesBl.getCoursesByDuration(duration);
@@ -80,7 +83,6 @@ public class CoursesAPI {
         }
     }
 
-    // get para obtener los cursos por rating
     @GetMapping("/rating/{rating}")
     public ResponseDTO getCoursesByRating(@PathVariable("rating") double rating) {
         try {
@@ -91,14 +93,40 @@ public class CoursesAPI {
         }
     }
 
-    // get para obtener los cursos por userId
     @GetMapping("/teacher/{userId}")
-    public ResponseDTO getCoursesByUserId(@PathVariable("userId") Integer userId) {
+    public ResponseDTO getCoursesByUserId(@PathVariable("userId") Long userId) {
         try {
             return coursesBl.getCoursesByUserId(userId);
         } catch (Exception e) {
             LOGGER.error("Error al obtener cursos por userId", e);
             return new ResponseDTO("COURSE-1007", e.getMessage());
         }
+    }
+
+    @GetMapping("/title")
+    public CustomResponseDTO getCoursesByTitle(@RequestParam("title") String title,
+                                               @RequestParam("page") int page,
+                                               @RequestParam("size") int size,
+                                               @RequestParam("sort") String sort) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sort));
+        return coursesBl.getCoursesByTitle(title, pageable);
+    }
+
+    @GetMapping("/rating")
+    public CustomResponseDTO getCoursesByRating(@RequestParam("rating") double rating,
+                                                @RequestParam("page") int page,
+                                                @RequestParam("size") int size,
+                                                @RequestParam("sort") String sort) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sort));
+        return coursesBl.getCoursesByRating(rating, pageable);
+    }
+
+    @GetMapping("/duration")
+    public CustomResponseDTO getCoursesByDuration(@RequestParam("duration") String duration,
+                                                  @RequestParam("page") int page,
+                                                  @RequestParam("size") int size,
+                                                  @RequestParam("sort") String sort) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(sort));
+        return coursesBl.getCoursesByDuration(duration, pageable);
     }
 }
