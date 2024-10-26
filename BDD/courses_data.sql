@@ -1,3000 +1,3000 @@
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (1, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '1 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', True, 705, 1);
+    VALUES (1, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '3 hours', 2.0, 
+            'Física avanzada', True, 917, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (2, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 4.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 673, 5);
+    VALUES (2, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '17 hours', 3.5, 
+            'Programación básica', True, 951, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (3, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '20 hours', 3.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 991, 5);
+    VALUES (3, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '17 hours', 3.9, 
+            'Matemáticas avanzadas', False, 726, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (4, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 3.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 514, 3);
+    VALUES (4, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '11 hours', 4.7, 
+            'Programación básica', False, 566, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (5, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '20 hours', 2.6, 
-            'Aprender conceptos basicos de programacion.', False, 716, 1);
+    VALUES (5, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '17 hours', 4.9, 
+            'Física avanzada', True, 538, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (6, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 4.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 844, 3);
+    VALUES (6, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '4 hours', 3.1, 
+            'Química avanzada', False, 516, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (7, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '9 hours', 1.7, 
-            'Aprender conceptos basicos de programacion.', True, 699, 1);
+    VALUES (7, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '8 hours', 3.4, 
+            'Análisis histórico', True, 581, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (8, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '3 hours', 1.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 833, 5);
+    VALUES (8, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '19 hours', 4.7, 
+            'Matemáticas avanzadas', True, 860, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (9, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '13 hours', 2.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 554, 5);
+    VALUES (9, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 4.9, 
+            'Análisis histórico', True, 758, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (10, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 548, 3);
+    VALUES (10, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '7 hours', 4.0, 
+            'Programación básica', False, 774, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (11, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '15 hours', 4.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 574, 4);
+    VALUES (11, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '3 hours', 3.1, 
+            'Matemáticas avanzadas', False, 869, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (12, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '3 hours', 1.6, 
-            'Aprender conceptos basicos de programacion.', True, 554, 1);
+    VALUES (12, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 1.3, 
+            'Química avanzada', True, 849, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (13, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '9 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 531, 5);
+    VALUES (13, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '16 hours', 1.5, 
+            'Programación básica', True, 613, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (14, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 5.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 789, 5);
+    VALUES (14, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '11 hours', 1.3, 
+            'Análisis histórico', False, 819, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (15, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 743, 3);
+    VALUES (15, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '3 hours', 3.8, 
+            'Análisis histórico', False, 572, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (16, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 4.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 777, 3);
+    VALUES (16, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '15 hours', 2.6, 
+            'Química avanzada', True, 513, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (17, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 1.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 957, 5);
+    VALUES (17, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 1.4, 
+            'Programación básica', True, 925, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (18, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '9 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 506, 4);
+    VALUES (18, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '2 hours', 3.2, 
+            'Matemáticas avanzadas', True, 699, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (19, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 795, 3);
+    VALUES (19, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '10 hours', 4.5, 
+            'Programación básica', False, 835, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (20, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '20 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 924, 4);
+    VALUES (20, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '4 hours', 2.3, 
+            'Física avanzada', False, 854, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (21, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 661, 3);
+    VALUES (21, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '20 hours', 3.6, 
+            'Química avanzada', False, 628, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (22, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 1.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 644, 5);
+    VALUES (22, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '17 hours', 1.6, 
+            'Física avanzada', True, 996, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (23, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 3.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 610, 3);
+    VALUES (23, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '1 hours', 2.2, 
+            'Matemáticas avanzadas', False, 848, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (24, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '13 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 666, 5);
+    VALUES (24, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '3 hours', 1.0, 
+            'Matemáticas avanzadas', False, 505, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (25, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '15 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 622, 4);
+    VALUES (25, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '20 hours', 2.2, 
+            'Física avanzada', False, 713, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (26, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 719, 5);
+    VALUES (26, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '9 hours', 1.6, 
+            'Química avanzada', False, 753, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (27, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 2.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 681, 3);
+    VALUES (27, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '17 hours', 3.6, 
+            'Física avanzada', False, 744, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (28, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '1 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 756, 4);
+    VALUES (28, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '3 hours', 3.3, 
+            'Física avanzada', False, 525, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (29, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '20 hours', 3.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 686, 4);
+    VALUES (29, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '20 hours', 1.0, 
+            'Física avanzada', True, 502, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (30, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 3.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 624, 4);
+    VALUES (30, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 4.6, 
+            'Análisis histórico', False, 892, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (31, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 3.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 690, 5);
+    VALUES (31, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '17 hours', 3.9, 
+            'Programación básica', True, 961, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (32, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '2 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 526, 5);
+    VALUES (32, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 3.9, 
+            'Química avanzada', False, 749, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (33, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 2.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 909, 3);
+    VALUES (33, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '5 hours', 2.7, 
+            'Análisis histórico', True, 978, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (34, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 2.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 654, 3);
+    VALUES (34, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '20 hours', 3.0, 
+            'Matemáticas avanzadas', True, 872, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (35, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '8 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 714, 5);
+    VALUES (35, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '15 hours', 1.7, 
+            'Física avanzada', True, 967, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (36, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '9 hours', 4.7, 
-            'Aprender conceptos basicos de programacion.', False, 802, 1);
+    VALUES (36, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '5 hours', 4.9, 
+            'Matemáticas avanzadas', True, 814, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (37, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 2.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 806, 3);
+    VALUES (37, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 1.1, 
+            'Programación básica', True, 640, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (38, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 892, 3);
+    VALUES (38, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '2 hours', 4.5, 
+            'Análisis histórico', True, 730, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (39, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '20 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', True, 799, 1);
+    VALUES (39, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '20 hours', 1.9, 
+            'Programación básica', True, 948, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (40, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '9 hours', 1.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 614, 5);
+    VALUES (40, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 3.7, 
+            'Programación básica', True, 954, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (41, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '19 hours', 1.2, 
-            'Aprender conceptos basicos de programacion.', False, 768, 1);
+    VALUES (41, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '4 hours', 1.1, 
+            'Química avanzada', False, 603, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (42, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '18 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 836, 5);
+    VALUES (42, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '16 hours', 2.8, 
+            'Física avanzada', True, 855, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (43, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 673, 5);
+    VALUES (43, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '6 hours', 3.0, 
+            'Matemáticas avanzadas', True, 721, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (44, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '15 hours', 1.5, 
-            'Aprender conceptos basicos de programacion.', False, 737, 1);
+    VALUES (44, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '20 hours', 4.9, 
+            'Programación básica', False, 877, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (45, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '17 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 891, 4);
+    VALUES (45, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 1.2, 
+            'Análisis histórico', True, 625, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (46, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '13 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', False, 670, 1);
+    VALUES (46, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '19 hours', 3.2, 
+            'Física avanzada', True, 585, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (47, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '16 hours', 1.8, 
-            'Aprender conceptos basicos de programacion.', False, 945, 1);
+    VALUES (47, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '10 hours', 1.7, 
+            'Matemáticas avanzadas', False, 595, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (48, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 2.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 846, 3);
+    VALUES (48, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '2 hours', 1.9, 
+            'Análisis histórico', True, 931, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (49, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '3 hours', 2.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 654, 5);
+    VALUES (49, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '1 hours', 1.1, 
+            'Matemáticas avanzadas', True, 933, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (50, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '2 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 841, 1);
+    VALUES (50, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '13 hours', 3.0, 
+            'Matemáticas avanzadas', False, 933, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (51, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '4 hours', 4.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 516, 4);
+    VALUES (51, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '12 hours', 4.0, 
+            'Química avanzada', True, 759, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (52, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 3.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 605, 3);
+    VALUES (52, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '13 hours', 2.7, 
+            'Matemáticas avanzadas', False, 608, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (53, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '9 hours', 3.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 703, 5);
+    VALUES (53, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '18 hours', 1.3, 
+            'Química avanzada', False, 967, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (54, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '16 hours', 3.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 622, 4);
+    VALUES (54, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '17 hours', 2.7, 
+            'Programación básica', True, 866, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (55, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '16 hours', 3.1, 
-            'Aprender conceptos basicos de programacion.', True, 833, 1);
+    VALUES (55, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '10 hours', 3.7, 
+            'Análisis histórico', False, 704, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (56, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '13 hours', 5.0, 
-            'Aprender conceptos basicos de programacion.', False, 549, 1);
+    VALUES (56, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '10 hours', 1.5, 
+            'Programación básica', True, 704, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (57, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '15 hours', 1.4, 
-            'Aprender conceptos basicos de programacion.', False, 902, 1);
+    VALUES (57, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '10 hours', 4.9, 
+            'Matemáticas avanzadas', False, 623, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (58, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '19 hours', 1.9, 
-            'Aprender conceptos basicos de programacion.', True, 729, 1);
+    VALUES (58, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 3.8, 
+            'Análisis histórico', False, 812, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (59, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 1.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 746, 5);
+    VALUES (59, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '13 hours', 4.7, 
+            'Matemáticas avanzadas', False, 722, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (60, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 556, 3);
+    VALUES (60, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '11 hours', 2.3, 
+            'Análisis histórico', True, 655, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (61, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '11 hours', 2.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 589, 5);
+    VALUES (61, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '6 hours', 1.4, 
+            'Matemáticas avanzadas', False, 528, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (62, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 584, 5);
+    VALUES (62, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '4 hours', 3.6, 
+            'Matemáticas avanzadas', False, 611, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (63, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '18 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', True, 681, 1);
+    VALUES (63, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '2 hours', 3.1, 
+            'Química avanzada', True, 581, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (64, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 936, 1);
+    VALUES (64, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 4.0, 
+            'Análisis histórico', True, 737, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (65, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '13 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 805, 4);
+    VALUES (65, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '13 hours', 1.0, 
+            'Física avanzada', True, 974, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (66, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '19 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', False, 588, 1);
+    VALUES (66, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 3.4, 
+            'Programación básica', True, 640, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (67, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', True, 526, 1);
+    VALUES (67, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '16 hours', 3.5, 
+            'Física avanzada', False, 746, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (68, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 4.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 550, 3);
+    VALUES (68, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '3 hours', 4.3, 
+            'Química avanzada', True, 514, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (69, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '7 hours', 4.7, 
-            'Aprender conceptos basicos de programacion.', True, 789, 1);
+    VALUES (69, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '15 hours', 2.0, 
+            'Matemáticas avanzadas', False, 556, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (70, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '8 hours', 5.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 672, 4);
+    VALUES (70, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '7 hours', 3.5, 
+            'Matemáticas avanzadas', False, 578, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (71, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 625, 3);
+    VALUES (71, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '11 hours', 1.5, 
+            'Física avanzada', True, 845, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (72, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '1 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 826, 5);
+    VALUES (72, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 3.2, 
+            'Programación básica', True, 730, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (73, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 4.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 842, 3);
+    VALUES (73, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '2 hours', 1.5, 
+            'Matemáticas avanzadas', False, 763, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (74, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '7 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', False, 972, 1);
+    VALUES (74, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 4.9, 
+            'Programación básica', False, 603, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (75, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 703, 3);
+    VALUES (75, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '20 hours', 3.9, 
+            'Química avanzada', False, 887, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (76, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 3.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 523, 3);
+    VALUES (76, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '8 hours', 3.9, 
+            'Matemáticas avanzadas', False, 847, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (77, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '5 hours', 1.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 876, 4);
+    VALUES (77, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 1.4, 
+            'Análisis histórico', False, 982, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (78, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '15 hours', 2.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 768, 5);
+    VALUES (78, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '5 hours', 3.9, 
+            'Física avanzada', True, 644, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (79, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '2 hours', 2.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 726, 5);
+    VALUES (79, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '3 hours', 1.6, 
+            'Matemáticas avanzadas', True, 888, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (80, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '18 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 791, 4);
+    VALUES (80, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 1.7, 
+            'Química avanzada', True, 934, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (81, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 936, 4);
+    VALUES (81, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '19 hours', 2.4, 
+            'Química avanzada', True, 545, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (82, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 4.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 660, 5);
+    VALUES (82, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '5 hours', 4.7, 
+            'Análisis histórico', False, 672, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (83, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 2.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 672, 3);
+    VALUES (83, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '1 hours', 1.8, 
+            'Física avanzada', False, 554, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (84, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '8 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 602, 4);
+    VALUES (84, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '9 hours', 2.3, 
+            'Matemáticas avanzadas', True, 845, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (85, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '6 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 880, 4);
+    VALUES (85, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '13 hours', 1.9, 
+            'Matemáticas avanzadas', True, 695, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (86, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 829, 3);
+    VALUES (86, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '12 hours', 2.5, 
+            'Química avanzada', True, 830, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (87, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', True, 765, 1);
+    VALUES (87, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '20 hours', 5.0, 
+            'Química avanzada', False, 755, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (88, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '10 hours', 1.4, 
-            'Aprender conceptos basicos de programacion.', True, 851, 1);
+    VALUES (88, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '14 hours', 2.0, 
+            'Física avanzada', False, 828, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (89, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '20 hours', 2.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 893, 3);
+    VALUES (89, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '6 hours', 1.4, 
+            'Física avanzada', False, 872, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (90, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '11 hours', 2.4, 
-            'Aprender conceptos basicos de programacion.', True, 676, 1);
+    VALUES (90, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '12 hours', 3.4, 
+            'Programación básica', False, 961, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (91, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '15 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 937, 5);
+    VALUES (91, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '10 hours', 4.2, 
+            'Física avanzada', True, 530, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (92, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 922, 3);
+    VALUES (92, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '14 hours', 2.6, 
+            'Programación básica', False, 958, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (93, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 2.6, 
-            'Aprender conceptos basicos de programacion.', True, 825, 1);
+    VALUES (93, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '6 hours', 4.6, 
+            'Química avanzada', False, 856, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (94, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 969, 5);
+    VALUES (94, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '19 hours', 1.0, 
+            'Programación básica', False, 869, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (95, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '4 hours', 1.0, 
-            'Aprender conceptos basicos de programacion.', False, 863, 1);
+    VALUES (95, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '8 hours', 2.8, 
+            'Matemáticas avanzadas', True, 586, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (96, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 1.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 736, 3);
+    VALUES (96, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '6 hours', 3.5, 
+            'Química avanzada', False, 863, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (97, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 1.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 614, 3);
+    VALUES (97, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '14 hours', 1.9, 
+            'Programación básica', False, 824, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (98, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 715, 3);
+    VALUES (98, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '19 hours', 2.5, 
+            'Matemáticas avanzadas', False, 911, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (99, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '17 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 532, 5);
+    VALUES (99, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '19 hours', 1.9, 
+            'Matemáticas avanzadas', False, 581, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (100, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 1.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 918, 3);
+    VALUES (100, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '3 hours', 2.4, 
+            'Programación básica', False, 659, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (101, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '18 hours', 1.9, 
-            'Aprender conceptos basicos de programacion.', False, 875, 1);
+    VALUES (101, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '16 hours', 1.4, 
+            'Análisis histórico', False, 862, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (102, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '14 hours', 3.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 622, 4);
+    VALUES (102, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '16 hours', 4.9, 
+            'Matemáticas avanzadas', True, 647, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (103, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '20 hours', 1.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 719, 4);
+    VALUES (103, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 3.1, 
+            'Programación básica', True, 642, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (104, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '20 hours', 1.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 955, 3);
+    VALUES (104, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '16 hours', 1.4, 
+            'Análisis histórico', False, 701, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (105, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 2.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 877, 3);
+    VALUES (105, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '10 hours', 4.4, 
+            'Química avanzada', True, 530, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (106, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 2.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 536, 3);
+    VALUES (106, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '11 hours', 4.3, 
+            'Física avanzada', False, 958, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (107, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 1.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 584, 5);
+    VALUES (107, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '14 hours', 1.3, 
+            'Física avanzada', True, 809, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (108, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '5 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 541, 1);
+    VALUES (108, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '5 hours', 2.0, 
+            'Física avanzada', False, 700, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (109, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '15 hours', 2.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 735, 5);
+    VALUES (109, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '3 hours', 1.6, 
+            'Matemáticas avanzadas', False, 551, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (110, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 4.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 571, 4);
+    VALUES (110, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '2 hours', 2.4, 
+            'Química avanzada', True, 940, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (111, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 2.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 620, 3);
+    VALUES (111, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '15 hours', 4.8, 
+            'Análisis histórico', False, 947, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (112, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '13 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 569, 4);
+    VALUES (112, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '4 hours', 1.1, 
+            'Física avanzada', False, 936, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (113, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 710, 3);
+    VALUES (113, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '12 hours', 1.7, 
+            'Matemáticas avanzadas', True, 891, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (114, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 3.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 702, 3);
+    VALUES (114, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '1 hours', 2.0, 
+            'Análisis histórico', True, 529, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (115, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '3 hours', 4.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 512, 4);
+    VALUES (115, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '5 hours', 1.1, 
+            'Análisis histórico', True, 741, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (116, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '6 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 933, 4);
+    VALUES (116, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '6 hours', 2.3, 
+            'Programación básica', False, 981, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (117, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 759, 3);
+    VALUES (117, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '14 hours', 2.0, 
+            'Matemáticas avanzadas', True, 567, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (118, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 852, 3);
+    VALUES (118, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '12 hours', 2.8, 
+            'Química avanzada', False, 531, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (119, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '2 hours', 4.1, 
-            'Aprender conceptos basicos de programacion.', True, 846, 1);
+    VALUES (119, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '18 hours', 2.2, 
+            'Matemáticas avanzadas', True, 857, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (120, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '18 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 873, 4);
+    VALUES (120, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '17 hours', 1.8, 
+            'Física avanzada', False, 502, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (121, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '7 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 743, 4);
+    VALUES (121, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '2 hours', 2.3, 
+            'Química avanzada', False, 619, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (122, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 3.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 582, 3);
+    VALUES (122, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '9 hours', 3.3, 
+            'Programación básica', False, 880, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (123, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 4.1, 
-            'Aprender conceptos basicos de programacion.', True, 606, 1);
+    VALUES (123, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '11 hours', 2.6, 
+            'Química avanzada', True, 840, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (124, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '19 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 1000, 4);
+    VALUES (124, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '6 hours', 1.4, 
+            'Matemáticas avanzadas', True, 636, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (125, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '16 hours', 1.4, 
-            'Aprender conceptos basicos de programacion.', True, 671, 1);
+    VALUES (125, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 3.5, 
+            'Química avanzada', True, 729, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (126, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 1.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 801, 3);
+    VALUES (126, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '15 hours', 1.5, 
+            'Física avanzada', True, 681, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (127, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '10 hours', 3.6, 
-            'Aprender conceptos basicos de programacion.', True, 576, 1);
+    VALUES (127, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '18 hours', 3.7, 
+            'Análisis histórico', True, 513, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (128, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '13 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 597, 5);
+    VALUES (128, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '2 hours', 2.9, 
+            'Análisis histórico', True, 890, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (129, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '2 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', False, 587, 1);
+    VALUES (129, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '5 hours', 3.9, 
+            'Química avanzada', True, 701, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (130, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '17 hours', 4.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 785, 4);
+    VALUES (130, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '15 hours', 4.7, 
+            'Matemáticas avanzadas', False, 848, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (131, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 4.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 730, 3);
+    VALUES (131, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '4 hours', 1.0, 
+            'Análisis histórico', False, 635, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (132, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '7 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', False, 838, 1);
+    VALUES (132, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 1.7, 
+            'Programación básica', False, 584, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (133, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '9 hours', 4.6, 
-            'Aprender conceptos basicos de programacion.', False, 683, 1);
+    VALUES (133, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '11 hours', 4.5, 
+            'Física avanzada', True, 860, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (134, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 1.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 713, 5);
+    VALUES (134, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '10 hours', 3.6, 
+            'Análisis histórico', False, 750, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (135, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 4.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 817, 3);
+    VALUES (135, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '1 hours', 4.6, 
+            'Análisis histórico', False, 781, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (136, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '14 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 539, 4);
+    VALUES (136, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '13 hours', 3.6, 
+            'Química avanzada', False, 559, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (137, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 3.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 554, 5);
+    VALUES (137, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '15 hours', 4.3, 
+            'Física avanzada', True, 661, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (138, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 2.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 975, 3);
+    VALUES (138, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '12 hours', 4.1, 
+            'Física avanzada', False, 706, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (139, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 597, 4);
+    VALUES (139, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '3 hours', 4.2, 
+            'Química avanzada', True, 530, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (140, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 3.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 699, 3);
+    VALUES (140, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '6 hours', 4.9, 
+            'Física avanzada', False, 956, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (141, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 1.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 959, 3);
+    VALUES (141, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '19 hours', 3.4, 
+            'Matemáticas avanzadas', False, 598, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (142, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 710, 4);
+    VALUES (142, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '7 hours', 3.2, 
+            'Matemáticas avanzadas', False, 517, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (143, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '12 hours', 4.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 987, 5);
+    VALUES (143, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '15 hours', 2.5, 
+            'Programación básica', False, 751, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (144, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '19 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', False, 564, 1);
+    VALUES (144, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '1 hours', 2.3, 
+            'Matemáticas avanzadas', True, 713, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (145, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '13 hours', 1.2, 
-            'Aprender conceptos basicos de programacion.', False, 821, 1);
+    VALUES (145, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '20 hours', 2.0, 
+            'Matemáticas avanzadas', False, 517, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (146, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '3 hours', 1.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 811, 4);
+    VALUES (146, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '14 hours', 3.6, 
+            'Matemáticas avanzadas', False, 585, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (147, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 790, 5);
+    VALUES (147, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '4 hours', 1.5, 
+            'Física avanzada', False, 825, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (148, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '19 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 780, 4);
+    VALUES (148, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '16 hours', 4.3, 
+            'Química avanzada', True, 628, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (149, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '6 hours', 2.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 999, 4);
+    VALUES (149, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 4.3, 
+            'Programación básica', True, 518, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (150, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '9 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 615, 4);
+    VALUES (150, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 2.4, 
+            'Química avanzada', False, 550, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (151, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 529, 3);
+    VALUES (151, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '3 hours', 1.9, 
+            'Química avanzada', True, 704, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (152, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 3.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 822, 3);
+    VALUES (152, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '19 hours', 2.4, 
+            'Matemáticas avanzadas', True, 567, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (153, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '6 hours', 4.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 506, 4);
+    VALUES (153, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 2.8, 
+            'Programación básica', True, 697, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (154, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '6 hours', 4.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 699, 4);
+    VALUES (154, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 1.8, 
+            'Programación básica', True, 594, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (155, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '13 hours', 3.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 526, 4);
+    VALUES (155, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '4 hours', 3.0, 
+            'Matemáticas avanzadas', True, 699, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (156, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 1.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 634, 3);
+    VALUES (156, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '18 hours', 4.2, 
+            'Matemáticas avanzadas', False, 631, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (157, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '16 hours', 1.9, 
-            'Aprender conceptos basicos de programacion.', False, 912, 1);
+    VALUES (157, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '7 hours', 4.7, 
+            'Matemáticas avanzadas', True, 569, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (158, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '17 hours', 1.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 656, 5);
+    VALUES (158, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '4 hours', 2.3, 
+            'Química avanzada', True, 563, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (159, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 692, 5);
+    VALUES (159, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '20 hours', 1.1, 
+            'Matemáticas avanzadas', False, 601, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (160, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 4.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 750, 3);
+    VALUES (160, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '3 hours', 3.3, 
+            'Química avanzada', False, 551, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (161, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '6 hours', 2.7, 
-            'Aprender conceptos basicos de programacion.', False, 841, 1);
+    VALUES (161, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '12 hours', 4.2, 
+            'Física avanzada', True, 841, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (162, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '17 hours', 4.2, 
-            'Aprender conceptos basicos de programacion.', True, 712, 1);
+    VALUES (162, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 4.9, 
+            'Programación básica', True, 507, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (163, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '1 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 820, 4);
+    VALUES (163, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '19 hours', 3.1, 
+            'Química avanzada', True, 731, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (164, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '18 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', False, 920, 1);
+    VALUES (164, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '8 hours', 4.6, 
+            'Análisis histórico', False, 601, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (165, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '6 hours', 5.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 617, 4);
+    VALUES (165, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '12 hours', 2.7, 
+            'Física avanzada', False, 998, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (166, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '18 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 503, 4);
+    VALUES (166, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '5 hours', 1.7, 
+            'Análisis histórico', True, 910, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (167, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '9 hours', 1.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 668, 5);
+    VALUES (167, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '11 hours', 3.6, 
+            'Física avanzada', True, 880, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (168, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '16 hours', 1.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 752, 5);
+    VALUES (168, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '18 hours', 4.4, 
+            'Química avanzada', True, 652, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (169, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '13 hours', 3.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 777, 4);
+    VALUES (169, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '10 hours', 3.3, 
+            'Física avanzada', False, 897, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (170, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 725, 3);
+    VALUES (170, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '12 hours', 2.1, 
+            'Química avanzada', True, 840, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (171, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 932, 5);
+    VALUES (171, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '14 hours', 1.0, 
+            'Matemáticas avanzadas', True, 733, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (172, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '1 hours', 2.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 761, 4);
+    VALUES (172, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '12 hours', 4.3, 
+            'Química avanzada', False, 639, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (173, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '7 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 896, 5);
+    VALUES (173, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '10 hours', 4.2, 
+            'Física avanzada', False, 836, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (174, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '3 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 538, 4);
+    VALUES (174, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 4.4, 
+            'Análisis histórico', False, 669, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (175, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 863, 5);
+    VALUES (175, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 3.1, 
+            'Programación básica', True, 809, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (176, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 595, 5);
+    VALUES (176, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '13 hours', 1.5, 
+            'Física avanzada', True, 539, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (177, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 734, 5);
+    VALUES (177, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 2.1, 
+            'Análisis histórico', False, 749, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (178, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 1.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 861, 5);
+    VALUES (178, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '15 hours', 1.2, 
+            'Programación básica', True, 803, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (179, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '13 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', True, 801, 1);
+    VALUES (179, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '1 hours', 4.4, 
+            'Análisis histórico', True, 580, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (180, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 4.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 768, 3);
+    VALUES (180, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '15 hours', 4.7, 
+            'Física avanzada', False, 928, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (181, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 766, 5);
+    VALUES (181, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '2 hours', 3.6, 
+            'Química avanzada', True, 805, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (182, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '8 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 512, 4);
+    VALUES (182, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '13 hours', 2.2, 
+            'Física avanzada', True, 946, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (183, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '18 hours', 2.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 985, 4);
+    VALUES (183, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '7 hours', 2.8, 
+            'Química avanzada', True, 928, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (184, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '3 hours', 2.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 856, 5);
+    VALUES (184, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '16 hours', 4.8, 
+            'Química avanzada', True, 991, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (185, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 1.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 705, 5);
+    VALUES (185, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 4.2, 
+            'Programación básica', True, 879, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (186, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 1.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 736, 5);
+    VALUES (186, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '12 hours', 4.5, 
+            'Matemáticas avanzadas', False, 897, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (187, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 2.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 715, 4);
+    VALUES (187, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '18 hours', 3.5, 
+            'Análisis histórico', False, 628, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (188, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '3 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', False, 529, 1);
+    VALUES (188, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '19 hours', 4.6, 
+            'Análisis histórico', True, 624, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (189, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 2.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 751, 3);
+    VALUES (189, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '4 hours', 3.5, 
+            'Matemáticas avanzadas', False, 554, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (190, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '20 hours', 3.0, 
-            'Aprender conceptos basicos de programacion.', True, 528, 1);
+    VALUES (190, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '13 hours', 4.5, 
+            'Matemáticas avanzadas', False, 786, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (191, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '13 hours', 4.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 922, 5);
+    VALUES (191, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '6 hours', 2.6, 
+            'Química avanzada', True, 754, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (192, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '10 hours', 4.2, 
-            'Aprender conceptos basicos de programacion.', False, 830, 1);
+    VALUES (192, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '6 hours', 1.3, 
+            'Matemáticas avanzadas', False, 832, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (193, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '10 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', True, 828, 1);
+    VALUES (193, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '12 hours', 1.4, 
+            'Matemáticas avanzadas', False, 559, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (194, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '3 hours', 2.4, 
-            'Aprender conceptos basicos de programacion.', True, 695, 1);
+    VALUES (194, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '16 hours', 1.6, 
+            'Programación básica', False, 990, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (195, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 670, 5);
+    VALUES (195, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '12 hours', 4.7, 
+            'Química avanzada', True, 895, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (196, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '20 hours', 1.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 591, 5);
+    VALUES (196, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '1 hours', 4.7, 
+            'Física avanzada', True, 861, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (197, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '2 hours', 1.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 717, 5);
+    VALUES (197, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '1 hours', 4.5, 
+            'Física avanzada', False, 891, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (198, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '14 hours', 1.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 530, 4);
+    VALUES (198, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '1 hours', 3.9, 
+            'Matemáticas avanzadas', True, 616, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (199, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '10 hours', 1.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 865, 4);
+    VALUES (199, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 1.2, 
+            'Programación básica', True, 558, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (200, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '7 hours', 2.4, 
-            'Aprender conceptos basicos de programacion.', False, 764, 1);
+    VALUES (200, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '4 hours', 3.6, 
+            'Matemáticas avanzadas', False, 866, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (201, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 559, 5);
+    VALUES (201, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '12 hours', 1.2, 
+            'Química avanzada', False, 618, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (202, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 637, 3);
+    VALUES (202, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '9 hours', 1.7, 
+            'Física avanzada', True, 628, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (203, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '10 hours', 3.8, 
-            'Aprender conceptos basicos de programacion.', False, 762, 1);
+    VALUES (203, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '15 hours', 4.4, 
+            'Física avanzada', True, 914, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (204, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '12 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', False, 868, 1);
+    VALUES (204, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '5 hours', 3.1, 
+            'Química avanzada', True, 627, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (205, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 2.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 758, 5);
+    VALUES (205, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 3.2, 
+            'Química avanzada', True, 776, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (206, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '16 hours', 2.0, 
-            'Aprender conceptos basicos de programacion.', False, 582, 1);
+    VALUES (206, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 2.4, 
+            'Análisis histórico', True, 569, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (207, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 3.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 710, 5);
+    VALUES (207, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '5 hours', 1.8, 
+            'Química avanzada', True, 656, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (208, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 2.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 676, 3);
+    VALUES (208, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 3.8, 
+            'Análisis histórico', False, 808, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (209, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 2.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 906, 3);
+    VALUES (209, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '6 hours', 2.6, 
+            'Química avanzada', True, 734, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (210, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 3.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 822, 3);
+    VALUES (210, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '14 hours', 4.9, 
+            'Programación básica', False, 841, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (211, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '4 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 698, 4);
+    VALUES (211, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '6 hours', 2.5, 
+            'Física avanzada', True, 561, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (212, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 1.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 753, 3);
+    VALUES (212, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '12 hours', 1.8, 
+            'Química avanzada', True, 703, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (213, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 3.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 734, 3);
+    VALUES (213, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 2.0, 
+            'Programación básica', False, 582, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (214, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 876, 5);
+    VALUES (214, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '9 hours', 2.8, 
+            'Programación básica', True, 791, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (215, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '20 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 571, 3);
+    VALUES (215, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '4 hours', 1.6, 
+            'Física avanzada', True, 555, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (216, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 1.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 542, 3);
+    VALUES (216, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '3 hours', 2.2, 
+            'Química avanzada', True, 651, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (217, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '13 hours', 3.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 952, 4);
+    VALUES (217, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '1 hours', 3.0, 
+            'Matemáticas avanzadas', False, 557, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (218, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '9 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 547, 5);
+    VALUES (218, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '18 hours', 4.7, 
+            'Química avanzada', False, 902, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (219, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '12 hours', 1.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 906, 4);
+    VALUES (219, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '14 hours', 2.6, 
+            'Física avanzada', True, 789, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (220, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '12 hours', 1.3, 
-            'Aprender conceptos basicos de programacion.', False, 622, 1);
+    VALUES (220, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '12 hours', 1.8, 
+            'Química avanzada', False, 786, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (221, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 4.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 957, 3);
+    VALUES (221, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '13 hours', 4.5, 
+            'Matemáticas avanzadas', True, 550, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (222, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '12 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 953, 5);
+    VALUES (222, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '7 hours', 3.9, 
+            'Análisis histórico', False, 588, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (223, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 2.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 922, 3);
+    VALUES (223, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '5 hours', 3.1, 
+            'Física avanzada', True, 776, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (224, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '14 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 550, 5);
+    VALUES (224, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '14 hours', 1.8, 
+            'Física avanzada', True, 798, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (225, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 947, 3);
+    VALUES (225, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 4.1, 
+            'Análisis histórico', False, 535, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (226, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 916, 3);
+    VALUES (226, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '18 hours', 3.0, 
+            'Matemáticas avanzadas', True, 894, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (227, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 4.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 997, 5);
+    VALUES (227, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 4.5, 
+            'Programación básica', False, 999, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (228, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '17 hours', 4.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 724, 4);
+    VALUES (228, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '5 hours', 3.0, 
+            'Física avanzada', True, 654, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (229, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '12 hours', 2.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 800, 5);
+    VALUES (229, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '14 hours', 4.8, 
+            'Química avanzada', False, 520, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (230, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 4.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 691, 3);
+    VALUES (230, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '14 hours', 2.6, 
+            'Química avanzada', True, 904, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (231, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '18 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', True, 926, 1);
+    VALUES (231, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '4 hours', 3.1, 
+            'Física avanzada', True, 850, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (232, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 917, 3);
+    VALUES (232, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '15 hours', 4.9, 
+            'Física avanzada', True, 707, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (233, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '13 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 703, 4);
+    VALUES (233, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '16 hours', 1.9, 
+            'Física avanzada', False, 794, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (234, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 524, 3);
+    VALUES (234, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '10 hours', 4.6, 
+            'Programación básica', False, 603, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (235, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '3 hours', 1.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 815, 4);
+    VALUES (235, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '10 hours', 3.3, 
+            'Física avanzada', False, 772, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (236, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '5 hours', 4.2, 
-            'Aprender conceptos basicos de programacion.', True, 957, 1);
+    VALUES (236, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '4 hours', 2.8, 
+            'Física avanzada', False, 598, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (237, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '19 hours', 1.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 762, 4);
+    VALUES (237, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '8 hours', 3.6, 
+            'Matemáticas avanzadas', False, 870, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (238, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 825, 4);
+    VALUES (238, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '10 hours', 3.6, 
+            'Física avanzada', True, 520, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (239, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 639, 3);
+    VALUES (239, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '5 hours', 3.4, 
+            'Química avanzada', True, 868, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (240, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 553, 4);
+    VALUES (240, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '17 hours', 3.4, 
+            'Química avanzada', False, 824, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (241, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '15 hours', 3.5, 
-            'Aprender conceptos basicos de programacion.', False, 939, 1);
+    VALUES (241, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '1 hours', 1.3, 
+            'Física avanzada', True, 890, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (242, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '5 hours', 4.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 685, 4);
+    VALUES (242, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '9 hours', 3.6, 
+            'Programación básica', True, 989, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (243, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '17 hours', 1.9, 
-            'Aprender conceptos basicos de programacion.', True, 509, 1);
+    VALUES (243, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '3 hours', 2.1, 
+            'Química avanzada', True, 615, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (244, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 3.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 502, 5);
+    VALUES (244, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '10 hours', 1.8, 
+            'Matemáticas avanzadas', False, 870, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (245, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '3 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', True, 647, 1);
+    VALUES (245, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 1.7, 
+            'Análisis histórico', False, 797, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (246, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '18 hours', 1.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 905, 5);
+    VALUES (246, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '1 hours', 4.0, 
+            'Matemáticas avanzadas', True, 985, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (247, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 504, 3);
+    VALUES (247, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '4 hours', 1.8, 
+            'Análisis histórico', True, 565, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (248, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 4.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 572, 3);
+    VALUES (248, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '18 hours', 1.4, 
+            'Química avanzada', False, 574, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (249, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 2.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 749, 5);
+    VALUES (249, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '8 hours', 2.2, 
+            'Programación básica', True, 616, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (250, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 976, 3);
+    VALUES (250, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 2.2, 
+            'Física avanzada', False, 624, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (251, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '7 hours', 3.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 906, 4);
+    VALUES (251, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '2 hours', 2.0, 
+            'Química avanzada', False, 592, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (252, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 2.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 705, 3);
+    VALUES (252, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '6 hours', 1.0, 
+            'Física avanzada', False, 974, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (253, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 1.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 698, 4);
+    VALUES (253, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '12 hours', 1.4, 
+            'Análisis histórico', True, 851, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (254, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '18 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', False, 864, 1);
+    VALUES (254, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '3 hours', 2.5, 
+            'Física avanzada', True, 688, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (255, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '17 hours', 3.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 697, 5);
+    VALUES (255, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '17 hours', 1.6, 
+            'Programación básica', False, 825, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (256, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 1.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 716, 3);
+    VALUES (256, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '12 hours', 5.0, 
+            'Física avanzada', False, 621, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (257, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '15 hours', 1.0, 
-            'Aprender conceptos basicos de programacion.', False, 643, 1);
+    VALUES (257, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '12 hours', 2.2, 
+            'Programación básica', True, 773, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (258, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '12 hours', 2.7, 
-            'Aprender conceptos basicos de programacion.', False, 983, 1);
+    VALUES (258, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '1 hours', 1.2, 
+            'Matemáticas avanzadas', True, 656, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (259, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '11 hours', 4.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 894, 5);
+    VALUES (259, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '6 hours', 3.4, 
+            'Matemáticas avanzadas', False, 551, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (260, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 678, 5);
+    VALUES (260, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '7 hours', 4.0, 
+            'Análisis histórico', False, 753, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (261, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '4 hours', 4.7, 
-            'Aprender conceptos basicos de programacion.', True, 532, 1);
+    VALUES (261, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '11 hours', 3.0, 
+            'Química avanzada', False, 817, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (262, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '2 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', True, 506, 1);
+    VALUES (262, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '4 hours', 1.9, 
+            'Física avanzada', False, 687, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (263, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 3.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 886, 3);
+    VALUES (263, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 1.7, 
+            'Análisis histórico', False, 730, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (264, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '8 hours', 4.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 588, 4);
+    VALUES (264, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '8 hours', 1.4, 
+            'Análisis histórico', True, 981, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (265, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 597, 5);
+    VALUES (265, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '17 hours', 3.5, 
+            'Química avanzada', True, 739, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (266, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', False, 899, 1);
+    VALUES (266, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '4 hours', 3.9, 
+            'Química avanzada', False, 908, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (267, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 3.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 847, 3);
+    VALUES (267, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '15 hours', 3.0, 
+            'Programación básica', False, 766, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (268, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '6 hours', 4.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 763, 4);
+    VALUES (268, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '9 hours', 4.8, 
+            'Programación básica', True, 892, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (269, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '5 hours', 1.5, 
-            'Aprender conceptos basicos de programacion.', True, 732, 1);
+    VALUES (269, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '1 hours', 4.6, 
+            'Física avanzada', False, 919, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (270, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 951, 5);
+    VALUES (270, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '7 hours', 2.6, 
+            'Química avanzada', False, 891, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (271, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '11 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 951, 4);
+    VALUES (271, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '4 hours', 1.8, 
+            'Análisis histórico', True, 652, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (272, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 833, 5);
+    VALUES (272, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 3.5, 
+            'Análisis histórico', False, 538, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (273, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '4 hours', 3.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 508, 5);
+    VALUES (273, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '17 hours', 1.4, 
+            'Física avanzada', True, 668, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (274, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 1.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 794, 5);
+    VALUES (274, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '16 hours', 3.8, 
+            'Programación básica', True, 794, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (275, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 3.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 602, 3);
+    VALUES (275, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '19 hours', 1.5, 
+            'Análisis histórico', False, 515, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (276, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 2.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 831, 3);
+    VALUES (276, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '2 hours', 1.2, 
+            'Matemáticas avanzadas', False, 871, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (277, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 3.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 879, 5);
+    VALUES (277, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '3 hours', 3.8, 
+            'Matemáticas avanzadas', True, 932, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (278, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 864, 5);
+    VALUES (278, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 4.8, 
+            'Análisis histórico', False, 996, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (279, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '19 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', True, 667, 1);
+    VALUES (279, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 1.6, 
+            'Análisis histórico', False, 986, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (280, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '19 hours', 2.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 832, 5);
+    VALUES (280, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '8 hours', 2.2, 
+            'Física avanzada', True, 970, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (281, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 779, 3);
+    VALUES (281, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '3 hours', 4.5, 
+            'Análisis histórico', True, 958, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (282, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '6 hours', 1.3, 
-            'Aprender conceptos basicos de programacion.', True, 943, 1);
+    VALUES (282, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '19 hours', 4.2, 
+            'Física avanzada', True, 688, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (283, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '16 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 920, 5);
+    VALUES (283, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '4 hours', 2.5, 
+            'Matemáticas avanzadas', True, 990, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (284, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 1.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 857, 3);
+    VALUES (284, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 3.4, 
+            'Programación básica', False, 518, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (285, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '11 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 579, 4);
+    VALUES (285, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '19 hours', 1.8, 
+            'Matemáticas avanzadas', True, 668, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (286, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 983, 5);
+    VALUES (286, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '7 hours', 2.5, 
+            'Matemáticas avanzadas', True, 599, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (287, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '14 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 538, 1);
+    VALUES (287, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '14 hours', 2.1, 
+            'Matemáticas avanzadas', False, 856, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (288, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '6 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', False, 672, 1);
+    VALUES (288, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '18 hours', 2.8, 
+            'Análisis histórico', False, 611, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (289, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 2.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 582, 5);
+    VALUES (289, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '18 hours', 3.0, 
+            'Química avanzada', False, 782, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (290, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '12 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', False, 516, 1);
+    VALUES (290, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '18 hours', 2.6, 
+            'Matemáticas avanzadas', True, 894, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (291, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '6 hours', 3.0, 
-            'Aprender conceptos basicos de programacion.', False, 819, 1);
+    VALUES (291, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 2.0, 
+            'Química avanzada', False, 624, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (292, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '7 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 569, 4);
+    VALUES (292, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '6 hours', 3.6, 
+            'Análisis histórico', False, 999, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (293, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '12 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', False, 710, 1);
+    VALUES (293, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '17 hours', 3.3, 
+            'Física avanzada', True, 792, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (294, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '2 hours', 3.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 849, 4);
+    VALUES (294, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '20 hours', 4.4, 
+            'Análisis histórico', True, 920, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (295, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '13 hours', 4.7, 
-            'Aprender conceptos basicos de programacion.', False, 961, 1);
+    VALUES (295, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '11 hours', 1.1, 
+            'Física avanzada', True, 607, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (296, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 602, 3);
+    VALUES (296, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '16 hours', 4.6, 
+            'Química avanzada', False, 960, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (297, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '10 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 544, 4);
+    VALUES (297, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '4 hours', 1.8, 
+            'Química avanzada', True, 861, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (298, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 3.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 663, 4);
+    VALUES (298, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '12 hours', 3.2, 
+            'Química avanzada', False, 833, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (299, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '19 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 593, 4);
+    VALUES (299, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '18 hours', 4.7, 
+            'Física avanzada', False, 839, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (300, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '19 hours', 4.4, 
-            'Aprender conceptos basicos de programacion.', False, 934, 1);
+    VALUES (300, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '11 hours', 1.9, 
+            'Análisis histórico', False, 894, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (301, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '14 hours', 4.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 642, 4);
+    VALUES (301, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '14 hours', 3.6, 
+            'Programación básica', False, 523, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (302, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 977, 5);
+    VALUES (302, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 2.6, 
+            'Programación básica', False, 671, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (303, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '16 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', False, 713, 1);
+    VALUES (303, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '11 hours', 1.4, 
+            'Matemáticas avanzadas', False, 658, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (304, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '9 hours', 3.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 882, 5);
+    VALUES (304, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '6 hours', 3.0, 
+            'Programación básica', False, 514, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (305, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 5.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 968, 3);
+    VALUES (305, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '1 hours', 4.6, 
+            'Química avanzada', True, 905, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (306, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 570, 5);
+    VALUES (306, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 2.1, 
+            'Análisis histórico', False, 930, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (307, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 744, 5);
+    VALUES (307, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '5 hours', 2.3, 
+            'Matemáticas avanzadas', False, 861, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (308, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '11 hours', 3.1, 
-            'Aprender conceptos basicos de programacion.', False, 627, 1);
+    VALUES (308, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '2 hours', 2.8, 
+            'Análisis histórico', False, 878, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (309, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 795, 5);
+    VALUES (309, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '17 hours', 1.8, 
+            'Análisis histórico', True, 539, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (310, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '10 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', False, 697, 1);
+    VALUES (310, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '2 hours', 4.4, 
+            'Matemáticas avanzadas', False, 934, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (311, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 2.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 686, 3);
+    VALUES (311, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '10 hours', 3.3, 
+            'Física avanzada', True, 680, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (312, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '2 hours', 2.2, 
-            'Aprender conceptos basicos de programacion.', True, 729, 1);
+    VALUES (312, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '3 hours', 1.2, 
+            'Matemáticas avanzadas', True, 982, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (313, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 3.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 604, 5);
+    VALUES (313, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '11 hours', 3.7, 
+            'Programación básica', True, 881, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (314, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 655, 3);
+    VALUES (314, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '18 hours', 1.2, 
+            'Física avanzada', False, 515, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (315, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '2 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 986, 4);
+    VALUES (315, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 2.2, 
+            'Análisis histórico', False, 936, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (316, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '13 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 812, 4);
+    VALUES (316, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 3.1, 
+            'Programación básica', False, 713, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (317, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '16 hours', 1.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 844, 4);
+    VALUES (317, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '17 hours', 4.7, 
+            'Física avanzada', False, 867, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (318, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '14 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 557, 4);
+    VALUES (318, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '20 hours', 4.3, 
+            'Matemáticas avanzadas', True, 887, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (319, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '19 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', True, 570, 1);
+    VALUES (319, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '12 hours', 2.0, 
+            'Matemáticas avanzadas', False, 880, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (320, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '19 hours', 2.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 818, 5);
+    VALUES (320, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '12 hours', 1.7, 
+            'Física avanzada', False, 674, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (321, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '19 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 848, 5);
+    VALUES (321, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '20 hours', 4.5, 
+            'Matemáticas avanzadas', True, 749, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (322, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '16 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 606, 4);
+    VALUES (322, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '2 hours', 2.5, 
+            'Matemáticas avanzadas', False, 796, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (323, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '12 hours', 4.0, 
-            'Aprender conceptos basicos de programacion.', False, 584, 1);
+    VALUES (323, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '20 hours', 1.5, 
+            'Química avanzada', True, 836, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (324, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 2.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 746, 5);
+    VALUES (324, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '5 hours', 3.2, 
+            'Matemáticas avanzadas', False, 542, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (325, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 990, 4);
+    VALUES (325, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '20 hours', 3.5, 
+            'Análisis histórico', True, 551, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (326, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '10 hours', 2.6, 
-            'Aprender conceptos basicos de programacion.', True, 565, 1);
+    VALUES (326, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '10 hours', 2.8, 
+            'Química avanzada', False, 646, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (327, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 2.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 732, 5);
+    VALUES (327, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '3 hours', 3.6, 
+            'Química avanzada', False, 513, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (328, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 615, 4);
+    VALUES (328, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '14 hours', 4.3, 
+            'Matemáticas avanzadas', False, 788, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (329, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 771, 4);
+    VALUES (329, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '19 hours', 1.1, 
+            'Física avanzada', False, 838, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (330, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '7 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 753, 4);
+    VALUES (330, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '9 hours', 2.6, 
+            'Física avanzada', False, 668, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (331, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '1 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 924, 5);
+    VALUES (331, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '16 hours', 2.6, 
+            'Química avanzada', True, 916, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (332, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 1.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 724, 5);
+    VALUES (332, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '13 hours', 1.4, 
+            'Matemáticas avanzadas', False, 844, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (333, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 852, 3);
+    VALUES (333, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '20 hours', 3.7, 
+            'Física avanzada', False, 900, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (334, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '10 hours', 5.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 693, 4);
+    VALUES (334, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '15 hours', 2.8, 
+            'Programación básica', True, 512, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (335, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '1 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 616, 5);
+    VALUES (335, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '17 hours', 4.0, 
+            'Física avanzada', False, 670, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (336, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '13 hours', 4.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 746, 4);
+    VALUES (336, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '11 hours', 3.6, 
+            'Matemáticas avanzadas', True, 745, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (337, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '7 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 584, 4);
+    VALUES (337, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '3 hours', 2.4, 
+            'Programación básica', True, 681, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (338, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 5.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 640, 3);
+    VALUES (338, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 3.8, 
+            'Programación básica', True, 898, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (339, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '11 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 996, 5);
+    VALUES (339, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '19 hours', 2.8, 
+            'Programación básica', True, 698, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (340, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '6 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 673, 1);
+    VALUES (340, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '11 hours', 1.8, 
+            'Matemáticas avanzadas', True, 993, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (341, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 4.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 738, 3);
+    VALUES (341, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '13 hours', 2.4, 
+            'Análisis histórico', True, 967, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (342, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '3 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', True, 991, 1);
+    VALUES (342, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '8 hours', 1.9, 
+            'Física avanzada', False, 519, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (343, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 721, 5);
+    VALUES (343, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '10 hours', 1.4, 
+            'Matemáticas avanzadas', False, 608, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (344, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '13 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', False, 778, 1);
+    VALUES (344, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 1.5, 
+            'Análisis histórico', True, 739, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (345, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '7 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 755, 4);
+    VALUES (345, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '18 hours', 1.7, 
+            'Matemáticas avanzadas', False, 912, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (346, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 716, 5);
+    VALUES (346, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '15 hours', 4.7, 
+            'Física avanzada', False, 533, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (347, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 888, 3);
+    VALUES (347, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '20 hours', 2.8, 
+            'Programación básica', True, 522, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (348, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 585, 3);
+    VALUES (348, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 1.4, 
+            'Análisis histórico', False, 670, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (349, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '14 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 912, 5);
+    VALUES (349, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '13 hours', 3.3, 
+            'Física avanzada', False, 512, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (350, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '10 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 700, 4);
+    VALUES (350, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 3.1, 
+            'Programación básica', False, 663, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (351, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '6 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', False, 912, 1);
+    VALUES (351, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '12 hours', 2.5, 
+            'Química avanzada', False, 959, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (352, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 883, 3);
+    VALUES (352, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 4.0, 
+            'Programación básica', True, 737, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (353, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 596, 5);
+    VALUES (353, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '18 hours', 4.5, 
+            'Física avanzada', True, 607, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (354, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 1.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 822, 5);
+    VALUES (354, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 3.9, 
+            'Programación básica', False, 628, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (355, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 522, 3);
+    VALUES (355, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '17 hours', 3.9, 
+            'Matemáticas avanzadas', False, 502, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (356, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '16 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', True, 984, 1);
+    VALUES (356, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '15 hours', 1.1, 
+            'Física avanzada', False, 966, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (357, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '2 hours', 1.2, 
-            'Aprender conceptos basicos de programacion.', True, 893, 1);
+    VALUES (357, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '14 hours', 3.2, 
+            'Matemáticas avanzadas', True, 872, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (358, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '3 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 633, 4);
+    VALUES (358, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '6 hours', 1.3, 
+            'Química avanzada', True, 846, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (359, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '1 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', True, 691, 1);
+    VALUES (359, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '16 hours', 4.0, 
+            'Física avanzada', True, 628, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (360, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 1.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 743, 3);
+    VALUES (360, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 1.6, 
+            'Programación básica', True, 551, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (361, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 807, 3);
+    VALUES (361, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '11 hours', 2.8, 
+            'Química avanzada', True, 887, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (362, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '19 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 973, 4);
+    VALUES (362, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '5 hours', 3.7, 
+            'Análisis histórico', False, 542, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (363, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 1.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 886, 5);
+    VALUES (363, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '3 hours', 4.1, 
+            'Análisis histórico', True, 836, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (364, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 4.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 990, 3);
+    VALUES (364, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '1 hours', 1.3, 
+            'Química avanzada', True, 606, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (365, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 1.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 672, 5);
+    VALUES (365, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '6 hours', 1.9, 
+            'Matemáticas avanzadas', False, 553, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (366, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 539, 3);
+    VALUES (366, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '20 hours', 4.0, 
+            'Matemáticas avanzadas', True, 692, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (367, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 1.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 838, 3);
+    VALUES (367, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 1.9, 
+            'Programación básica', True, 762, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (368, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 4.1, 
-            'Aprender conceptos basicos de programacion.', True, 859, 1);
+    VALUES (368, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 1.7, 
+            'Química avanzada', False, 641, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (369, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 774, 5);
+    VALUES (369, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '20 hours', 1.4, 
+            'Programación básica', False, 561, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (370, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 4.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 883, 4);
+    VALUES (370, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 1.4, 
+            'Programación básica', True, 711, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (371, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', True, 998, 1);
+    VALUES (371, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '13 hours', 2.0, 
+            'Física avanzada', False, 842, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (372, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '9 hours', 4.4, 
-            'Aprender conceptos basicos de programacion.', False, 739, 1);
+    VALUES (372, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 1.9, 
+            'Análisis histórico', True, 627, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (373, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '15 hours', 2.7, 
-            'Aprender conceptos basicos de programacion.', True, 996, 1);
+    VALUES (373, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '6 hours', 2.7, 
+            'Programación básica', True, 590, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (374, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '2 hours', 2.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 645, 5);
+    VALUES (374, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '1 hours', 2.2, 
+            'Física avanzada', False, 747, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (375, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '11 hours', 4.6, 
-            'Aprender conceptos basicos de programacion.', False, 699, 1);
+    VALUES (375, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '13 hours', 4.7, 
+            'Química avanzada', True, 836, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (376, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '8 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', True, 953, 1);
+    VALUES (376, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '4 hours', 3.1, 
+            'Química avanzada', False, 873, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (377, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '14 hours', 3.8, 
-            'Aprender conceptos basicos de programacion.', False, 791, 1);
+    VALUES (377, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '1 hours', 4.9, 
+            'Análisis histórico', False, 564, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (378, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 791, 5);
+    VALUES (378, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '8 hours', 4.4, 
+            'Química avanzada', False, 746, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (379, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '13 hours', 4.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 775, 4);
+    VALUES (379, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '13 hours', 1.9, 
+            'Química avanzada', False, 710, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (380, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '12 hours', 3.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 779, 5);
+    VALUES (380, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '11 hours', 4.3, 
+            'Análisis histórico', False, 755, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (381, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '14 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 620, 5);
+    VALUES (381, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '8 hours', 4.3, 
+            'Física avanzada', True, 684, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (382, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '11 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 725, 4);
+    VALUES (382, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '20 hours', 3.4, 
+            'Química avanzada', False, 560, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (383, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '8 hours', 3.0, 
-            'Aprender conceptos basicos de programacion.', True, 579, 1);
+    VALUES (383, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '3 hours', 2.6, 
+            'Física avanzada', False, 834, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (384, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 3.8, 
-            'Aprender conceptos basicos de programacion.', True, 780, 1);
+    VALUES (384, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '15 hours', 2.0, 
+            'Física avanzada', True, 568, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (385, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '20 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 847, 4);
+    VALUES (385, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 2.1, 
+            'Programación básica', False, 741, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (386, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '6 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 759, 5);
+    VALUES (386, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '18 hours', 1.3, 
+            'Química avanzada', True, 782, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (387, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 909, 5);
+    VALUES (387, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '4 hours', 2.7, 
+            'Análisis histórico', False, 848, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (388, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '9 hours', 3.0, 
-            'Aprender conceptos basicos de programacion.', False, 676, 1);
+    VALUES (388, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '6 hours', 4.2, 
+            'Programación básica', True, 918, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (389, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '5 hours', 2.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 875, 5);
+    VALUES (389, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '9 hours', 3.9, 
+            'Física avanzada', True, 518, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (390, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '11 hours', 1.5, 
-            'Aprender conceptos basicos de programacion.', False, 666, 1);
+    VALUES (390, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '6 hours', 1.7, 
+            'Programación básica', False, 621, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (391, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 1.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 542, 5);
+    VALUES (391, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '19 hours', 1.0, 
+            'Matemáticas avanzadas', False, 537, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (392, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 551, 3);
+    VALUES (392, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 2.6, 
+            'Análisis histórico', True, 878, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (393, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 4.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 650, 3);
+    VALUES (393, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 2.6, 
+            'Química avanzada', False, 836, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (394, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '13 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 666, 4);
+    VALUES (394, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '20 hours', 4.7, 
+            'Química avanzada', False, 801, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (395, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 4.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 980, 4);
+    VALUES (395, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 4.4, 
+            'Programación básica', True, 694, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (396, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 895, 3);
+    VALUES (396, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '15 hours', 5.0, 
+            'Matemáticas avanzadas', False, 521, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (397, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '12 hours', 1.9, 
-            'Aprender conceptos basicos de programacion.', False, 944, 1);
+    VALUES (397, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 3.7, 
+            'Análisis histórico', True, 908, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (398, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '1 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 698, 5);
+    VALUES (398, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '4 hours', 3.9, 
+            'Física avanzada', True, 937, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (399, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '13 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 997, 4);
+    VALUES (399, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '12 hours', 3.0, 
+            'Análisis histórico', True, 969, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (400, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '19 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', False, 844, 1);
+    VALUES (400, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '2 hours', 1.7, 
+            'Física avanzada', True, 737, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (401, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 674, 3);
+    VALUES (401, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 1.6, 
+            'Programación básica', True, 886, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (402, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 4.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 716, 5);
+    VALUES (402, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '17 hours', 1.1, 
+            'Química avanzada', True, 795, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (403, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '9 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', True, 975, 1);
+    VALUES (403, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 3.3, 
+            'Análisis histórico', False, 846, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (404, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '19 hours', 4.2, 
-            'Aprender conceptos basicos de programacion.', True, 944, 1);
+    VALUES (404, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '4 hours', 4.5, 
+            'Química avanzada', False, 852, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (405, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 733, 3);
+    VALUES (405, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '17 hours', 2.8, 
+            'Análisis histórico', False, 948, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (406, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '8 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 940, 4);
+    VALUES (406, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '8 hours', 1.9, 
+            'Física avanzada', True, 507, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (407, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '20 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 793, 4);
+    VALUES (407, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '6 hours', 2.4, 
+            'Análisis histórico', False, 972, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (408, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 2.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 876, 5);
+    VALUES (408, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '3 hours', 1.8, 
+            'Programación básica', False, 755, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (409, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '9 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', True, 554, 1);
+    VALUES (409, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 4.2, 
+            'Química avanzada', True, 816, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (410, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '18 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 848, 4);
+    VALUES (410, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '19 hours', 1.9, 
+            'Matemáticas avanzadas', False, 722, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (411, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '12 hours', 1.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 722, 5);
+    VALUES (411, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '20 hours', 1.0, 
+            'Matemáticas avanzadas', False, 708, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (412, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 699, 4);
+    VALUES (412, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '6 hours', 3.3, 
+            'Física avanzada', True, 566, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (413, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '1 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', True, 563, 1);
+    VALUES (413, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '9 hours', 4.8, 
+            'Química avanzada', True, 864, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (414, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 2.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 876, 5);
+    VALUES (414, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '20 hours', 1.3, 
+            'Física avanzada', True, 526, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (415, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '13 hours', 3.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 915, 4);
+    VALUES (415, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '18 hours', 1.5, 
+            'Programación básica', True, 582, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (416, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 1.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 904, 5);
+    VALUES (416, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '4 hours', 3.2, 
+            'Análisis histórico', False, 718, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (417, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '6 hours', 4.4, 
-            'Aprender conceptos basicos de programacion.', True, 760, 1);
+    VALUES (417, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '14 hours', 4.6, 
+            'Matemáticas avanzadas', True, 879, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (418, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '20 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 523, 4);
+    VALUES (418, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '11 hours', 4.9, 
+            'Química avanzada', True, 729, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (419, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', True, 585, 1);
+    VALUES (419, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '10 hours', 1.9, 
+            'Física avanzada', False, 696, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (420, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 4.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 883, 5);
+    VALUES (420, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 2.8, 
+            'Programación básica', False, 932, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (421, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 2.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 823, 5);
+    VALUES (421, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '8 hours', 2.2, 
+            'Matemáticas avanzadas', False, 920, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (422, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '1 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', False, 546, 1);
+    VALUES (422, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '20 hours', 3.0, 
+            'Programación básica', False, 546, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (423, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '5 hours', 4.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 583, 4);
+    VALUES (423, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '17 hours', 2.9, 
+            'Física avanzada', False, 569, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (424, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '7 hours', 3.8, 
-            'Aprender conceptos basicos de programacion.', False, 784, 1);
+    VALUES (424, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '13 hours', 4.3, 
+            'Física avanzada', False, 757, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (425, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 501, 5);
+    VALUES (425, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '11 hours', 3.9, 
+            'Análisis histórico', False, 802, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (426, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '13 hours', 1.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 829, 5);
+    VALUES (426, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '7 hours', 2.1, 
+            'Análisis histórico', True, 770, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (427, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 2.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 760, 3);
+    VALUES (427, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 1.8, 
+            'Programación básica', True, 550, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (428, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '1 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 927, 4);
+    VALUES (428, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '13 hours', 2.1, 
+            'Física avanzada', False, 685, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (429, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 3.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 760, 3);
+    VALUES (429, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '15 hours', 1.7, 
+            'Análisis histórico', True, 909, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (430, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '19 hours', 2.2, 
-            'Aprender conceptos basicos de programacion.', False, 688, 1);
+    VALUES (430, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 2.4, 
+            'Programación básica', True, 781, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (431, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '5 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 520, 5);
+    VALUES (431, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '16 hours', 2.4, 
+            'Matemáticas avanzadas', True, 954, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (432, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '19 hours', 4.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 752, 4);
+    VALUES (432, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '13 hours', 2.8, 
+            'Programación básica', False, 955, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (433, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '11 hours', 3.3, 
-            'Aprender conceptos basicos de programacion.', True, 972, 1);
+    VALUES (433, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '12 hours', 1.3, 
+            'Matemáticas avanzadas', False, 759, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (434, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '14 hours', 2.6, 
-            'Aprender conceptos basicos de programacion.', False, 729, 1);
+    VALUES (434, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '5 hours', 1.0, 
+            'Física avanzada', False, 958, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (435, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 671, 3);
+    VALUES (435, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '11 hours', 4.9, 
+            'Química avanzada', False, 641, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (436, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 987, 5);
+    VALUES (436, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '10 hours', 4.1, 
+            'Análisis histórico', True, 618, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (437, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 712, 3);
+    VALUES (437, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '8 hours', 3.9, 
+            'Física avanzada', False, 907, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (438, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '2 hours', 3.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 657, 4);
+    VALUES (438, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '17 hours', 3.2, 
+            'Física avanzada', False, 823, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (439, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 762, 3);
+    VALUES (439, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '3 hours', 3.4, 
+            'Análisis histórico', False, 552, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (440, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '2 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 769, 5);
+    VALUES (440, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '7 hours', 2.1, 
+            'Química avanzada', False, 620, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (441, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '2 hours', 4.2, 
-            'Aprender conceptos basicos de programacion.', False, 774, 1);
+    VALUES (441, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '19 hours', 3.1, 
+            'Matemáticas avanzadas', False, 656, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (442, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 722, 3);
+    VALUES (442, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '11 hours', 3.5, 
+            'Química avanzada', False, 960, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (443, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '15 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 852, 4);
+    VALUES (443, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '17 hours', 3.3, 
+            'Química avanzada', True, 603, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (444, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 2.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 707, 5);
+    VALUES (444, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '14 hours', 1.8, 
+            'Programación básica', True, 849, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (445, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 4.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 574, 3);
+    VALUES (445, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '12 hours', 2.2, 
+            'Matemáticas avanzadas', False, 682, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (446, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '15 hours', 3.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 503, 5);
+    VALUES (446, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '12 hours', 3.0, 
+            'Análisis histórico', False, 778, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (447, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '17 hours', 1.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 555, 4);
+    VALUES (447, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 4.3, 
+            'Química avanzada', True, 940, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (448, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '15 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 673, 4);
+    VALUES (448, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '17 hours', 4.8, 
+            'Matemáticas avanzadas', False, 782, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (449, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '11 hours', 1.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 810, 5);
+    VALUES (449, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '20 hours', 3.6, 
+            'Química avanzada', True, 830, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (450, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '12 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', False, 550, 1);
+    VALUES (450, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '16 hours', 4.5, 
+            'Programación básica', True, 819, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (451, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '12 hours', 4.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 742, 4);
+    VALUES (451, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '19 hours', 4.3, 
+            'Programación básica', False, 574, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (452, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '7 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 586, 4);
+    VALUES (452, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '17 hours', 1.5, 
+            'Química avanzada', True, 962, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (453, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 3.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 724, 3);
+    VALUES (453, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '19 hours', 3.2, 
+            'Química avanzada', False, 700, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (454, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '18 hours', 1.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 954, 4);
+    VALUES (454, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '15 hours', 1.9, 
+            'Química avanzada', True, 943, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (455, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '20 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 932, 3);
+    VALUES (455, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '16 hours', 2.5, 
+            'Física avanzada', False, 984, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (456, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 2.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 614, 3);
+    VALUES (456, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '7 hours', 3.3, 
+            'Física avanzada', True, 598, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (457, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 776, 5);
+    VALUES (457, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '12 hours', 2.3, 
+            'Matemáticas avanzadas', True, 611, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (458, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 939, 4);
+    VALUES (458, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 1.8, 
+            'Análisis histórico', True, 523, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (459, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 903, 4);
+    VALUES (459, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '19 hours', 3.6, 
+            'Física avanzada', True, 890, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (460, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '11 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', True, 978, 1);
+    VALUES (460, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '10 hours', 3.5, 
+            'Matemáticas avanzadas', False, 551, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (461, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 2.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 858, 3);
+    VALUES (461, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '18 hours', 3.7, 
+            'Química avanzada', False, 567, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (462, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '13 hours', 2.1, 
-            'Aprender conceptos basicos de programacion.', True, 980, 1);
+    VALUES (462, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 4.6, 
+            'Programación básica', False, 984, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (463, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '6 hours', 3.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 897, 4);
+    VALUES (463, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 3.1, 
+            'Análisis histórico', False, 892, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (464, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '18 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 659, 4);
+    VALUES (464, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '1 hours', 2.5, 
+            'Matemáticas avanzadas', False, 840, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (465, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 601, 3);
+    VALUES (465, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '17 hours', 1.9, 
+            'Química avanzada', False, 963, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (466, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '5 hours', 1.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 775, 4);
+    VALUES (466, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '7 hours', 1.7, 
+            'Química avanzada', True, 588, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (467, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 984, 5);
+    VALUES (467, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '20 hours', 3.3, 
+            'Matemáticas avanzadas', False, 567, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (468, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '5 hours', 3.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 841, 4);
+    VALUES (468, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '2 hours', 1.5, 
+            'Química avanzada', True, 590, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (469, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '10 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 947, 4);
+    VALUES (469, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 3.7, 
+            'Programación básica', True, 603, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (470, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 3.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 772, 3);
+    VALUES (470, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '14 hours', 3.7, 
+            'Física avanzada', False, 837, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (471, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 962, 3);
+    VALUES (471, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '4 hours', 5.0, 
+            'Matemáticas avanzadas', True, 885, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (472, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 964, 5);
+    VALUES (472, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '2 hours', 4.7, 
+            'Física avanzada', True, 685, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (473, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '4 hours', 4.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 593, 4);
+    VALUES (473, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '7 hours', 1.5, 
+            'Física avanzada', True, 583, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (474, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '3 hours', 1.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 612, 4);
+    VALUES (474, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '19 hours', 3.6, 
+            'Química avanzada', False, 811, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (475, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 1.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 650, 3);
+    VALUES (475, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '15 hours', 3.3, 
+            'Física avanzada', True, 766, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (476, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 898, 3);
+    VALUES (476, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '9 hours', 4.2, 
+            'Química avanzada', False, 815, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (477, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '10 hours', 4.7, 
-            'Aprender conceptos basicos de programacion.', False, 931, 1);
+    VALUES (477, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '20 hours', 4.9, 
+            'Programación básica', False, 596, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (478, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '11 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 799, 4);
+    VALUES (478, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 2.3, 
+            'Análisis histórico', True, 505, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (479, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 1.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 539, 5);
+    VALUES (479, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '8 hours', 4.9, 
+            'Física avanzada', False, 540, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (480, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 4.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 923, 5);
+    VALUES (480, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '7 hours', 1.9, 
+            'Física avanzada', False, 722, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (481, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 580, 5);
+    VALUES (481, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '3 hours', 3.2, 
+            'Análisis histórico', True, 776, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (482, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '11 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', False, 993, 1);
+    VALUES (482, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 3.3, 
+            'Programación básica', True, 643, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (483, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 4.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 676, 5);
+    VALUES (483, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '18 hours', 4.5, 
+            'Física avanzada', False, 628, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (484, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '19 hours', 2.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 767, 4);
+    VALUES (484, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '8 hours', 1.0, 
+            'Física avanzada', False, 861, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (485, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '10 hours', 1.4, 
-            'Aprender conceptos basicos de programacion.', False, 980, 1);
+    VALUES (485, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '16 hours', 2.3, 
+            'Matemáticas avanzadas', True, 590, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (486, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '4 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 659, 4);
+    VALUES (486, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '13 hours', 4.2, 
+            'Química avanzada', True, 888, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (487, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '20 hours', 2.3, 
-            'Aprender conceptos basicos de programacion.', True, 881, 1);
+    VALUES (487, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '8 hours', 4.2, 
+            'Física avanzada', True, 905, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (488, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 521, 4);
+    VALUES (488, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 3.6, 
+            'Programación básica', True, 983, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (489, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '4 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', False, 924, 1);
+    VALUES (489, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '13 hours', 3.2, 
+            'Física avanzada', False, 557, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (490, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 785, 5);
+    VALUES (490, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '18 hours', 4.7, 
+            'Química avanzada', True, 832, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (491, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 4.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 713, 3);
+    VALUES (491, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '18 hours', 3.0, 
+            'Química avanzada', False, 728, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (492, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '10 hours', 1.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 563, 4);
+    VALUES (492, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '15 hours', 3.2, 
+            'Programación básica', False, 710, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (493, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 587, 3);
+    VALUES (493, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '20 hours', 4.3, 
+            'Química avanzada', True, 589, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (494, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '6 hours', 2.2, 
-            'Aprender conceptos basicos de programacion.', True, 852, 1);
+    VALUES (494, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 3.0, 
+            'Análisis histórico', False, 595, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (495, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '3 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 765, 4);
+    VALUES (495, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '2 hours', 3.7, 
+            'Química avanzada', True, 737, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (496, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 842, 5);
+    VALUES (496, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '20 hours', 2.4, 
+            'Física avanzada', True, 566, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (497, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '6 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', False, 926, 1);
+    VALUES (497, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '20 hours', 3.1, 
+            'Programación básica', True, 809, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (498, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '8 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 999, 5);
+    VALUES (498, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '4 hours', 3.8, 
+            'Matemáticas avanzadas', False, 755, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (499, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '1 hours', 1.2, 
-            'Aprender conceptos basicos de programacion.', False, 654, 1);
+    VALUES (499, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 1.3, 
+            'Análisis histórico', False, 833, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (500, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 3.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 621, 3);
+    VALUES (500, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 3.9, 
+            'Programación básica', True, 806, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (501, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '9 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', False, 851, 1);
+    VALUES (501, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '8 hours', 3.8, 
+            'Programación básica', True, 532, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (502, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 4.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 681, 4);
+    VALUES (502, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 3.6, 
+            'Análisis histórico', True, 818, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (503, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 578, 5);
+    VALUES (503, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '7 hours', 4.3, 
+            'Análisis histórico', False, 663, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (504, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 517, 4);
+    VALUES (504, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '16 hours', 2.1, 
+            'Análisis histórico', True, 536, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (505, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '15 hours', 4.4, 
-            'Aprender conceptos basicos de programacion.', False, 933, 1);
+    VALUES (505, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '5 hours', 2.8, 
+            'Física avanzada', False, 816, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (506, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '8 hours', 3.0, 
-            'Aprender conceptos basicos de programacion.', False, 501, 1);
+    VALUES (506, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 4.4, 
+            'Programación básica', True, 728, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (507, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '10 hours', 1.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 561, 4);
+    VALUES (507, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '13 hours', 4.0, 
+            'Matemáticas avanzadas', True, 944, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (508, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 766, 5);
+    VALUES (508, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '15 hours', 3.6, 
+            'Matemáticas avanzadas', True, 932, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (509, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '14 hours', 4.0, 
-            'Aprender conceptos basicos de programacion.', False, 631, 1);
+    VALUES (509, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '15 hours', 4.3, 
+            'Programación básica', True, 804, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (510, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '3 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', False, 760, 1);
+    VALUES (510, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '6 hours', 1.4, 
+            'Programación básica', True, 700, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (511, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '18 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', False, 621, 1);
+    VALUES (511, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '20 hours', 3.1, 
+            'Química avanzada', True, 948, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (512, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 666, 5);
+    VALUES (512, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '17 hours', 4.9, 
+            'Física avanzada', True, 1000, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (513, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '18 hours', 4.0, 
-            'Aprender conceptos basicos de programacion.', True, 893, 1);
+    VALUES (513, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '1 hours', 1.4, 
+            'Química avanzada', False, 686, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (514, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '16 hours', 1.0, 
-            'Aprender conceptos basicos de programacion.', True, 502, 1);
+    VALUES (514, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '20 hours', 3.1, 
+            'Programación básica', False, 765, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (515, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 3.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 594, 5);
+    VALUES (515, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '20 hours', 1.9, 
+            'Programación básica', True, 825, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (516, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 650, 3);
+    VALUES (516, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '1 hours', 1.9, 
+            'Análisis histórico', True, 636, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (517, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 1.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 538, 5);
+    VALUES (517, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 3.2, 
+            'Programación básica', False, 699, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (518, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 667, 3);
+    VALUES (518, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '14 hours', 2.9, 
+            'Programación básica', True, 564, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (519, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 667, 5);
+    VALUES (519, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '1 hours', 1.3, 
+            'Programación básica', True, 621, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (520, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 709, 3);
+    VALUES (520, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '20 hours', 4.0, 
+            'Química avanzada', False, 823, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (521, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '8 hours', 3.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 884, 4);
+    VALUES (521, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '12 hours', 2.0, 
+            'Matemáticas avanzadas', False, 951, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (522, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 862, 5);
+    VALUES (522, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '8 hours', 4.2, 
+            'Programación básica', True, 623, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (523, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '15 hours', 2.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 939, 5);
+    VALUES (523, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '6 hours', 3.6, 
+            'Física avanzada', False, 761, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (524, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '9 hours', 3.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 977, 4);
+    VALUES (524, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '4 hours', 1.1, 
+            'Física avanzada', False, 878, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (525, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '1 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', True, 790, 1);
+    VALUES (525, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '2 hours', 2.1, 
+            'Física avanzada', True, 590, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (526, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '1 hours', 3.6, 
-            'Aprender conceptos basicos de programacion.', False, 794, 1);
+    VALUES (526, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '11 hours', 2.6, 
+            'Análisis histórico', False, 828, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (527, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 542, 5);
+    VALUES (527, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '14 hours', 1.7, 
+            'Física avanzada', True, 943, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (528, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 919, 5);
+    VALUES (528, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '16 hours', 4.6, 
+            'Matemáticas avanzadas', True, 955, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (529, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 2.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 725, 3);
+    VALUES (529, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '19 hours', 3.6, 
+            'Análisis histórico', False, 896, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (530, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '14 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 634, 4);
+    VALUES (530, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '17 hours', 2.4, 
+            'Física avanzada', True, 607, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (531, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 3.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 652, 5);
+    VALUES (531, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '19 hours', 3.9, 
+            'Física avanzada', False, 548, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (532, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 730, 3);
+    VALUES (532, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '20 hours', 3.9, 
+            'Análisis histórico', False, 635, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (533, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '19 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', True, 818, 1);
+    VALUES (533, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '15 hours', 3.7, 
+            'Análisis histórico', False, 898, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (534, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '5 hours', 1.7, 
-            'Aprender conceptos basicos de programacion.', False, 911, 1);
+    VALUES (534, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '19 hours', 3.1, 
+            'Matemáticas avanzadas', True, 744, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (535, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '6 hours', 3.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 933, 4);
+    VALUES (535, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '18 hours', 4.1, 
+            'Análisis histórico', True, 793, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (536, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '2 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', False, 550, 1);
+    VALUES (536, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '14 hours', 1.9, 
+            'Química avanzada', False, 673, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (537, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 4.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 505, 3);
+    VALUES (537, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '8 hours', 4.8, 
+            'Matemáticas avanzadas', False, 901, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (538, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 4.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 896, 3);
+    VALUES (538, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 2.7, 
+            'Programación básica', False, 715, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (539, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 1.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 657, 3);
+    VALUES (539, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '9 hours', 1.7, 
+            'Programación básica', True, 554, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (540, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 4.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 509, 3);
+    VALUES (540, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '1 hours', 3.0, 
+            'Programación básica', False, 800, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (541, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '17 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', True, 537, 1);
+    VALUES (541, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '17 hours', 2.6, 
+            'Química avanzada', False, 514, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (542, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '19 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 627, 3);
+    VALUES (542, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '4 hours', 4.8, 
+            'Química avanzada', False, 755, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (543, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 870, 5);
+    VALUES (543, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '11 hours', 3.1, 
+            'Física avanzada', False, 920, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (544, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', False, 745, 1);
+    VALUES (544, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '2 hours', 3.4, 
+            'Química avanzada', True, 685, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (545, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '14 hours', 3.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 641, 4);
+    VALUES (545, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '12 hours', 3.0, 
+            'Física avanzada', True, 807, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (546, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 741, 4);
+    VALUES (546, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '6 hours', 4.9, 
+            'Programación básica', False, 665, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (547, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '10 hours', 3.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 731, 4);
+    VALUES (547, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '20 hours', 4.3, 
+            'Física avanzada', False, 735, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (548, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 1.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 659, 3);
+    VALUES (548, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '20 hours', 3.2, 
+            'Matemáticas avanzadas', False, 819, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (549, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '1 hours', 2.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 750, 5);
+    VALUES (549, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 2.6, 
+            'Análisis histórico', False, 661, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (550, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '19 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', True, 987, 1);
+    VALUES (550, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '11 hours', 3.4, 
+            'Análisis histórico', False, 564, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (551, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 527, 5);
+    VALUES (551, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '9 hours', 2.8, 
+            'Física avanzada', True, 653, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (552, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', True, 827, 1);
+    VALUES (552, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 2.8, 
+            'Programación básica', True, 855, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (553, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '1 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 566, 5);
+    VALUES (553, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '19 hours', 2.4, 
+            'Análisis histórico', False, 627, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (554, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '4 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 702, 4);
+    VALUES (554, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 3.6, 
+            'Programación básica', True, 967, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (555, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 982, 4);
+    VALUES (555, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '12 hours', 3.3, 
+            'Análisis histórico', True, 799, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (556, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '19 hours', 4.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 812, 3);
+    VALUES (556, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '8 hours', 3.4, 
+            'Matemáticas avanzadas', False, 502, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (557, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '3 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 642, 4);
+    VALUES (557, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '5 hours', 2.7, 
+            'Física avanzada', True, 621, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (558, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 967, 5);
+    VALUES (558, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '9 hours', 2.1, 
+            'Química avanzada', False, 558, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (559, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '7 hours', 1.7, 
-            'Aprender conceptos basicos de programacion.', False, 904, 1);
+    VALUES (559, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '9 hours', 2.8, 
+            'Análisis histórico', False, 597, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (560, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 5.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 866, 5);
+    VALUES (560, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 4.8, 
+            'Programación básica', False, 874, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (561, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '4 hours', 1.3, 
-            'Aprender conceptos basicos de programacion.', False, 691, 1);
+    VALUES (561, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '7 hours', 1.4, 
+            'Física avanzada', False, 597, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (562, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '1 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 762, 5);
+    VALUES (562, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '17 hours', 2.8, 
+            'Análisis histórico', True, 863, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (563, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 946, 5);
+    VALUES (563, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '6 hours', 4.3, 
+            'Matemáticas avanzadas', False, 517, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (564, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 667, 3);
+    VALUES (564, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 2.1, 
+            'Análisis histórico', False, 817, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (565, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 1.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 687, 3);
+    VALUES (565, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '13 hours', 1.9, 
+            'Física avanzada', True, 644, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (566, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '14 hours', 4.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 545, 4);
+    VALUES (566, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '5 hours', 4.7, 
+            'Química avanzada', False, 565, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (567, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '3 hours', 4.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 605, 5);
+    VALUES (567, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '5 hours', 1.5, 
+            'Química avanzada', False, 785, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (568, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 2.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 973, 5);
+    VALUES (568, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '15 hours', 1.7, 
+            'Análisis histórico', True, 946, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (569, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 710, 3);
+    VALUES (569, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 1.4, 
+            'Programación básica', False, 959, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (570, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '17 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', False, 761, 1);
+    VALUES (570, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '10 hours', 3.5, 
+            'Análisis histórico', True, 947, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (571, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '16 hours', 4.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 663, 5);
+    VALUES (571, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '19 hours', 3.0, 
+            'Programación básica', True, 722, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (572, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 857, 5);
+    VALUES (572, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '10 hours', 4.9, 
+            'Programación básica', True, 665, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (573, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 968, 5);
+    VALUES (573, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '17 hours', 3.0, 
+            'Matemáticas avanzadas', False, 538, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (574, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '19 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', False, 532, 1);
+    VALUES (574, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '4 hours', 2.3, 
+            'Química avanzada', False, 754, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (575, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 2.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 702, 3);
+    VALUES (575, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '16 hours', 2.0, 
+            'Programación básica', False, 631, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (576, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 4.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 606, 3);
+    VALUES (576, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '9 hours', 3.8, 
+            'Análisis histórico', True, 809, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (577, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '12 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 855, 5);
+    VALUES (577, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '19 hours', 1.2, 
+            'Matemáticas avanzadas', True, 651, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (578, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '1 hours', 1.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 535, 5);
+    VALUES (578, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '8 hours', 4.1, 
+            'Programación básica', True, 600, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (579, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '1 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 567, 5);
+    VALUES (579, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 4.1, 
+            'Análisis histórico', False, 726, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (580, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '20 hours', 2.3, 
-            'Aprender conceptos basicos de programacion.', False, 738, 1);
+    VALUES (580, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '16 hours', 2.8, 
+            'Programación básica', False, 846, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (581, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', True, 713, 1);
+    VALUES (581, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '9 hours', 3.4, 
+            'Química avanzada', False, 903, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (582, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '6 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 984, 5);
+    VALUES (582, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '4 hours', 1.0, 
+            'Física avanzada', False, 620, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (583, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '4 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 907, 4);
+    VALUES (583, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '17 hours', 4.8, 
+            'Matemáticas avanzadas', True, 921, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (584, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 4.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 626, 3);
+    VALUES (584, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '14 hours', 4.6, 
+            'Programación básica', False, 862, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (585, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '15 hours', 1.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 718, 4);
+    VALUES (585, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 3.6, 
+            'Análisis histórico', False, 737, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (586, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '9 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 951, 4);
+    VALUES (586, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '16 hours', 4.9, 
+            'Química avanzada', True, 549, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (587, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '5 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 985, 5);
+    VALUES (587, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '3 hours', 3.4, 
+            'Programación básica', False, 570, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (588, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 709, 3);
+    VALUES (588, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '9 hours', 4.5, 
+            'Matemáticas avanzadas', True, 847, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (589, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '10 hours', 2.2, 
-            'Aprender conceptos basicos de programacion.', False, 761, 1);
+    VALUES (589, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 3.8, 
+            'Programación básica', False, 770, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (590, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 3.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 624, 3);
+    VALUES (590, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '7 hours', 3.4, 
+            'Matemáticas avanzadas', False, 612, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (591, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 4.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 577, 3);
+    VALUES (591, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '20 hours', 4.4, 
+            'Física avanzada', True, 774, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (592, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '14 hours', 1.6, 
-            'Aprender conceptos basicos de programacion.', True, 971, 1);
+    VALUES (592, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 3.3, 
+            'Programación básica', False, 747, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (593, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 1.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 591, 3);
+    VALUES (593, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '16 hours', 4.0, 
+            'Química avanzada', True, 624, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (594, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '6 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', True, 944, 1);
+    VALUES (594, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '5 hours', 4.7, 
+            'Física avanzada', True, 536, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (595, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '19 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 527, 4);
+    VALUES (595, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '20 hours', 1.4, 
+            'Física avanzada', True, 862, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (596, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 796, 5);
+    VALUES (596, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '11 hours', 2.0, 
+            'Química avanzada', True, 533, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (597, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '10 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 801, 3);
+    VALUES (597, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '19 hours', 4.7, 
+            'Matemáticas avanzadas', True, 688, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (598, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 3.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 755, 4);
+    VALUES (598, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '15 hours', 2.5, 
+            'Análisis histórico', True, 636, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (599, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 4.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 656, 3);
+    VALUES (599, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 4.5, 
+            'Programación básica', False, 831, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (600, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 3.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 611, 3);
+    VALUES (600, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '10 hours', 4.8, 
+            'Análisis histórico', False, 939, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (601, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 3.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 543, 3);
+    VALUES (601, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '8 hours', 3.0, 
+            'Química avanzada', False, 658, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (602, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '12 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', False, 595, 1);
+    VALUES (602, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 3.2, 
+            'Análisis histórico', False, 571, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (603, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 2.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 780, 5);
+    VALUES (603, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '6 hours', 1.1, 
+            'Física avanzada', False, 560, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (604, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '9 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', False, 616, 1);
+    VALUES (604, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '10 hours', 3.9, 
+            'Física avanzada', False, 892, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (605, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '1 hours', 4.6, 
-            'Aprender conceptos basicos de programacion.', True, 794, 1);
+    VALUES (605, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '18 hours', 1.9, 
+            'Programación básica', True, 842, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (606, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '5 hours', 4.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 912, 4);
+    VALUES (606, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '7 hours', 4.2, 
+            'Química avanzada', True, 706, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (607, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 848, 3);
+    VALUES (607, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '8 hours', 5.0, 
+            'Matemáticas avanzadas', False, 530, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (608, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '20 hours', 3.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 701, 3);
+    VALUES (608, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 2.3, 
+            'Programación básica', False, 866, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (609, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '5 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 818, 4);
+    VALUES (609, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 3.3, 
+            'Física avanzada', False, 547, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (610, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 972, 5);
+    VALUES (610, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '14 hours', 4.7, 
+            'Programación básica', False, 878, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (611, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '7 hours', 2.3, 
-            'Aprender conceptos basicos de programacion.', False, 557, 1);
+    VALUES (611, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '16 hours', 3.5, 
+            'Análisis histórico', True, 958, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (612, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '6 hours', 4.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 617, 4);
+    VALUES (612, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '10 hours', 2.3, 
+            'Química avanzada', True, 617, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (613, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 3.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 680, 3);
+    VALUES (613, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '10 hours', 1.1, 
+            'Física avanzada', True, 782, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (614, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 785, 3);
+    VALUES (614, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '12 hours', 4.1, 
+            'Programación básica', False, 604, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (615, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 2.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 746, 5);
+    VALUES (615, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '16 hours', 4.9, 
+            'Programación básica', True, 906, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (616, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 946, 3);
+    VALUES (616, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 1.1, 
+            'Química avanzada', True, 932, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (617, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '16 hours', 3.6, 
-            'Aprender conceptos basicos de programacion.', True, 927, 1);
+    VALUES (617, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 5.0, 
+            'Análisis histórico', False, 729, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (618, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 639, 3);
+    VALUES (618, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '12 hours', 3.2, 
+            'Programación básica', True, 623, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (619, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 4.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 721, 5);
+    VALUES (619, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 4.0, 
+            'Química avanzada', False, 717, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (620, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 780, 3);
+    VALUES (620, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '1 hours', 2.0, 
+            'Química avanzada', False, 729, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (621, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '12 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 587, 1);
+    VALUES (621, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '19 hours', 3.4, 
+            'Programación básica', True, 799, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (622, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 595, 3);
+    VALUES (622, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '18 hours', 3.6, 
+            'Química avanzada', False, 926, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (623, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '19 hours', 2.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 993, 3);
+    VALUES (623, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '16 hours', 1.8, 
+            'Física avanzada', False, 601, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (624, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 1.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 755, 5);
+    VALUES (624, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '11 hours', 3.9, 
+            'Química avanzada', False, 693, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (625, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 3.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 714, 3);
+    VALUES (625, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '18 hours', 4.4, 
+            'Programación básica', True, 547, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (626, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 5.0, 
-            'Aprender conceptos basicos de programacion.', True, 589, 1);
+    VALUES (626, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 3.4, 
+            'Programación básica', True, 593, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (627, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '1 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 942, 4);
+    VALUES (627, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '14 hours', 4.1, 
+            'Física avanzada', False, 992, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (628, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '17 hours', 2.0, 
-            'Aprender conceptos basicos de programacion.', False, 709, 1);
+    VALUES (628, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '10 hours', 4.0, 
+            'Matemáticas avanzadas', False, 803, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (629, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 3.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 543, 5);
+    VALUES (629, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '9 hours', 1.1, 
+            'Matemáticas avanzadas', True, 993, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (630, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '2 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 937, 4);
+    VALUES (630, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '16 hours', 4.5, 
+            'Matemáticas avanzadas', True, 859, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (631, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 3.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 753, 3);
+    VALUES (631, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '12 hours', 2.1, 
+            'Matemáticas avanzadas', True, 536, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (632, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '8 hours', 3.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 653, 4);
+    VALUES (632, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '15 hours', 1.3, 
+            'Química avanzada', False, 917, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (633, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 3.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 578, 5);
+    VALUES (633, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '18 hours', 5.0, 
+            'Programación básica', True, 501, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (634, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '4 hours', 4.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 664, 5);
+    VALUES (634, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '11 hours', 4.5, 
+            'Física avanzada', False, 671, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (635, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '17 hours', 2.6, 
-            'Aprender conceptos basicos de programacion.', False, 756, 1);
+    VALUES (635, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 4.1, 
+            'Análisis histórico', True, 832, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (636, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '15 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 612, 4);
+    VALUES (636, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '8 hours', 2.7, 
+            'Análisis histórico', True, 515, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (637, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '2 hours', 4.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 773, 4);
+    VALUES (637, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '13 hours', 3.7, 
+            'Matemáticas avanzadas', False, 889, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (638, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '9 hours', 4.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 711, 4);
+    VALUES (638, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '16 hours', 4.1, 
+            'Matemáticas avanzadas', True, 580, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (639, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '9 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 567, 5);
+    VALUES (639, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '14 hours', 4.1, 
+            'Física avanzada', False, 555, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (640, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 655, 5);
+    VALUES (640, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '16 hours', 1.2, 
+            'Matemáticas avanzadas', False, 931, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (641, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '10 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 550, 5);
+    VALUES (641, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '15 hours', 2.6, 
+            'Química avanzada', True, 973, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (642, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '12 hours', 3.6, 
-            'Aprender conceptos basicos de programacion.', False, 910, 1);
+    VALUES (642, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '14 hours', 3.7, 
+            'Física avanzada', True, 539, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (643, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '7 hours', 4.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 912, 4);
+    VALUES (643, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '15 hours', 2.4, 
+            'Química avanzada', False, 641, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (644, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '1 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', True, 651, 1);
+    VALUES (644, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '17 hours', 1.1, 
+            'Análisis histórico', True, 824, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (645, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '12 hours', 4.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 852, 4);
+    VALUES (645, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 1.0, 
+            'Programación básica', True, 798, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (646, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '8 hours', 1.0, 
-            'Aprender conceptos basicos de programacion.', False, 716, 1);
+    VALUES (646, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 2.5, 
+            'Programación básica', False, 708, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (647, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '20 hours', 2.2, 
-            'Aprender conceptos basicos de programacion.', False, 938, 1);
+    VALUES (647, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 1.9, 
+            'Análisis histórico', True, 957, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (648, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '8 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 726, 5);
+    VALUES (648, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '9 hours', 4.5, 
+            'Programación básica', True, 963, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (649, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '6 hours', 1.0, 
-            'Aprender conceptos basicos de programacion.', True, 680, 1);
+    VALUES (649, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '4 hours', 1.5, 
+            'Matemáticas avanzadas', True, 518, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (650, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '16 hours', 2.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 525, 5);
+    VALUES (650, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '4 hours', 2.7, 
+            'Física avanzada', False, 661, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (651, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '20 hours', 2.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 949, 4);
+    VALUES (651, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '10 hours', 4.3, 
+            'Programación básica', False, 944, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (652, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 1.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 835, 3);
+    VALUES (652, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '5 hours', 1.3, 
+            'Análisis histórico', True, 568, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (653, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '15 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', False, 996, 1);
+    VALUES (653, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '11 hours', 3.6, 
+            'Física avanzada', False, 798, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (654, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 4.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 684, 4);
+    VALUES (654, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 2.0, 
+            'Análisis histórico', False, 971, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (655, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '15 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 675, 4);
+    VALUES (655, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '2 hours', 2.0, 
+            'Matemáticas avanzadas', False, 632, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (656, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 2.6, 
-            'Aprender conceptos basicos de programacion.', False, 862, 1);
+    VALUES (656, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '10 hours', 2.0, 
+            'Análisis histórico', False, 886, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (657, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 758, 3);
+    VALUES (657, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '18 hours', 1.1, 
+            'Matemáticas avanzadas', True, 597, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (658, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 925, 5);
+    VALUES (658, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '2 hours', 3.4, 
+            'Matemáticas avanzadas', True, 539, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (659, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '1 hours', 3.1, 
-            'Aprender conceptos basicos de programacion.', True, 553, 1);
+    VALUES (659, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '9 hours', 4.2, 
+            'Matemáticas avanzadas', False, 765, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (660, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', False, 726, 1);
+    VALUES (660, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '10 hours', 1.2, 
+            'Matemáticas avanzadas', False, 702, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (661, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '15 hours', 1.8, 
-            'Aprender conceptos basicos de programacion.', False, 810, 1);
+    VALUES (661, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 1.7, 
+            'Análisis histórico', True, 993, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (662, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '17 hours', 1.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 993, 4);
+    VALUES (662, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '6 hours', 2.4, 
+            'Física avanzada', False, 657, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (663, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 655, 5);
+    VALUES (663, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '4 hours', 3.7, 
+            'Química avanzada', True, 675, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (664, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '7 hours', 4.6, 
-            'Aprender conceptos basicos de programacion.', False, 768, 1);
+    VALUES (664, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '2 hours', 1.4, 
+            'Análisis histórico', True, 780, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (665, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '8 hours', 1.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 890, 4);
+    VALUES (665, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '2 hours', 2.7, 
+            'Física avanzada', False, 636, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (666, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '15 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 620, 4);
+    VALUES (666, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '5 hours', 3.1, 
+            'Matemáticas avanzadas', True, 657, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (667, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '19 hours', 5.0, 
-            'Aprender conceptos basicos de programacion.', True, 968, 1);
+    VALUES (667, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '12 hours', 3.7, 
+            'Programación básica', True, 961, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (668, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '2 hours', 2.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 634, 5);
+    VALUES (668, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '12 hours', 1.7, 
+            'Matemáticas avanzadas', False, 726, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (669, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 2.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 641, 3);
+    VALUES (669, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '10 hours', 1.8, 
+            'Física avanzada', False, 544, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (670, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '14 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 752, 4);
+    VALUES (670, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '2 hours', 5.0, 
+            'Física avanzada', True, 598, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (671, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '10 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 940, 5);
+    VALUES (671, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '9 hours', 3.7, 
+            'Programación básica', False, 617, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (672, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '15 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 690, 5);
+    VALUES (672, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 2.2, 
+            'Química avanzada', False, 728, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (673, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '6 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 672, 5);
+    VALUES (673, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '8 hours', 4.6, 
+            'Matemáticas avanzadas', False, 787, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (674, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '2 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', True, 558, 1);
+    VALUES (674, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '7 hours', 1.4, 
+            'Programación básica', False, 627, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (675, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '1 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', False, 978, 1);
+    VALUES (675, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '18 hours', 1.8, 
+            'Análisis histórico', False, 968, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (676, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '4 hours', 2.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 980, 5);
+    VALUES (676, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '20 hours', 4.3, 
+            'Matemáticas avanzadas', True, 773, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (677, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 4.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 648, 3);
+    VALUES (677, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '8 hours', 2.7, 
+            'Química avanzada', False, 564, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (678, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '10 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 740, 4);
+    VALUES (678, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '11 hours', 4.7, 
+            'Química avanzada', True, 906, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (679, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '2 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 712, 4);
+    VALUES (679, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '4 hours', 5.0, 
+            'Matemáticas avanzadas', True, 727, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (680, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 4.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 582, 3);
+    VALUES (680, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 1.3, 
+            'Programación básica', True, 876, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (681, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '2 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', False, 908, 1);
+    VALUES (681, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '4 hours', 5.0, 
+            'Física avanzada', True, 617, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (682, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '19 hours', 2.0, 
-            'Aprender conceptos basicos de programacion.', True, 659, 1);
+    VALUES (682, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '14 hours', 1.8, 
+            'Física avanzada', False, 752, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (683, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '18 hours', 3.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 880, 5);
+    VALUES (683, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 1.5, 
+            'Análisis histórico', False, 776, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (684, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '6 hours', 1.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 898, 5);
+    VALUES (684, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '15 hours', 2.8, 
+            'Química avanzada', True, 536, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (685, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '1 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 754, 5);
+    VALUES (685, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 3.6, 
+            'Física avanzada', False, 667, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (686, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '10 hours', 2.2, 
-            'Aprender conceptos basicos de programacion.', False, 748, 1);
+    VALUES (686, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '5 hours', 2.7, 
+            'Matemáticas avanzadas', False, 689, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (687, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '18 hours', 4.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 552, 5);
+    VALUES (687, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '11 hours', 2.8, 
+            'Física avanzada', False, 766, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (688, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '1 hours', 2.6, 
-            'Aprender conceptos basicos de programacion.', False, 742, 1);
+    VALUES (688, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '4 hours', 3.7, 
+            'Análisis histórico', True, 651, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (689, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '16 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 707, 4);
+    VALUES (689, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 1.0, 
+            'Programación básica', True, 896, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (690, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '5 hours', 3.1, 
-            'Aprender conceptos basicos de programacion.', False, 690, 1);
+    VALUES (690, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '8 hours', 1.8, 
+            'Química avanzada', True, 740, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (691, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 861, 5);
+    VALUES (691, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '3 hours', 4.5, 
+            'Física avanzada', False, 772, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (692, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '16 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 683, 4);
+    VALUES (692, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '19 hours', 3.2, 
+            'Programación básica', False, 660, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (693, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 4.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 789, 5);
+    VALUES (693, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '3 hours', 4.9, 
+            'Matemáticas avanzadas', False, 709, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (694, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 3.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 652, 3);
+    VALUES (694, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 4.9, 
+            'Análisis histórico', True, 627, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (695, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 3.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 801, 3);
+    VALUES (695, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '6 hours', 4.1, 
+            'Programación básica', True, 794, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (696, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 666, 4);
+    VALUES (696, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 4.7, 
+            'Química avanzada', False, 973, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (697, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '9 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 971, 5);
+    VALUES (697, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '8 hours', 1.9, 
+            'Programación básica', False, 553, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (698, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 626, 5);
+    VALUES (698, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '7 hours', 3.2, 
+            'Análisis histórico', True, 815, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (699, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '7 hours', 1.5, 
-            'Aprender conceptos basicos de programacion.', True, 595, 1);
+    VALUES (699, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '15 hours', 2.2, 
+            'Química avanzada', True, 729, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (700, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '20 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 768, 4);
+    VALUES (700, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '10 hours', 1.3, 
+            'Matemáticas avanzadas', True, 693, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (701, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '19 hours', 3.8, 
-            'Aprender conceptos basicos de programacion.', True, 521, 1);
+    VALUES (701, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '1 hours', 4.2, 
+            'Física avanzada', True, 691, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (702, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', True, 805, 1);
+    VALUES (702, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '3 hours', 3.8, 
+            'Programación básica', False, 593, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (703, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '14 hours', 1.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 925, 4);
+    VALUES (703, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 2.2, 
+            'Física avanzada', False, 724, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (704, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 922, 5);
+    VALUES (704, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '13 hours', 4.7, 
+            'Matemáticas avanzadas', True, 996, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (705, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '13 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', False, 745, 1);
+    VALUES (705, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '18 hours', 2.1, 
+            'Química avanzada', False, 972, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (706, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 4.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 900, 5);
+    VALUES (706, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '14 hours', 3.2, 
+            'Física avanzada', True, 642, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (707, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '15 hours', 4.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 689, 4);
+    VALUES (707, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '11 hours', 2.7, 
+            'Química avanzada', True, 673, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (708, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '18 hours', 2.5, 
-            'Aprender conceptos basicos de programacion.', False, 526, 1);
+    VALUES (708, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '9 hours', 4.9, 
+            'Matemáticas avanzadas', True, 552, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (709, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '20 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 669, 3);
+    VALUES (709, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 1.8, 
+            'Análisis histórico', False, 941, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (710, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 4.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 765, 3);
+    VALUES (710, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '3 hours', 1.3, 
+            'Física avanzada', True, 532, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (711, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 987, 3);
+    VALUES (711, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '10 hours', 2.3, 
+            'Física avanzada', True, 853, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (712, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '17 hours', 3.8, 
-            'Aprender conceptos basicos de programacion.', False, 743, 1);
+    VALUES (712, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '8 hours', 4.0, 
+            'Matemáticas avanzadas', False, 812, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (713, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 716, 3);
+    VALUES (713, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 2.2, 
+            'Análisis histórico', False, 740, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (714, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 1.2, 
-            'Aprender conceptos basicos de programacion.', True, 947, 1);
+    VALUES (714, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '18 hours', 2.5, 
+            'Física avanzada', True, 843, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (715, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '8 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 523, 5);
+    VALUES (715, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '2 hours', 2.9, 
+            'Química avanzada', True, 645, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (716, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '4 hours', 1.2, 
-            'Aprender conceptos basicos de programacion.', True, 660, 1);
+    VALUES (716, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 4.9, 
+            'Análisis histórico', False, 852, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (717, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '2 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 873, 1);
+    VALUES (717, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '20 hours', 4.6, 
+            'Física avanzada', True, 924, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (718, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 2.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 609, 5);
+    VALUES (718, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '11 hours', 2.9, 
+            'Programación básica', True, 882, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (719, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '4 hours', 4.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 680, 4);
+    VALUES (719, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '20 hours', 1.6, 
+            'Física avanzada', True, 927, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (720, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 3.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 690, 5);
+    VALUES (720, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '14 hours', 2.2, 
+            'Matemáticas avanzadas', False, 968, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (721, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '5 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 583, 4);
+    VALUES (721, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '6 hours', 3.9, 
+            'Programación básica', True, 924, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (722, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 600, 4);
+    VALUES (722, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '7 hours', 4.4, 
+            'Química avanzada', True, 914, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (723, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 955, 3);
+    VALUES (723, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '3 hours', 1.2, 
+            'Matemáticas avanzadas', True, 882, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (724, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 889, 1);
+    VALUES (724, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '12 hours', 1.1, 
+            'Programación básica', True, 823, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (725, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '16 hours', 3.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 753, 5);
+    VALUES (725, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 2.0, 
+            'Programación básica', False, 982, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (726, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 627, 4);
+    VALUES (726, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '12 hours', 1.8, 
+            'Análisis histórico', True, 514, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (727, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 596, 4);
+    VALUES (727, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '7 hours', 3.0, 
+            'Análisis histórico', True, 672, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (728, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 3.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 613, 5);
+    VALUES (728, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '3 hours', 4.0, 
+            'Matemáticas avanzadas', True, 844, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (729, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 2.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 918, 5);
+    VALUES (729, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '13 hours', 4.6, 
+            'Física avanzada', True, 886, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (730, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '17 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 554, 4);
+    VALUES (730, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '5 hours', 2.9, 
+            'Física avanzada', True, 845, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (731, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 623, 3);
+    VALUES (731, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 1.5, 
+            'Programación básica', False, 813, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (732, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 760, 5);
+    VALUES (732, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '2 hours', 1.4, 
+            'Matemáticas avanzadas', True, 988, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (733, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '8 hours', 1.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 584, 4);
+    VALUES (733, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '3 hours', 5.0, 
+            'Matemáticas avanzadas', True, 800, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (734, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '6 hours', 1.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 963, 4);
+    VALUES (734, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 4.0, 
+            'Análisis histórico', True, 894, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (735, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '14 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', False, 544, 1);
+    VALUES (735, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '7 hours', 4.6, 
+            'Química avanzada', False, 776, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (736, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '15 hours', 1.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 708, 4);
+    VALUES (736, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '2 hours', 4.3, 
+            'Análisis histórico', False, 768, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (737, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '9 hours', 3.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 898, 4);
+    VALUES (737, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '14 hours', 1.5, 
+            'Química avanzada', True, 541, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (738, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '4 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 634, 1);
+    VALUES (738, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '16 hours', 1.4, 
+            'Química avanzada', False, 849, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (739, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 503, 5);
+    VALUES (739, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '4 hours', 2.9, 
+            'Matemáticas avanzadas', False, 720, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (740, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 1.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 662, 3);
+    VALUES (740, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '17 hours', 2.4, 
+            'Matemáticas avanzadas', False, 751, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (741, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 983, 4);
+    VALUES (741, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '4 hours', 4.8, 
+            'Química avanzada', True, 868, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (742, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '3 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 625, 5);
+    VALUES (742, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '20 hours', 2.4, 
+            'Química avanzada', True, 555, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (743, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 2.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 785, 5);
+    VALUES (743, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '4 hours', 2.0, 
+            'Física avanzada', True, 958, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (744, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '3 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 685, 4);
+    VALUES (744, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '2 hours', 3.5, 
+            'Física avanzada', True, 628, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (745, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '4 hours', 1.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 702, 4);
+    VALUES (745, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '2 hours', 4.7, 
+            'Análisis histórico', False, 867, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (746, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '6 hours', 3.0, 
-            'Aprender conceptos basicos de programacion.', True, 837, 1);
+    VALUES (746, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '16 hours', 4.4, 
+            'Matemáticas avanzadas', True, 807, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (747, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 3.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 865, 3);
+    VALUES (747, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '9 hours', 4.3, 
+            'Matemáticas avanzadas', False, 709, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (748, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '15 hours', 1.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 827, 4);
+    VALUES (748, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '11 hours', 4.5, 
+            'Física avanzada', True, 963, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (749, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 1.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 516, 3);
+    VALUES (749, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 4.8, 
+            'Programación básica', True, 724, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (750, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '17 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', False, 993, 1);
+    VALUES (750, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '13 hours', 2.4, 
+            'Matemáticas avanzadas', False, 993, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (751, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 2.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 825, 5);
+    VALUES (751, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '4 hours', 4.3, 
+            'Matemáticas avanzadas', False, 726, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (752, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 796, 3);
+    VALUES (752, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 1.7, 
+            'Química avanzada', True, 811, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (753, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 579, 3);
+    VALUES (753, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '15 hours', 4.7, 
+            'Programación básica', True, 782, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (754, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '10 hours', 4.1, 
-            'Aprender conceptos basicos de programacion.', False, 542, 1);
+    VALUES (754, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 2.1, 
+            'Programación básica', False, 978, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (755, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '16 hours', 4.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 687, 5);
+    VALUES (755, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '16 hours', 4.8, 
+            'Química avanzada', True, 768, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (756, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 1.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 794, 3);
+    VALUES (756, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '9 hours', 4.3, 
+            'Química avanzada', True, 505, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (757, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '5 hours', 1.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 696, 5);
+    VALUES (757, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 1.3, 
+            'Programación básica', True, 540, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (758, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '4 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 872, 4);
+    VALUES (758, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '15 hours', 3.9, 
+            'Matemáticas avanzadas', False, 516, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (759, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 2.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 885, 5);
+    VALUES (759, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '10 hours', 3.5, 
+            'Programación básica', False, 923, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (760, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '3 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', True, 732, 1);
+    VALUES (760, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 1.4, 
+            'Programación básica', True, 734, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (761, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '18 hours', 1.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 961, 4);
+    VALUES (761, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '20 hours', 1.3, 
+            'Matemáticas avanzadas', False, 937, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (762, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 4.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 556, 5);
+    VALUES (762, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '9 hours', 1.3, 
+            'Matemáticas avanzadas', True, 524, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (763, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '10 hours', 2.7, 
-            'Aprender conceptos basicos de programacion.', False, 877, 1);
+    VALUES (763, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 1.2, 
+            'Análisis histórico', True, 662, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (764, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '3 hours', 4.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 870, 5);
+    VALUES (764, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 2.0, 
+            'Programación básica', False, 684, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (765, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '7 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 793, 5);
+    VALUES (765, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '3 hours', 2.3, 
+            'Física avanzada', False, 523, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (766, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '10 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 769, 5);
+    VALUES (766, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '12 hours', 3.0, 
+            'Física avanzada', True, 605, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (767, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '11 hours', 4.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 694, 5);
+    VALUES (767, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '16 hours', 3.9, 
+            'Matemáticas avanzadas', False, 686, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (768, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 3.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 668, 3);
+    VALUES (768, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '14 hours', 1.4, 
+            'Matemáticas avanzadas', False, 620, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (769, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '20 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 963, 5);
+    VALUES (769, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '6 hours', 2.3, 
+            'Programación básica', True, 532, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (770, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '10 hours', 1.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 986, 4);
+    VALUES (770, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '1 hours', 2.3, 
+            'Programación básica', True, 674, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (771, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '5 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 992, 4);
+    VALUES (771, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 4.5, 
+            'Análisis histórico', True, 999, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (772, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '5 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 866, 5);
+    VALUES (772, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '14 hours', 5.0, 
+            'Química avanzada', False, 741, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (773, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '18 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 696, 4);
+    VALUES (773, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '3 hours', 2.0, 
+            'Programación básica', True, 724, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (774, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 513, 3);
+    VALUES (774, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '10 hours', 3.4, 
+            'Matemáticas avanzadas', True, 973, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (775, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 2.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 576, 5);
+    VALUES (775, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '10 hours', 1.9, 
+            'Matemáticas avanzadas', True, 769, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (776, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '3 hours', 5.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 522, 5);
+    VALUES (776, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '14 hours', 4.9, 
+            'Matemáticas avanzadas', True, 713, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (777, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '19 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 1000, 4);
+    VALUES (777, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '15 hours', 3.0, 
+            'Química avanzada', True, 524, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (778, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 3.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 909, 3);
+    VALUES (778, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '1 hours', 1.1, 
+            'Matemáticas avanzadas', False, 550, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (779, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '19 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 763, 4);
+    VALUES (779, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '15 hours', 4.1, 
+            'Análisis histórico', False, 629, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (780, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '3 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', True, 630, 1);
+    VALUES (780, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '13 hours', 4.2, 
+            'Química avanzada', False, 778, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (781, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '5 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', False, 601, 4);
+    VALUES (781, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '3 hours', 2.8, 
+            'Física avanzada', False, 589, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (782, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '7 hours', 2.7, 
-            'Aprender conceptos basicos de programacion.', True, 707, 1);
+    VALUES (782, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '19 hours', 2.8, 
+            'Física avanzada', True, 506, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (783, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '15 hours', 4.1, 
-            'Aprender conceptos basicos de programacion.', True, 910, 1);
+    VALUES (783, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '20 hours', 4.9, 
+            'Química avanzada', False, 801, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (784, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '3 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 736, 5);
+    VALUES (784, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '20 hours', 2.7, 
+            'Química avanzada', True, 922, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (785, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 1.3, 
-            'Aprender conceptos basicos de programacion.', True, 870, 1);
+    VALUES (785, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '12 hours', 2.2, 
+            'Matemáticas avanzadas', True, 836, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (786, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '9 hours', 3.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 781, 4);
+    VALUES (786, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '9 hours', 3.1, 
+            'Física avanzada', True, 945, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (787, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 916, 4);
+    VALUES (787, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '18 hours', 4.6, 
+            'Matemáticas avanzadas', False, 563, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (788, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '15 hours', 2.4, 
-            'Entender los conceptos basicos de gases ideales.', False, 621, 4);
+    VALUES (788, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '12 hours', 3.1, 
+            'Física avanzada', False, 904, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (789, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '14 hours', 3.8, 
-            'Aprender conceptos basicos de programacion.', False, 549, 1);
+    VALUES (789, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '10 hours', 3.7, 
+            'Química avanzada', False, 577, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (790, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 618, 4);
+    VALUES (790, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '9 hours', 2.1, 
+            'Física avanzada', False, 511, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (791, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '7 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 962, 4);
+    VALUES (791, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '10 hours', 3.2, 
+            'Química avanzada', False, 944, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (792, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 1.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 909, 5);
+    VALUES (792, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '17 hours', 4.0, 
+            'Química avanzada', False, 580, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (793, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '10 hours', 1.7, 
-            'Analizar los impactos historicos de eventos globales.', False, 635, 5);
+    VALUES (793, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '11 hours', 4.6, 
+            'Química avanzada', True, 598, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (794, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '2 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 675, 4);
+    VALUES (794, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '13 hours', 1.3, 
+            'Análisis histórico', True, 695, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (795, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 1.9, 
-            'Aprender conceptos basicos de programacion.', False, 961, 1);
+    VALUES (795, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '14 hours', 2.6, 
+            'Química avanzada', True, 931, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (796, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '17 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', True, 689, 4);
+    VALUES (796, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '10 hours', 3.2, 
+            'Análisis histórico', False, 609, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (797, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '19 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 954, 3);
+    VALUES (797, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '5 hours', 1.7, 
+            'Física avanzada', True, 930, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (798, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 2.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 913, 3);
+    VALUES (798, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '14 hours', 2.9, 
+            'Matemáticas avanzadas', True, 812, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (799, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 813, 5);
+    VALUES (799, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 1.6, 
+            'Química avanzada', False, 930, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (800, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '6 hours', 4.9, 
-            'Entender los conceptos basicos de gases ideales.', True, 981, 4);
+    VALUES (800, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '9 hours', 3.2, 
+            'Física avanzada', True, 859, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (801, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 830, 5);
+    VALUES (801, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '5 hours', 1.9, 
+            'Programación básica', True, 601, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (802, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '13 hours', 4.4, 
-            'Aprender conceptos basicos de programacion.', False, 911, 1);
+    VALUES (802, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 4.1, 
+            'Química avanzada', False, 568, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (803, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '4 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', True, 769, 1);
+    VALUES (803, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '9 hours', 2.5, 
+            'Matemáticas avanzadas', True, 859, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (804, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '9 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 702, 5);
+    VALUES (804, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '11 hours', 1.4, 
+            'Programación básica', True, 976, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (805, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '20 hours', 2.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 553, 5);
+    VALUES (805, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 2.6, 
+            'Análisis histórico', False, 514, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (806, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '17 hours', 2.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 530, 5);
+    VALUES (806, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '12 hours', 3.2, 
+            'Matemáticas avanzadas', False, 562, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (807, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 3.3, 
-            'Analizar los impactos historicos de eventos globales.', False, 957, 5);
+    VALUES (807, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '12 hours', 4.0, 
+            'Programación básica', True, 745, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (808, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '11 hours', 2.8, 
-            'Aprender conceptos basicos de programacion.', True, 881, 1);
+    VALUES (808, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 1.4, 
+            'Programación básica', True, 602, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (809, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '7 hours', 3.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 686, 4);
+    VALUES (809, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '19 hours', 2.1, 
+            'Análisis histórico', True, 774, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (810, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 4.8, 
-            'Aprender conceptos basicos de programacion.', True, 987, 1);
+    VALUES (810, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '6 hours', 2.3, 
+            'Matemáticas avanzadas', True, 559, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (811, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 746, 3);
+    VALUES (811, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 2.7, 
+            'Análisis histórico', True, 640, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (812, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '20 hours', 1.7, 
-            'Aprender conceptos basicos de programacion.', True, 768, 1);
+    VALUES (812, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '7 hours', 3.6, 
+            'Física avanzada', False, 531, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (813, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 869, 3);
+    VALUES (813, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 3.1, 
+            'Programación básica', False, 877, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (814, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '2 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 628, 5);
+    VALUES (814, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 2.3, 
+            'Física avanzada', False, 687, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (815, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 2.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 891, 3);
+    VALUES (815, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '18 hours', 2.6, 
+            'Física avanzada', True, 763, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (816, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '8 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', True, 640, 1);
+    VALUES (816, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 1.2, 
+            'Química avanzada', False, 887, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (817, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '8 hours', 3.3, 
-            'Analizar los impactos historicos de eventos globales.', True, 876, 5);
+    VALUES (817, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '6 hours', 2.3, 
+            'Física avanzada', False, 963, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (818, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '10 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', True, 790, 1);
+    VALUES (818, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '14 hours', 3.9, 
+            'Programación básica', True, 511, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (819, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '5 hours', 2.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 902, 4);
+    VALUES (819, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '7 hours', 3.3, 
+            'Física avanzada', True, 555, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (820, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '13 hours', 2.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 535, 4);
+    VALUES (820, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '8 hours', 1.5, 
+            'Química avanzada', False, 906, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (821, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 4.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 831, 3);
+    VALUES (821, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '20 hours', 1.2, 
+            'Física avanzada', True, 722, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (822, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 558, 3);
+    VALUES (822, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '3 hours', 3.2, 
+            'Análisis histórico', True, 745, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (823, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '1 hours', 1.1, 
-            'Aprender conceptos basicos de programacion.', False, 581, 1);
+    VALUES (823, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '5 hours', 1.7, 
+            'Química avanzada', False, 944, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (824, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '12 hours', 1.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 850, 4);
+    VALUES (824, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '14 hours', 1.5, 
+            'Química avanzada', False, 533, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (825, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '17 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', True, 553, 1);
+    VALUES (825, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '15 hours', 2.3, 
+            'Matemáticas avanzadas', True, 604, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (826, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '15 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 896, 5);
+    VALUES (826, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '13 hours', 3.7, 
+            'Análisis histórico', False, 926, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (827, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 3.6, 
-            'Analizar los impactos historicos de eventos globales.', True, 628, 5);
+    VALUES (827, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '9 hours', 2.9, 
+            'Física avanzada', False, 580, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (828, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '12 hours', 2.1, 
-            'Aprender conceptos basicos de programacion.', True, 533, 1);
+    VALUES (828, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '16 hours', 1.0, 
+            'Análisis histórico', True, 940, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (829, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '7 hours', 1.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 587, 4);
+    VALUES (829, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '5 hours', 3.0, 
+            'Química avanzada', True, 970, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (830, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 2.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 669, 3);
+    VALUES (830, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '8 hours', 3.5, 
+            'Programación básica', True, 629, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (831, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 763, 3);
+    VALUES (831, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '17 hours', 3.0, 
+            'Matemáticas avanzadas', False, 917, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (832, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 2.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 861, 3);
+    VALUES (832, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '18 hours', 4.4, 
+            'Programación básica', True, 872, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (833, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '12 hours', 3.3, 
-            'Entender los conceptos basicos de gases ideales.', True, 594, 4);
+    VALUES (833, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '1 hours', 3.3, 
+            'Física avanzada', False, 545, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (834, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 4.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 773, 3);
+    VALUES (834, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '18 hours', 3.9, 
+            'Análisis histórico', False, 503, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (835, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 1.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 803, 5);
+    VALUES (835, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '10 hours', 4.9, 
+            'Programación básica', True, 556, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (836, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 2.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 783, 3);
+    VALUES (836, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '7 hours', 3.9, 
+            'Física avanzada', False, 879, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (837, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '14 hours', 4.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 614, 4);
+    VALUES (837, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '1 hours', 2.0, 
+            'Análisis histórico', False, 961, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (838, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '13 hours', 1.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 570, 4);
+    VALUES (838, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '6 hours', 3.0, 
+            'Matemáticas avanzadas', False, 603, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (839, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '16 hours', 3.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 576, 4);
+    VALUES (839, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 2.9, 
+            'Análisis histórico', False, 905, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (840, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '13 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', False, 931, 1);
+    VALUES (840, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '7 hours', 4.8, 
+            'Química avanzada', False, 693, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (841, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 3.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 549, 3);
+    VALUES (841, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '18 hours', 4.5, 
+            'Análisis histórico', True, 961, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (842, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 4.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 696, 3);
+    VALUES (842, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 4.4, 
+            'Análisis histórico', False, 990, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (843, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '8 hours', 3.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 516, 5);
+    VALUES (843, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '1 hours', 2.8, 
+            'Química avanzada', True, 939, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (844, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '7 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 931, 5);
+    VALUES (844, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '3 hours', 5.0, 
+            'Programación básica', False, 864, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (845, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 769, 3);
+    VALUES (845, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '14 hours', 4.5, 
+            'Química avanzada', True, 514, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (846, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '18 hours', 3.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 981, 4);
+    VALUES (846, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '6 hours', 4.0, 
+            'Análisis histórico', False, 539, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (847, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 1.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 950, 4);
+    VALUES (847, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '16 hours', 2.5, 
+            'Matemáticas avanzadas', False, 656, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (848, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '6 hours', 3.5, 
-            'Aprender conceptos basicos de programacion.', False, 971, 1);
+    VALUES (848, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '16 hours', 2.7, 
+            'Programación básica', True, 970, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (849, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 2.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 590, 3);
+    VALUES (849, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '6 hours', 2.3, 
+            'Análisis histórico', False, 657, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (850, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 793, 5);
+    VALUES (850, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '12 hours', 3.6, 
+            'Programación básica', False, 630, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (851, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 4.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 803, 3);
+    VALUES (851, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 3.7, 
+            'Química avanzada', False, 547, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (852, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '8 hours', 2.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 828, 3);
+    VALUES (852, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '20 hours', 4.2, 
+            'Análisis histórico', True, 751, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (853, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '4 hours', 2.4, 
-            'Aprender conceptos basicos de programacion.', False, 780, 1);
+    VALUES (853, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 2.4, 
+            'Programación básica', False, 514, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (854, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '4 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', True, 858, 1);
+    VALUES (854, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '13 hours', 3.6, 
+            'Matemáticas avanzadas', True, 707, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (855, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '18 hours', 2.0, 
-            'Aprender conceptos basicos de programacion.', False, 566, 1);
+    VALUES (855, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '15 hours', 4.4, 
+            'Química avanzada', True, 958, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (856, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 567, 5);
+    VALUES (856, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '20 hours', 1.6, 
+            'Análisis histórico', True, 682, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (857, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 522, 3);
+    VALUES (857, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '15 hours', 3.2, 
+            'Física avanzada', False, 593, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (858, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 871, 3);
+    VALUES (858, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '19 hours', 3.7, 
+            'Análisis histórico', False, 702, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (859, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '13 hours', 1.6, 
-            'Aprender conceptos basicos de programacion.', False, 768, 1);
+    VALUES (859, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '8 hours', 3.8, 
+            'Química avanzada', True, 661, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (860, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '5 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', False, 753, 1);
+    VALUES (860, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '17 hours', 2.0, 
+            'Química avanzada', False, 897, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (861, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '1 hours', 1.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 856, 5);
+    VALUES (861, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '8 hours', 4.4, 
+            'Matemáticas avanzadas', False, 844, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (862, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 885, 3);
+    VALUES (862, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '3 hours', 2.9, 
+            'Matemáticas avanzadas', True, 881, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (863, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '16 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 651, 5);
+    VALUES (863, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 1.9, 
+            'Química avanzada', False, 728, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (864, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 900, 3);
+    VALUES (864, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '19 hours', 4.1, 
+            'Física avanzada', True, 501, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (865, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '9 hours', 3.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 892, 4);
+    VALUES (865, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 4.6, 
+            'Física avanzada', True, 618, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (866, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 3.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 538, 3);
+    VALUES (866, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '1 hours', 3.5, 
+            'Física avanzada', True, 569, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (867, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '15 hours', 4.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 657, 3);
+    VALUES (867, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '18 hours', 4.1, 
+            'Programación básica', True, 964, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (868, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 5.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 547, 3);
+    VALUES (868, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '1 hours', 2.4, 
+            'Programación básica', True, 700, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (869, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '16 hours', 4.3, 
-            'Aprender conceptos basicos de programacion.', False, 848, 1);
+    VALUES (869, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '12 hours', 1.5, 
+            'Matemáticas avanzadas', True, 961, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (870, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '12 hours', 2.8, 
-            'Entender los conceptos basicos de gases ideales.', False, 838, 4);
+    VALUES (870, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '19 hours', 4.8, 
+            'Matemáticas avanzadas', False, 538, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (871, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '6 hours', 3.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 603, 5);
+    VALUES (871, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '20 hours', 3.6, 
+            'Física avanzada', True, 886, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (872, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 2.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 579, 3);
+    VALUES (872, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '4 hours', 3.5, 
+            'Programación básica', False, 870, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (873, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '4 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 979, 4);
+    VALUES (873, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 1.3, 
+            'Análisis histórico', False, 503, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (874, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 1.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 630, 5);
+    VALUES (874, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '10 hours', 5.0, 
+            'Química avanzada', True, 805, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (875, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 2.1, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 733, 3);
+    VALUES (875, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '10 hours', 3.0, 
+            'Programación básica', False, 507, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (876, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 738, 4);
+    VALUES (876, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '10 hours', 1.3, 
+            'Química avanzada', False, 960, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (877, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '11 hours', 3.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 948, 5);
+    VALUES (877, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '2 hours', 1.8, 
+            'Física avanzada', True, 655, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (878, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '12 hours', 5.0, 
-            'Analizar los impactos historicos de eventos globales.', True, 886, 5);
+    VALUES (878, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '12 hours', 2.8, 
+            'Matemáticas avanzadas', True, 738, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (879, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 653, 3);
+    VALUES (879, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '8 hours', 4.0, 
+            'Programación básica', False, 954, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (880, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '20 hours', 3.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 747, 4);
+    VALUES (880, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '20 hours', 3.0, 
+            'Química avanzada', False, 842, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (881, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '4 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', False, 675, 5);
+    VALUES (881, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '20 hours', 2.3, 
+            'Matemáticas avanzadas', False, 690, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (882, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 3.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 833, 5);
+    VALUES (882, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '17 hours', 4.9, 
+            'Química avanzada', False, 876, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (883, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '18 hours', 2.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 743, 4);
+    VALUES (883, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '12 hours', 1.5, 
+            'Química avanzada', True, 691, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (884, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 2.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 654, 3);
+    VALUES (884, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '20 hours', 1.5, 
+            'Física avanzada', True, 977, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (885, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '14 hours', 2.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 664, 4);
+    VALUES (885, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '7 hours', 1.1, 
+            'Química avanzada', False, 892, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (886, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '5 hours', 3.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 845, 4);
+    VALUES (886, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '10 hours', 2.8, 
+            'Química avanzada', True, 803, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (887, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '15 hours', 4.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 767, 4);
+    VALUES (887, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '15 hours', 2.8, 
+            'Análisis histórico', False, 693, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (888, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 5.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 711, 3);
+    VALUES (888, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '20 hours', 2.6, 
+            'Programación básica', False, 674, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (889, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 2.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 951, 5);
+    VALUES (889, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '10 hours', 4.7, 
+            'Química avanzada', True, 867, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (890, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 2.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 701, 3);
+    VALUES (890, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '18 hours', 3.6, 
+            'Programación básica', False, 799, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (891, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '12 hours', 3.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 874, 5);
+    VALUES (891, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 2.7, 
+            'Programación básica', False, 643, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (892, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 2.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 699, 3);
+    VALUES (892, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '5 hours', 4.6, 
+            'Química avanzada', True, 907, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (893, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '13 hours', 4.5, 
-            'Aprender conceptos basicos de programacion.', True, 705, 1);
+    VALUES (893, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '5 hours', 4.0, 
+            'Programación básica', True, 973, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (894, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 2.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 981, 3);
+    VALUES (894, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '2 hours', 4.2, 
+            'Física avanzada', False, 677, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (895, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '9 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 799, 4);
+    VALUES (895, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '9 hours', 3.2, 
+            'Química avanzada', False, 928, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (896, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '3 hours', 1.3, 
-            'Aprender conceptos basicos de programacion.', False, 509, 1);
+    VALUES (896, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '14 hours', 4.8, 
+            'Programación básica', True, 772, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (897, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 2.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 545, 4);
+    VALUES (897, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '6 hours', 3.7, 
+            'Física avanzada', True, 828, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (898, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '17 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 820, 3);
+    VALUES (898, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '13 hours', 4.3, 
+            'Química avanzada', True, 946, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (899, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 975, 5);
+    VALUES (899, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '10 hours', 1.0, 
+            'Análisis histórico', False, 728, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (900, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '5 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 913, 3);
+    VALUES (900, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '9 hours', 2.1, 
+            'Matemáticas avanzadas', False, 978, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (901, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '15 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', True, 988, 4);
+    VALUES (901, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '7 hours', 4.1, 
+            'Química avanzada', False, 933, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (902, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '18 hours', 4.6, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 796, 3);
+    VALUES (902, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 4.7, 
+            'Química avanzada', True, 984, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (903, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '11 hours', 4.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 723, 4);
+    VALUES (903, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '3 hours', 4.3, 
+            'Programación básica', False, 672, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (904, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 3.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 545, 4);
+    VALUES (904, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '20 hours', 2.5, 
+            'Matemáticas avanzadas', True, 618, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (905, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 1.6, 
-            'Aprender conceptos basicos de programacion.', False, 660, 1);
+    VALUES (905, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '5 hours', 4.4, 
+            'Análisis histórico', True, 616, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (906, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '5 hours', 3.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 834, 4);
+    VALUES (906, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '8 hours', 2.6, 
+            'Análisis histórico', True, 590, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (907, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '12 hours', 4.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 670, 5);
+    VALUES (907, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '6 hours', 1.4, 
+            'Programación básica', False, 764, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (908, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '9 hours', 5.0, 
-            'Aprender conceptos basicos de programacion.', True, 543, 1);
+    VALUES (908, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '3 hours', 4.9, 
+            'Matemáticas avanzadas', False, 878, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (909, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '13 hours', 3.6, 
-            'Entender los conceptos basicos de gases ideales.', True, 915, 4);
+    VALUES (909, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '17 hours', 3.5, 
+            'Física avanzada', True, 570, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (910, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 2.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 557, 3);
+    VALUES (910, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '2 hours', 4.3, 
+            'Programación básica', True, 642, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (911, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 3.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 722, 5);
+    VALUES (911, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '7 hours', 3.6, 
+            'Matemáticas avanzadas', False, 980, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (912, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '7 hours', 1.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 946, 3);
+    VALUES (912, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '6 hours', 4.4, 
+            'Programación básica', True, 508, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (913, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '18 hours', 3.4, 
-            'Entender los conceptos basicos de gases ideales.', True, 749, 4);
+    VALUES (913, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '2 hours', 4.4, 
+            'Química avanzada', False, 948, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (914, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '13 hours', 2.1, 
-            'Aprender conceptos basicos de programacion.', False, 835, 1);
+    VALUES (914, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '14 hours', 2.7, 
+            'Programación básica', False, 971, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (915, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '2 hours', 1.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 691, 5);
+    VALUES (915, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '11 hours', 1.5, 
+            'Física avanzada', True, 870, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (916, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '5 hours', 3.0, 
-            'Analizar los impactos historicos de eventos globales.', False, 895, 5);
+    VALUES (916, 'Gases ideales', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '15 hours', 1.9, 
+            'Química avanzada', True, 761, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (917, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 5.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 858, 3);
+    VALUES (917, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '16 hours', 1.6, 
+            'Programación básica', False, 603, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (918, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '1 hours', 1.4, 
-            'Analizar los impactos historicos de eventos globales.', False, 864, 5);
+    VALUES (918, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '11 hours', 4.3, 
+            'Análisis histórico', True, 623, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (919, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '9 hours', 4.2, 
-            'Aprender conceptos basicos de programacion.', False, 607, 1);
+    VALUES (919, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '12 hours', 4.4, 
+            'Física avanzada', False, 713, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (920, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '7 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', False, 689, 1);
+    VALUES (920, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '4 hours', 2.8, 
+            'Matemáticas avanzadas', False, 810, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (921, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '3 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', True, 772, 1);
+    VALUES (921, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '3 hours', 1.6, 
+            'Química avanzada', False, 650, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (922, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '1 hours', 4.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 641, 4);
+    VALUES (922, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '12 hours', 3.1, 
+            'Matemáticas avanzadas', False, 532, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (923, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '15 hours', 4.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 926, 4);
+    VALUES (923, 'Definicion y aplicacion de las Derivadas', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '19 hours', 4.0, 
+            'Matemáticas avanzadas', False, 995, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (924, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '4 hours', 4.1, 
-            'Aprender conceptos basicos de programacion.', False, 720, 1);
+    VALUES (924, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '1 hours', 4.4, 
+            'Física avanzada', False, 640, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (925, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 3.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 563, 4);
+    VALUES (925, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '12 hours', 3.4, 
+            'Análisis histórico', True, 926, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (926, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '6 hours', 2.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 647, 5);
+    VALUES (926, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '12 hours', 1.6, 
+            'Química avanzada', True, 981, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (927, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '20 hours', 3.9, 
-            'Aprender conceptos basicos de programacion.', True, 923, 1);
+    VALUES (927, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '15 hours', 3.0, 
+            'Programación básica', True, 807, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (928, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '2 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', False, 733, 1);
+    VALUES (928, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '10 hours', 4.8, 
+            'Matemáticas avanzadas', False, 962, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (929, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 547, 5);
+    VALUES (929, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '6 hours', 4.9, 
+            'Física avanzada', True, 692, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (930, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '3 hours', 2.0, 
-            'Aprender conceptos basicos de programacion.', False, 611, 1);
+    VALUES (930, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '5 hours', 2.5, 
+            'Física avanzada', True, 897, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (931, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '20 hours', 1.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 662, 4);
+    VALUES (931, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '18 hours', 1.7, 
+            'Matemáticas avanzadas', True, 615, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (932, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '1 hours', 3.3, 
-            'Entender los conceptos basicos de gases ideales.', False, 580, 4);
+    VALUES (932, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 4.1, 
+            'Física avanzada', False, 959, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (933, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '13 hours', 1.7, 
-            'Aprender conceptos basicos de programacion.', False, 562, 1);
+    VALUES (933, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '5 hours', 3.3, 
+            'Análisis histórico', False, 701, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (934, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 3.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 838, 5);
+    VALUES (934, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '5 hours', 1.0, 
+            'Física avanzada', False, 662, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (935, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '16 hours', 2.3, 
-            'Aprender conceptos basicos de programacion.', True, 815, 1);
+    VALUES (935, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '12 hours', 4.8, 
+            'Análisis histórico', True, 810, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (936, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '10 hours', 2.7, 
-            'Aprender conceptos basicos de programacion.', True, 710, 1);
+    VALUES (936, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '15 hours', 1.8, 
+            'Física avanzada', True, 915, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (937, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 2.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 972, 3);
+    VALUES (937, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '17 hours', 2.9, 
+            'Física avanzada', False, 571, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (938, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '15 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', False, 567, 1);
+    VALUES (938, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '3 hours', 2.6, 
+            'Análisis histórico', True, 952, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (939, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '11 hours', 4.9, 
-            'Aprender conceptos basicos de programacion.', False, 586, 1);
+    VALUES (939, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '5 hours', 4.1, 
+            'Matemáticas avanzadas', True, 623, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (940, 'Plan Condor', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 1.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 837, 5);
+    VALUES (940, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '8 hours', 3.8, 
+            'Química avanzada', False, 859, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (941, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '3 hours', 2.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 916, 5);
+    VALUES (941, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '3 hours', 1.2, 
+            'Química avanzada', False, 539, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (942, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '15 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', False, 744, 1);
+    VALUES (942, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 3.1, 
+            'Análisis histórico', False, 643, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (943, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 3.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 706, 3);
+    VALUES (943, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '12 hours', 4.5, 
+            'Física avanzada', True, 923, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (944, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '9 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 540, 5);
+    VALUES (944, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '9 hours', 4.3, 
+            'Programación básica', True, 720, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (945, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '19 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 888, 5);
+    VALUES (945, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '19 hours', 2.3, 
+            'Química avanzada', True, 625, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (946, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '20 hours', 4.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 822, 5);
+    VALUES (946, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/mujer-sosteniendo-libros-3768126/', 'Curso de cálculo avanzado.', '18 hours', 1.9, 
+            'Matemáticas avanzadas', True, 803, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (947, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '5 hours', 2.5, 
-            'Entender los conceptos basicos de gases ideales.', False, 796, 4);
+    VALUES (947, 'Base de Datos', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '14 hours', 2.3, 
+            'Programación básica', False, 945, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (948, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '7 hours', 3.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 709, 4);
+    VALUES (948, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '20 hours', 2.6, 
+            'Matemáticas avanzadas', True, 889, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (949, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '10 hours', 2.1, 
-            'Aprender conceptos basicos de programacion.', False, 714, 1);
+    VALUES (949, 'Intro a OpenCV', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '17 hours', 4.9, 
+            'Programación básica', False, 897, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (950, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '14 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 892, 3);
+    VALUES (950, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '13 hours', 2.7, 
+            'Química avanzada', False, 776, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (951, 'Base de Datos', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '12 hours', 3.6, 
-            'Aprender conceptos basicos de programacion.', False, 778, 1);
+    VALUES (951, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '20 hours', 1.5, 
+            'Matemáticas avanzadas', False, 774, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (952, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '11 hours', 1.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 819, 3);
+    VALUES (952, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '19 hours', 3.5, 
+            'Química avanzada', True, 934, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (953, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '19 hours', 3.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 744, 4);
+    VALUES (953, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '1 hours', 1.3, 
+            'Química avanzada', False, 548, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (954, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '7 hours', 4.4, 
-            'Analizar los impactos historicos de eventos globales.', True, 848, 5);
+    VALUES (954, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '13 hours', 1.8, 
+            'Análisis histórico', False, 649, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (955, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '4 hours', 2.7, 
-            'Aprender conceptos basicos de programacion.', False, 677, 1);
+    VALUES (955, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '5 hours', 3.5, 
+            'Química avanzada', True, 680, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (956, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 3.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 687, 3);
+    VALUES (956, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 2.6, 
+            'Análisis histórico', False, 919, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (957, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '3 hours', 2.9, 
-            'Aprender conceptos basicos de programacion.', False, 632, 1);
+    VALUES (957, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '4 hours', 2.5, 
+            'Matemáticas avanzadas', False, 746, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (958, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '13 hours', 3.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 635, 4);
+    VALUES (958, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '8 hours', 3.9, 
+            'Análisis histórico', True, 548, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (959, 'Intro a la Programacion', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '17 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', True, 513, 1);
+    VALUES (959, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '6 hours', 1.1, 
+            'Química avanzada', False, 944, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (960, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '12 hours', 4.7, 
-            'Analizar los impactos historicos de eventos globales.', True, 880, 5);
+    VALUES (960, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '19 hours', 4.5, 
+            'Análisis histórico', True, 624, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (961, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '19 hours', 3.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 702, 3);
+    VALUES (961, 'Base de Datos', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '13 hours', 4.3, 
+            'Programación básica', True, 739, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (962, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '2 hours', 3.8, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 636, 3);
+    VALUES (962, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '7 hours', 4.6, 
+            'Física avanzada', False, 675, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (963, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '9 hours', 3.1, 
-            'Entender los conceptos basicos de gases ideales.', False, 570, 4);
+    VALUES (963, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '3 hours', 4.8, 
+            'Química avanzada', False, 762, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (964, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '11 hours', 1.6, 
-            'Entender los conceptos basicos de gases ideales.', False, 507, 4);
+    VALUES (964, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '18 hours', 2.1, 
+            'Química avanzada', True, 846, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (965, 'Gases ideales', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '13 hours', 1.9, 
-            'Entender los conceptos basicos de gases ideales.', False, 826, 4);
+    VALUES (965, 'Intro a la Programacion', 'https://media.ambito.com/p/1e291710be58721fd8172feef4202b59/adjuntos/360/imagenes/041/225/0041225529/655x368/smart/el-mejor-curso-gratis-aprender-programacion.png', 'Curso introductorio en el mundo de la programación.', '16 hours', 4.3, 
+            'Programación básica', True, 715, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (966, 'Corralito Economico del siglo XX', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '14 hours', 2.5, 
-            'Analizar los impactos historicos de eventos globales.', True, 652, 5);
+    VALUES (966, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '6 hours', 2.5, 
+            'Química avanzada', False, 676, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (967, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '3 hours', 2.4, 
-            'Aprender conceptos basicos de programacion.', True, 798, 1);
+    VALUES (967, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '15 hours', 4.0, 
+            'Química avanzada', True, 597, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (968, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '3 hours', 2.7, 
-            'Entender los conceptos basicos de gases ideales.', True, 966, 4);
+    VALUES (968, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '20 hours', 3.3, 
+            'Física avanzada', True, 678, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (969, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '9 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 680, 5);
+    VALUES (969, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '3 hours', 2.2, 
+            'Análisis histórico', False, 554, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (970, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '4 hours', 4.5, 
-            'Analizar los impactos historicos de eventos globales.', False, 573, 5);
+    VALUES (970, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '7 hours', 2.0, 
+            'Física avanzada', False, 844, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (971, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '13 hours', 4.2, 
-            'Entender los conceptos basicos de gases ideales.', True, 670, 4);
+    VALUES (971, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '2 hours', 3.5, 
+            'Química avanzada', False, 936, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (972, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '9 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 756, 3);
+    VALUES (972, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 3.1, 
+            'Química avanzada', True, 552, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (973, 'Base de Datos', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-extremo-de-codigos-en-pantalla-3861976/', 'Curso introductorio de programacion.', '3 hours', 3.4, 
-            'Aprender conceptos basicos de programacion.', True, 834, 1);
+    VALUES (973, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '15 hours', 1.8, 
+            'Matemáticas avanzadas', True, 947, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (974, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '10 hours', 3.1, 
-            'Analizar los impactos historicos de eventos globales.', False, 908, 5);
+    VALUES (974, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '14 hours', 3.7, 
+            'Análisis histórico', True, 788, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (975, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '18 hours', 4.1, 
-            'Analizar los impactos historicos de eventos globales.', True, 738, 5);
+    VALUES (975, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '1 hours', 2.1, 
+            'Química avanzada', True, 824, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (976, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '3 hours', 4.2, 
-            'Analizar los impactos historicos de eventos globales.', True, 606, 5);
+    VALUES (976, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '16 hours', 1.6, 
+            'Matemáticas avanzadas', False, 870, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (977, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '1 hours', 1.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 920, 3);
+    VALUES (977, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '19 hours', 4.4, 
+            'Programación básica', False, 843, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (978, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio de fisicoquimica.', '6 hours', 1.0, 
-            'Entender los conceptos basicos de gases ideales.', True, 817, 4);
+    VALUES (978, 'Intro a la Programacion', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '7 hours', 4.1, 
+            'Programación básica', True, 668, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (979, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '20 hours', 1.2, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 918, 3);
+    VALUES (979, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '1 hours', 1.7, 
+            'Programación básica', False, 609, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (980, 'Plan Condor', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 522, 5);
+    VALUES (980, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '14 hours', 1.5, 
+            'Química avanzada', False, 989, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (981, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '3 hours', 4.0, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 816, 3);
+    VALUES (981, 'Teoria de Sturm Luville Aplicado al modelamiento matematico', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '11 hours', 3.3, 
+            'Matemáticas avanzadas', True, 638, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (982, 'Plan Condor', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '12 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', True, 882, 5);
+    VALUES (982, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '10 hours', 4.5, 
+            'Matemáticas avanzadas', True, 722, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (983, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 1.7, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 554, 3);
+    VALUES (983, 'Intro a la Programacion', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '12 hours', 4.6, 
+            'Programación básica', False, 543, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (984, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '15 hours', 2.8, 
-            'Analizar los impactos historicos de eventos globales.', False, 808, 5);
+    VALUES (984, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '16 hours', 3.0, 
+            'Química avanzada', True, 763, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (985, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '12 hours', 4.3, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 507, 3);
+    VALUES (985, 'Intro a OpenCV', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 1.2, 
+            'Programación básica', False, 559, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (986, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '13 hours', 1.5, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 526, 3);
+    VALUES (986, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '20 hours', 2.4, 
+            'Química avanzada', False, 647, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (987, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '5 hours', 2.0, 
-            'Entender los conceptos basicos de gases ideales.', False, 955, 4);
+    VALUES (987, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.pub.eldiario.net/noticias/2016/2016_07/nt160705/f_2016-07-05_34.jpg', 'Curso de historia reciente de América Latina.', '20 hours', 2.2, 
+            'Análisis histórico', False, 521, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (988, 'Corralito Economico del siglo XX', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '13 hours', 2.9, 
-            'Analizar los impactos historicos de eventos globales.', True, 732, 5);
+    VALUES (988, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '1 hours', 1.4, 
+            'Matemáticas avanzadas', True, 739, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (989, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio de fisicoquimica.', '12 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 681, 4);
+    VALUES (989, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Curso de historia reciente de América Latina.', '9 hours', 4.9, 
+            'Análisis histórico', False, 693, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (990, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '16 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', False, 854, 1);
+    VALUES (990, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso avanzado de física teórica.', '17 hours', 2.3, 
+            'Física avanzada', False, 880, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (991, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '16 hours', 3.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 905, 3);
+    VALUES (991, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/computacion-cuantica-e-ia-25626507/', 'Curso de cálculo avanzado.', '13 hours', 4.6, 
+            'Matemáticas avanzadas', True, 856, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (992, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '17 hours', 2.2, 
-            'Entender los conceptos basicos de gases ideales.', False, 805, 4);
+    VALUES (992, 'Gases ideales', 'https://www.pexels.com/es-es/foto/tubos-de-ensayo-de-laboratorio-2280549/', 'Curso introductorio en química física.', '15 hours', 4.8, 
+            'Química avanzada', False, 923, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (993, 'Transformacion de Lagrange en un Espacio Cuantizado', 'https://www.pexels.com/es-es/foto/mujer-escribiendo-en-una-pizarra-3862130/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '6 hours', 3.4, 
-            'Entender la propagacion de ondas y armonicos esfericos.', True, 659, 3);
+    VALUES (993, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso avanzado de física teórica.', '16 hours', 3.6, 
+            'Física avanzada', False, 835, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (994, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://cdn2.opendemocracy.net/media/images/PA-26461365_1_1_abbHvut.width-800.jpg', 'Estudio de eventos historicos relevantes.', '9 hours', 1.6, 
-            'Analizar los impactos historicos de eventos globales.', False, 997, 5);
+    VALUES (994, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/burbujas-de-agua-220989/', 'Curso introductorio en química física.', '16 hours', 4.0, 
+            'Química avanzada', False, 951, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (995, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '13 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 763, 4);
+    VALUES (995, 'Teorica cinetica de gases rugosos', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio en química física.', '14 hours', 3.9, 
+            'Química avanzada', False, 995, 4);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (996, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/ordenador-portatil-negro-y-gris-546819/', 'Curso introductorio de programacion.', '20 hours', 3.2, 
-            'Aprender conceptos basicos de programacion.', False, 598, 1);
+    VALUES (996, 'Propogacion de Ondas en Medios no Lineales', 'https://www.pexels.com/es-es/foto/hombre-escritura-escribiendo-matematicas-8197497/', 'Curso avanzado de física teórica.', '7 hours', 1.1, 
+            'Física avanzada', True, 731, 3);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (997, 'Guerra del Agua: Chile con agua Bolivia sin Mar', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Estudio de eventos historicos relevantes.', '8 hours', 1.9, 
-            'Analizar los impactos historicos de eventos globales.', False, 869, 5);
+    VALUES (997, 'Base de Datos', 'https://prensa.municipalidadsalta.gob.ar/wp-content/uploads/2022/02/cursoprogramacion.png', 'Curso introductorio en el mundo de la programación.', '4 hours', 4.1, 
+            'Programación básica', True, 631, 1);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (998, 'FisicoQuimica Aplicada', 'https://www.pexels.com/es-es/foto/persona-mujer-trabajando-tecnologia-5726794/', 'Curso introductorio de fisicoquimica.', '2 hours', 4.1, 
-            'Entender los conceptos basicos de gases ideales.', True, 721, 4);
+    VALUES (998, 'Introduccion al Calculo', 'https://www.pexels.com/es-es/foto/6-piezas-de-dados-blancos-y-negros-37534/', 'Curso de cálculo avanzado.', '1 hours', 1.2, 
+            'Matemáticas avanzadas', True, 558, 2);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (999, 'Intro a OpenCV', 'https://www.pexels.com/es-es/foto/foto-de-primer-plano-de-la-persona-que-escribe-en-la-computadora-portatil-1181675/', 'Curso introductorio de programacion.', '16 hours', 3.7, 
-            'Aprender conceptos basicos de programacion.', True, 617, 1);
+    VALUES (999, 'Corralito Economico del siglo XX', 'https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/5/8/udp_marcha_tres.jpg?itok=6f3pchvt', 'Curso de historia reciente de América Latina.', '6 hours', 2.7, 
+            'Análisis histórico', False, 554, 5);
 INSERT INTO Courses (course_id, title, image, description, duration, rating, abilities, available, Teacher_user_id, Category_course_id)
-    VALUES (1000, 'Simetria de Armonicos Esfericos en Teoria Clasica de Campos', 'https://www.pexels.com/es-es/foto/ilustracion-de-bola-de-plasma-414860/', 'Curso de fisica avanzada en campos clasicos y cuantizados.', '4 hours', 4.9, 
-            'Entender la propagacion de ondas y armonicos esfericos.', False, 867, 3);
+    VALUES (1000, 'Intro a OpenCV', 'https://marketing4ecommerce.net/wp-content/uploads/2023/01/cursos-programacion.jpg', 'Curso introductorio en el mundo de la programación.', '12 hours', 2.2, 
+            'Programación básica', True, 627, 1);
