@@ -19,4 +19,7 @@ public interface EnrollmentsDAO extends JpaRepository<Enrollments, Long> {
 
     @Query(value = "SELECT * FROM enrollments WHERE enrollment_date BETWEEN ?1 AND ?2", nativeQuery = true)
     List<Enrollments> findEnrollmentsByDateRange(Date startDate, Date endDate);
+
+    @Query(value = "SELECT enrollment_id FROM enrollments ORDER BY enrollment_id DESC LIMIT 1", nativeQuery = true)
+    Long findLastEnrollmentId();
 }

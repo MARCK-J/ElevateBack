@@ -1,0 +1,1325 @@
+{
+	"info": {
+		"_postman_id": "37875f1e-4874-4b0f-9a5a-5e67f18a5a71",
+		"name": "Elevate Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39290497"
+	},
+	"item": [
+		{
+			"name": "CategoriesAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/category/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"category",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/category/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCategory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/category/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"category",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CategoryByID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminateCatByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "ttp://localhost:9999/api/v1/category/{id}",
+					"protocol": "ttp",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"category",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CoursesAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CourseById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCourse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CourseById",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCourseById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CourseByTeacher_Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/teacher/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						"teacher",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourseByTitle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/title?title=in&page=0&size=10&sort=title",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						"title"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "in"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "sort",
+							"value": "title"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourseByRating",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/courses/rating?rating=1&page=0&size=10&sort=rating",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"courses",
+						"rating"
+					],
+					"query": [
+						{
+							"key": "rating",
+							"value": "1"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "sort",
+							"value": "rating"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllInscriptions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/enrollments/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"enrollments",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetInscripcionByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/enrollments/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"enrollments",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostNewInscription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/enrollments/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"enrollments",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarByID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/enrollments/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"enrollments",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminateInscriptionByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/enrollments/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"enrollments",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GettAllInscriptionByStudent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/enrollments/student/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"enrollments",
+						"student",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllLessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/lessons/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"lessons",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GEtLessonByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/lessons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"lessons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLessonsByCourse_ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/lessons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"lessons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostNewLection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/lessons/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"lessons",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualiazrLessonByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/lessons/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"lessons",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteLessonByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/lessons/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"lessons",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllOptions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/options/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"options",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOptionsByID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetOptionByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/options/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"options",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewOption",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/options",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"options"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarOptionBbyID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "Actualizar una opción por ID",
+					"host": [
+						"Actualizar una opción por ID"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteOptionByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/options/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"options",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteOptionByQuestionID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/options/question/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"options",
+						"question",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllQuestions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/questions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetQuestionByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/questions/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"questions",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewQuestions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/questions\nContent-Type: application/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"questions\nContent-Type: application",
+						"json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarQuestionByID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/questions/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"questions",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteQuestionByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/questions/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"questions",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetQuestionByQuizzID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/questions/quiz/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"questions",
+						"quiz",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllQuizzes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/quizzes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"quizzes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GettQuizzByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/quizzes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"quizzes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateQuizz",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/quizzes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"quizzes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarQuizzByID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/quizzes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"quizzes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteQuizzByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/quizzes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"quizzes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetQuizzesByLessosID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/quizzes/lesson/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"quizzes",
+						"lesson",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetQuizzCourseID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/quizzes/course/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"quizzes",
+						"course",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllResults",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/results",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetResultById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/results/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNreResult",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/results",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarResultByID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/results/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteREsultByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/results/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetResultByQuizzID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/results/quiz/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"quiz",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetResultByUserID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/results/student/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"student",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/user/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarUserByID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/user/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminateUserByID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/user/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendEmail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/v1/mail/send/luanhuancam@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"v1",
+						"mail",
+						"send",
+						"luanhuancam@gmail.com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -38,41 +38,52 @@ public class UsersBL {
             throw new UserException("El correo ya está registrado");
         }
 
+        // Obtener el último user_id
+        Long lastUserId = usersDao.findLastUserId();
+        
+        // Si no hay usuarios, comenzamos desde 1 (o el número que desees)
+        long newUserId = (lastUserId != null) ? lastUserId + 1 : 1;
+
+        // Asignar el nuevo userId al usuario
+        user.setUserId(newUserId);
+    
         // Hashear la contraseña
         String hashedPassword = bCryptPasswordEncoder.encode(user.getPassword());
         user.setPassword(hashedPassword);
 
         // Guardar el usuario
         Users savedUser = usersDao.save(user);
-
-        // Si el rol es de estudiante, registrar en la tabla Student
-        if (user.getRole() == 1) { // 1 representa el rol de Student
+    
+        // Registrar en Student o Teacher según el rol
+        if (user.getRole() == 1) {
             Student student = new Student();
             student.setUserId(savedUser.getUserId());
-            student.setEnrollmentDate(user.getDateJoin()); // Usar la fecha de registro como fecha de inscripción
+            student.setEnrollmentDate(user.getDateJoin());
             studentDao.save(student);
-        } 
-        // Si el rol es de profesor, registrar en la tabla Teacher
-        else if (user.getRole() == 2) { // 2 representa el rol de Teacher
+        } else if (user.getRole() == 2) {
             Teacher teacher = new Teacher();
             teacher.setUserId(savedUser.getUserId());
-            teacher.setEnrollmentDate(user.getDateJoin()); // Usar la fecha de registro como fecha de inscripción
+            teacher.setEnrollmentDate(user.getDateJoin());
             teacherDao.save(teacher);
         } else {
             throw new UserException("Rol no válido");
         }
-
+    
         return savedUser;
     }
+    
 
-    // Inicio de sesión (Log-in)
-    public Users login(String email, String password) throws UserException {
-        // Buscar al usuario por email
-        Users user = usersDao.findByEmail(email);
+    // Inicio de sesión (Log-in) (email/username y contraseña)
+    public Users login(String identifier, String password) throws UserException {
+        // Buscar al usuario por email o username
+        Users user = usersDao.findByEmail(identifier);
         if (user == null) {
-            throw new UserException("Correo o contraseña incorrectos");
+            user = usersDao.findByUsername(identifier);
+            if (user == null) {
+                throw new UserException("Correo, nombre de usuario o contraseña incorrectos");
+            }
         }
-
+        
         // Verificar si la contraseña proporcionada coincide con la contraseña almacenada
         if (!bCryptPasswordEncoder.matches(password, user.getPassword())) {
             throw new UserException("Correo o contraseña incorrectos");
@@ -118,8 +129,10 @@ public class UsersBL {
         user.setEmail(userDetails.getEmail());
         if (userDetails.getPassword() != null && !userDetails.getPassword().isEmpty()) {
             user.setPassword(bCryptPasswordEncoder.encode(userDetails.getPassword()));
-        }
         
+        }
+        user.setVerification(userDetails.isVerification());
+        user.setActivation(userDetails.isActivation());
         return usersDao.save(user);
     }
 
@@ -136,5 +149,14 @@ public class UsersBL {
             throw new UserException("No se encontraron usuarios con este rol");
         }
         return users;
+    }
+    
+    // Obtener usuarios por username
+    public Users getUserByUsername(String username) throws UserException {
+        Users user = usersDao.findByUsername(username);
+        if (user == null) {
+            throw new UserException("Usuario no encontrado");
+        }
+        return user;
     }
 }

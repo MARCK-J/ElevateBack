@@ -68,4 +68,14 @@ public class LessonsAPI {
             return new ResponseDTO("LESSON-1004", e.getMessage());
         }
     }
+
+    @GetMapping("/course/{courseId}")
+    public ResponseDTO getLessonsByCourseId(@PathVariable("courseId") Long courseId) {
+        try {
+            return lessonsBl.getLessonsByCourseId(courseId);
+        } catch (Exception e) {
+            LOGGER.error("Error al obtener lecciones por courseId", e);
+            return new ResponseDTO("LESSON-1005", e.getMessage());
+        }
+    }
 }

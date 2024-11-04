@@ -1,0 +1,42 @@
+### Obtener todos los resultados
+GET http://localhost:9999/api/v1/results
+Accept: application/json
+
+### Obtener un resultado por ID
+GET http://localhost:9999/api/v1/results/1
+Accept: application/json
+
+### Crear un nuevo resultado
+POST http://localhost:9999/api/v1/results
+Content-Type: application/json
+Accept: application/json
+
+{
+  "score": 85,
+  "submissionDate": "2023-12-31",
+  "quizId": 1,
+  "studentUserId": 1
+}
+
+### Actualizar un resultado por ID
+PUT http://localhost:9999/api/v1/results/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "score": 90,
+  "submissionDate": "2023-12-31",
+  "quizId": 1,
+  "studentUserId": 1
+}
+
+### Eliminar un resultado por ID
+DELETE http://localhost:9999/api/v1/results/1
+
+### Obtener resultados por ID de quiz
+GET http://localhost:9999/api/v1/results/quiz/1
+Accept: application/json
+
+### Obtener resultados por ID de usuario estudiante
+GET http://localhost:9999/api/v1/results/student/1
+Accept: application/json

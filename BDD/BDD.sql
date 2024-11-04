@@ -21,7 +21,11 @@ CREATE TABLE Category_course (
 CREATE TABLE Courses (
     course_id SERIAL PRIMARY KEY,
     title varchar(255)  NOT NULL,
+    image text  NOT NULL,
     description text  NOT NULL,
+    duration varchar(25)  NOT NULL,
+    rating DECIMAL(2, 1) DEFAULT 0,
+    abilities text NOT NULL,
     available boolean  NOT NULL,
     Teacher_user_id int  NOT NULL,
     Category_course_id int  NOT NULL
@@ -37,14 +41,16 @@ CREATE TABLE Enrollments (
 
 -- Table: Lessons
 CREATE TABLE Lessons (
-    lessons_id SERIAL PRIMARY KEY,
+    lessons_id SERIAL  NOT NULL,
     course_id int  NOT NULL,
-    title varchar(255)  NOT NULL,
+    title varchar(50)  NOT NULL,
+    description varchar(255)  NOT NULL,
+    duration varchar(25)  NOT NULL,
     content text  NOT NULL,
-    archive xml  NOT NULL,
     video text  NOT NULL,
     "order" int  NOT NULL,
-    complete boolean  NOT NULL
+    complete boolean  NOT NULL,
+    CONSTRAINT Lessons_pk PRIMARY KEY (lessons_id)
 );
 
 -- Table: Messages
@@ -52,13 +58,6 @@ CREATE TABLE Messages (
     message_id SERIAL PRIMARY KEY,
     content text  NOT NULL,
     time timestamp  NOT NULL
-);
-
--- Table: Results
-CREATE TABLE Results (
-    result_id SERIAL PRIMARY KEY,
-    score int  NOT NULL,
-    submission_date date  NOT NULL
 );
 
 -- Table: Student
@@ -79,9 +78,58 @@ CREATE TABLE Users (
     first_name varchar(50)  NOT NULL,
     last_name varchar(50)  NOT NULL,
     email varchar(100)  NOT NULL,
+    username varchar(25)  NOT NULL,
     password varchar(100)  NOT NULL,
     role int  NOT NULL,
+    verification boolean  NOT NULL,
+    activation boolean NOT NULL,
     date_join date  NOT NULL
+);
+
+-- Table: Quizzes (quizzes o evaluaciones)
+CREATE TABLE Quizzes (
+    quiz_id SERIAL PRIMARY KEY,
+    title varchar(255) NOT NULL,
+    description text NOT NULL,
+    due_date date NOT NULL,
+    lessons_id int NOT NULL,
+    course_id int NOT NULL,
+    CONSTRAINT Quizzes_Lessons_fk FOREIGN KEY (lessons_id)
+        REFERENCES Lessons (lessons_id),
+    CONSTRAINT Quizzes_Courses_fk FOREIGN KEY (course_id)
+        REFERENCES Courses (course_id)
+);
+
+-- Table: Questions (preguntas del quiz)
+CREATE TABLE Questions (
+    question_id SERIAL PRIMARY KEY,
+    quiz_id int NOT NULL,
+    content text NOT NULL,
+    question_type varchar(50) NOT NULL, -- tipo de pregunta (e.g. multiple choice, true/false)
+    CONSTRAINT Questions_Quizzes_fk FOREIGN KEY (quiz_id)
+        REFERENCES Quizzes (quiz_id)
+);
+
+-- Table: Options (opciones de preguntas, si es multiple choice)
+CREATE TABLE Options (
+    option_id SERIAL PRIMARY KEY,
+    question_id int NOT NULL,
+    content text NOT NULL,
+    is_correct boolean NOT NULL, -- si es la respuesta correcta o no
+    CONSTRAINT Options_Questions_fk FOREIGN KEY (question_id)
+        REFERENCES Questions (question_id)
+);
+-- Table: Results (resultados de quizzes)
+CREATE TABLE Results (
+    result_id SERIAL PRIMARY KEY,
+    score int NOT NULL,
+    submission_date date NOT NULL,
+    quiz_id int NOT NULL,
+    Student_user_id int NOT NULL,
+    CONSTRAINT Results_Quizzes_fk FOREIGN KEY (quiz_id)
+        REFERENCES Quizzes (quiz_id),
+    CONSTRAINT Results_Student_fk FOREIGN KEY (Student_user_id)
+        REFERENCES Student (user_id)
 );
 
 -- foreign keys
@@ -142,4 +190,3 @@ ALTER TABLE Teacher ADD CONSTRAINT Teacher_Users
 ;
 
 -- End of file.
-

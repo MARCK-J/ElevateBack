@@ -68,4 +68,15 @@ public class EnrollmentsAPI {
             return new ResponseDTO("ENROLLMENT-1004", e.getMessage());
         }
     }
+
+    // getmapping por studentUserId
+    @GetMapping("/student/{studentUserId}")
+    public ResponseDTO getEnrollmentsByStudentId(@PathVariable("studentUserId") Long studentUserId) {
+        try {
+            return enrollmentsBl.getEnrollmentsByStudentId(studentUserId);
+        } catch (Exception e) {
+            LOGGER.error("Error al obtener inscripciones", e);
+            return new ResponseDTO("ENROLLMENT-1002", e.getMessage());
+        }
+    }
 }

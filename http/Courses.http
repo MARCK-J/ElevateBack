@@ -3,7 +3,7 @@ GET http://localhost:9999/api/v1/courses/all
 Accept: application/json
 
 ### Obtener un curso por ID
-GET http://localhost:9999/api/v1/courses/{id}
+GET http://localhost:9999/api/v1/courses/2
 Accept: application/json
 
 ### Crear un nuevo curso
@@ -13,10 +13,31 @@ Accept: application/json
 
 {
   "title": "Introducción a Java",
+  "image": "https://miro.medium.com/v2/resize:fit:1400/0*rYlqvld5ocBguLMw.png",
   "description": "Curso básico de programación en Java.",
-  "avaibalable": true,
+  "duration" : "45",
+  "rating": 4.5,
+  "abilities": "Conocimientos básicos de programación.",
+  "available": true,
   "categoryCourseId": 1,
-  "teacherUserId": 1
+  "teacherUserId": 2
+}
+
+### Crear un nuevo curso
+POST http://localhost:9999/api/v1/courses/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Introducción a Musica",
+  "image": "https://capian.co/assets/images/uploads/blog/ckia8-music-lockdown-1fa0fb8b.jpg",
+  "description": "Curso básico de Musica.",
+  "duration" : "90",
+  "rating": 3.5,
+  "abilities": "Conocimientos básicos;leer musica;evaluacion de oido",
+  "available": true,
+  "categoryCourseId": 5,
+  "teacherUserId": 2
 }
 
 ### Actualizar un curso por ID
@@ -27,10 +48,34 @@ Accept: application/json
 {
   "title": "Java para Desarrolladores",
   "description": "Curso avanzado de programación en Java.",
-  "categoryId": 1,
-  "duration": 45
+  "categoryCourseId": 1,
+  "duration": "45"
 }
 
 ### Eliminar un curso por ID
-DELETE http://localhost:9999/api/v1/courses/{id}
+DELETE http://localhost:9999/api/v1/courses/2
+Accept: application/json
+
+### Obtener cursos por duración
+GET http://localhost:9999/api/v1/courses/duration?duration=6&page=0&size=10&sort=duration
+Accept: application/json
+
+### Obtener cursos por puntuación
+GET http://localhost:9999/api/v1/courses/rating?rating=1&page=0&size=10&sort=rating
+Accept: application/json
+
+### Obtener cursos por ID del docente
+GET http://localhost:9999/api/v1/courses/teacher/1
+Accept: application/json
+
+### Obtener cursos por título
+GET http://localhost:9999/api/v1/courses/title?title=in&page=0&size=10&sort=title
+Accept: application/json
+
+### Obtener cursos por puntuación
+GET http://localhost:9999/api/v1/courses/rating?rating=1&page=0&size=10&sort=rating
+Accept: application/json
+
+### Obtener cursos por duración
+GET http://localhost:9999/api/v1/courses/duration?duration=30short&page=0&size=10&sort=duration
 Accept: application/json

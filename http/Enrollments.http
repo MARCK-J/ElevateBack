@@ -31,3 +31,8 @@ Accept: application/json
 ### Eliminar una inscripción por ID
 DELETE http://localhost:9999/api/v1/enrollments/{id}
 Accept: application/json
+
+### Obtener todas las inscripciones por ID del estudiante
+GET http://localhost:9999/api/v1/enrollments/student/2
+Accept: application/json
+
