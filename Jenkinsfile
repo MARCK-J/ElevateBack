@@ -1,32 +1,23 @@
 pipeline {
-  agent any
-  tools {
-        maven "Maven 3.8.6" 
-   }
+    agent any
 
-  stages {
-      stage('clone repo') {
+    stages {
+        stage('Build') {
             steps {
-              git branch: 'main', url: 'https://github.com/MARCK-J/ElevateBack.git'
-            }
-      }
-      stage('Build Artifact') {
-            steps {
-              sh "mvn clean package -DskipTests=true"
-              archive 'target/*.jar' 
-            }  
-       }
-      stage('Test Maven - JUnit') {
-            steps {
-              sh "mvn test"
-            }
-            post{
-              always{
-                junit 'target/surefire-reports/*.xml'
-              }
+                sh 'mvn clean compile'
             }
         }
-        
 
-     }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+
+        stage('Package') {
+            steps {
+                sh 'mvn package'
+            }
+        }
+    }
 }
