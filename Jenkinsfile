@@ -1,23 +1,47 @@
 pipeline {
     agent any
 
+    tools {
+        // Asegúrate de que Maven esté configurado en Jenkins
+        maven 'Maven' 
+    }
+
     stages {
+        stage('Checkout') {
+            steps {
+                // Realiza el checkout del repositorio Git
+                git url: 'https://github.com/MARCK-J/ElevateBack.git', branch: 'main'
+            }
+        }
+
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                // Construye el proyecto con Maven
+                bat 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                // Ejecuta las pruebas con Maven
+                bat 'mvn test'
             }
         }
 
         stage('Package') {
             steps {
-                sh 'mvn package'
+                // Empaqueta la aplicación en un archivo JAR
+                bat 'mvn package'
             }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build, test, and package stages completed successfully!'
+        }
+        failure {
+            echo 'Something went wrong with the build process.'
         }
     }
 }
