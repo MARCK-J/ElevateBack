@@ -1,5 +1,6 @@
 pipeline {
     agent any
+
     stages {
         stage('Clone Repo') {
             steps {
@@ -8,13 +9,13 @@ pipeline {
         }
         stage('Build Artifact') {
             steps {
-                sh "mvn clean package -DskipTests=true"
+                bat "mvn clean package -DskipTests=true"
                 archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
             }
         }
         stage('Test Maven - JUnit') {
             steps {
-                sh "mvn test"
+                bat "mvn test"
             }
             post {
                 always {
