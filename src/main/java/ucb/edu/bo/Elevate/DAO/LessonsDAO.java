@@ -21,4 +21,7 @@ public interface LessonsDAO extends JpaRepository<Lessons, Long> {
 
     @Query(value = "SELECT * FROM lessons WHERE \"order\" = ?1", nativeQuery = true)
     List<Lessons> findByOrder(int order);
+
+    @Query(value = "SELECT * FROM lessons WHERE course_id = ?1 ORDER BY \"order\"", nativeQuery = true)
+    List<Lessons> findByCourseIdOrderByOrder(Long courseId);
 }

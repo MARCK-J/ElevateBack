@@ -69,4 +69,8 @@ public class LessonsBL {
         return new ResponseDTO(lessons);
     }
     
+    public ResponseDTO getLessonsByCourseIdOrdered(Long courseId) {
+        List<Lessons> lessons = lessonsDao.findByCourseIdOrderByOrder(courseId);
+        return new ResponseDTO(lessons);
+    }
 }

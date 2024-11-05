@@ -78,4 +78,9 @@ public class LessonsAPI {
             return new ResponseDTO("LESSON-1005", e.getMessage());
         }
     }
+
+    @GetMapping("/course/{courseId}/ordered")
+    public ResponseDTO getLessonsByCourseIdOrdered(@PathVariable Long courseId) {
+        return lessonsBl.getLessonsByCourseIdOrdered(courseId);
+    }
 }
