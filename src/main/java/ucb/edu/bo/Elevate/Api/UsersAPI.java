@@ -6,6 +6,8 @@ import ucb.edu.bo.Elevate.BL.UsersBL;
 import ucb.edu.bo.Elevate.Entity.Users;
 import ucb.edu.bo.Elevate.Exception.UserException;
 import ucb.edu.bo.Elevate.DTO.LoginRequestDTO;
+import ucb.edu.bo.Elevate.DTO.PasswordChangeRequestDTO;
+import ucb.edu.bo.Elevate.DTO.PasswordRecoveryRequestDTO;
 import ucb.edu.bo.Elevate.DTO.ResponseDTO;
 
 @RestController
@@ -101,6 +103,26 @@ public class UsersAPI {
         } catch (UserException e) {
             LOGGER.error("Error al obtener usuarios por rol", e);
             return new ResponseDTO("USER-1006", e.getMessage());
+        }
+    }
+
+    @PostMapping("/recover-password")
+    public ResponseDTO recoverPassword(@RequestBody PasswordRecoveryRequestDTO passwordRecoveryRequestDTO) {
+        try {
+            return userBl.recoverPassword(passwordRecoveryRequestDTO.getEmail());
+        } catch (UserException e) {
+            LOGGER.error("Error in password recovery", e);
+            return new ResponseDTO("USER-1008", e.getMessage());
+        }
+    }
+
+    @PostMapping("/change-password")
+    public ResponseDTO changePassword(@RequestBody PasswordChangeRequestDTO passwordChangeRequestDTO) {
+        try {
+            return userBl.changePassword(passwordChangeRequestDTO.getEmail(), passwordChangeRequestDTO.getOldPassword(), passwordChangeRequestDTO.getNewPassword());
+        } catch (UserException e) {
+            LOGGER.error("Error in changing password", e);
+            return new ResponseDTO("USER-1009", e.getMessage());
         }
     }
 }

@@ -8,4 +8,11 @@ import lombok.Setter;
 public class MailStructure {
     private String subject;
     private String message;
+
+    // Add the constructor
+    public MailStructure(String subject, String message) {
+        this.subject = subject;
+        this.message = message;
+    }
 }
+

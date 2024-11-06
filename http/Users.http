@@ -119,3 +119,23 @@ Accept: application/json
   "message": "Hola Mundo"
 }
 
+### Recuperar contraseña (Password Recovery)
+POST http://localhost:9999/api/v1/user/recover-password
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "etedaeamerinst090@gmail.com"
+}
+
+### Cambiar contraseña (Change password)
+POST http://localhost:9999/api/v1/user/change-password
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "etedaeamerinst090@gmail.com",
+  "oldPassword": "tempPassword123",
+  "newPassword": "Lolsito_12345"
+}
+

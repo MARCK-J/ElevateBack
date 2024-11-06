@@ -9,10 +9,13 @@ import org.springframework.stereotype.Service;
 import ucb.edu.bo.Elevate.DAO.StudentDAO;
 import ucb.edu.bo.Elevate.DAO.TeacherDAO;
 import ucb.edu.bo.Elevate.DAO.UsersDAO;
+import ucb.edu.bo.Elevate.DTO.ResponseDTO;
 import ucb.edu.bo.Elevate.Entity.Student;
 import ucb.edu.bo.Elevate.Entity.Teacher;
 import ucb.edu.bo.Elevate.Entity.Users;
 import ucb.edu.bo.Elevate.Exception.UserException;
+import ucb.edu.bo.Elevate.email.Model.MailStructure;
+import ucb.edu.bo.Elevate.email.Service.MailService;
 
 @Service
 public class UsersBL {
@@ -21,13 +24,15 @@ public class UsersBL {
     private StudentDAO studentDao;
     private TeacherDAO teacherDao;
     private BCryptPasswordEncoder bCryptPasswordEncoder;
+    private MailService mailService;
 
     @Autowired
-    public UsersBL(UsersDAO usersDao, StudentDAO studentDao, TeacherDAO teacherDao, BCryptPasswordEncoder bCryptPasswordEncoder) {
+    public UsersBL(UsersDAO usersDao, StudentDAO studentDao, TeacherDAO teacherDao, BCryptPasswordEncoder bCryptPasswordEncoder, MailService mailService) {
         this.usersDao = usersDao;
         this.studentDao = studentDao;
         this.teacherDao = teacherDao;
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
+        this.mailService = mailService;
     }
 
     // Registro (Sign-up)
@@ -158,5 +163,44 @@ public class UsersBL {
             throw new UserException("Usuario no encontrado");
         }
         return user;
+    }
+
+    public ResponseDTO recoverPassword(String email) throws UserException {
+        Users user = usersDao.findByEmail(email);
+        if (user == null) {
+            throw new UserException("No user found with the provided email");
+        }
+
+        // Generate a temporary password or a password reset token
+        String tempPassword = generateTemporaryPassword();
+        user.setPassword(bCryptPasswordEncoder.encode(tempPassword));
+        usersDao.save(user);
+
+        // Send the temporary password to the user's email
+        MailStructure mailStructure = new MailStructure("Password Recovery", "Your temporary password is: " + tempPassword);
+        mailService.sendMail(email, mailStructure);
+
+        return new ResponseDTO("A temporary password has been sent to your email");
+    }
+
+    private String generateTemporaryPassword() {
+        // Implement your logic to generate a temporary password
+        return "tempPassword123";
+    }
+
+    public ResponseDTO changePassword(String email, String oldPassword, String newPassword) throws UserException {
+        Users user = usersDao.findByEmail(email);
+        if (user == null) {
+            throw new UserException("No user found with the provided email");
+        }
+
+        if (!bCryptPasswordEncoder.matches(oldPassword, user.getPassword())) {
+            throw new UserException("Old password is incorrect");
+        }
+
+        user.setPassword(bCryptPasswordEncoder.encode(newPassword));
+        usersDao.save(user);
+
+        return new ResponseDTO("Password has been changed successfully");
     }
 }
