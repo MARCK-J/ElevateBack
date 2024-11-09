@@ -73,4 +73,12 @@ public class LessonsBL {
         List<Lessons> lessons = lessonsDao.findByCourseIdOrderByOrder(courseId);
         return new ResponseDTO(lessons);
     }
+
+    public ResponseDTO getCompletedLessonsByUserId(Long userId) {
+        List<Lessons> completedLessons = lessonsDao.findCompletedLessonsByUserId(userId);
+        if (completedLessons.isEmpty()) {
+            return new ResponseDTO("LESSON-1004", "No completed lessons found for user with id " + userId);
+        }
+        return new ResponseDTO(completedLessons);
+    }
 }
