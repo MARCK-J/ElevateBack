@@ -2,15 +2,13 @@ package ucb.edu.bo.Elevate.DTO;
 
 public class PasswordChangeRequestDTO {
     private String email;
-    private String oldPassword;
     private String newPassword;
 
     public PasswordChangeRequestDTO() {
     }
 
-    public PasswordChangeRequestDTO(String email, String oldPassword, String newPassword) {
+    public PasswordChangeRequestDTO(String email, String newPassword) {
         this.email = email;
-        this.oldPassword = oldPassword;
         this.newPassword = newPassword;
     }
 
@@ -20,14 +18,6 @@ public class PasswordChangeRequestDTO {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getOldPassword() {
-        return oldPassword;
-    }
-
-    public void setOldPassword(String oldPassword) {
-        this.oldPassword = oldPassword;
     }
 
     public String getNewPassword() {
@@ -42,7 +32,6 @@ public class PasswordChangeRequestDTO {
     public String toString() {
         return "PasswordChangeRequestDTO{" +
                 "email='" + email + '\'' +
-                ", oldPassword='" + oldPassword + '\'' +
                 ", newPassword='" + newPassword + '\'' +
                 '}';
     }

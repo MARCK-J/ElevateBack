@@ -1,7 +1,7 @@
 package ucb.edu.bo.Elevate.BL;
 
 import java.util.List;
-
+ 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -188,19 +188,19 @@ public class UsersBL {
         return "tempPassword123";
     }
 
-    public ResponseDTO changePassword(String email, String oldPassword, String newPassword) throws UserException {
+    public ResponseDTO changePassword(String email, String newPassword) throws UserException {
         Users user = usersDao.findByEmail(email);
         if (user == null) {
             throw new UserException("No user found with the provided email");
-        }
-
-        if (!bCryptPasswordEncoder.matches(oldPassword, user.getPassword())) {
-            throw new UserException("Old password is incorrect");
         }
 
         user.setPassword(bCryptPasswordEncoder.encode(newPassword));
         usersDao.save(user);
 
         return new ResponseDTO("Password has been changed successfully");
+    }
+
+    public boolean existsByEmail(String email) {
+        return usersDao.existsByEmail(email);
     }
 }

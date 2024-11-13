@@ -117,12 +117,23 @@ public class UsersAPI {
     }
 
     @PostMapping("/change-password")
-    public ResponseDTO changePassword(@RequestBody PasswordChangeRequestDTO passwordChangeRequestDTO) {
+    public ResponseDTO changePassword(@RequestBody PasswordChangeRequestDTO changePasswordRequestDTO) {
         try {
-            return userBl.changePassword(passwordChangeRequestDTO.getEmail(), passwordChangeRequestDTO.getOldPassword(), passwordChangeRequestDTO.getNewPassword());
+            return userBl.changePassword(changePasswordRequestDTO.getEmail(), changePasswordRequestDTO.getNewPassword());
         } catch (UserException e) {
-            LOGGER.error("Error in changing password", e);
-            return new ResponseDTO("USER-1009", e.getMessage());
+            LOGGER.error("Error changing password", e);
+            return new ResponseDTO("USER-1007", e.getMessage());
+        }
+    }
+
+    @GetMapping("/email-exists")
+    public ResponseDTO emailExists(@RequestParam("email") String email) {
+        try {
+            boolean exists = userBl.existsByEmail(email);
+            return new ResponseDTO(exists);
+        } catch (Exception e) {
+            LOGGER.error("Error al verificar existencia de correo", e);
+            return new ResponseDTO("USER-1010", e.getMessage());
         }
     }
 }

@@ -27,4 +27,8 @@ public interface UsersDAO extends JpaRepository<Users, Long> {
 
     @Query(value = "SELECT user_id FROM users ORDER BY user_id DESC LIMIT 1", nativeQuery = true)
     Long findLastUserId();
+    
+    // Nuevo método para verificar si un correo electrónico existe
+    @Query(value = "SELECT COUNT(*) > 0 FROM users WHERE email = ?1", nativeQuery = true)
+    boolean existsByEmail(String email);
 }
