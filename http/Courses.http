@@ -40,20 +40,25 @@ Accept: application/json
   "teacherUserId": 2
 }
 
-### Actualizar un curso por ID
-PUT http://localhost:9999/api/v1/courses/{id}
+### Actualizar un curso existente
+PUT http://localhost:9999/api/v1/courses/2
 Content-Type: application/json
 Accept: application/json
 
 {
-  "title": "Java para Desarrolladores",
-  "description": "Curso avanzado de programación en Java.",
-  "categoryCourseId": 1,
-  "duration": "45"
+  "title": "Introducción a Musica Avanzada",
+  "image": "https://capian.co/assets/images/uploads/blog/ckia8-music-lockdown-1fa0fb8b.jpg",
+  "description": "Curso avanzado de Musica.",
+  "duration" : "120",
+  "rating": 4.5,
+  "abilities": "Conocimientos avanzados;leer musica;composición",
+  "available": true,
+  "categoryCourseId": 5,
+  "teacherUserId":  1
 }
 
 ### Eliminar un curso por ID
-DELETE http://localhost:9999/api/v1/courses/2
+DELETE http://localhost:9999/api/v1/courses/1
 Accept: application/json
 
 ### Obtener cursos por duración
