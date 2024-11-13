@@ -84,12 +84,12 @@ public class LessonsAPI {
         return lessonsBl.getLessonsByCourseIdOrdered(courseId);
     }
 
-    @GetMapping("/user/{userId}/completed")
-    public ResponseDTO getCompletedLessonsByUserId(@PathVariable("userId") Long userId) {
+    @GetMapping("/user/{userId}/course/{courseId}/completed")
+    public ResponseDTO getCompletedLessonsByUserIdAndCourseId(@PathVariable("userId") Long userId, @PathVariable("courseId") Long courseId) {
         try {
-            return lessonsBl.getCompletedLessonsByUserId(userId);
+            return lessonsBl.getCompletedLessonsByUserIdAndCourseId(userId, courseId);
         } catch (Exception e) {
-            LOGGER.error("Error al obtener lecciones completadas", e);
+            LOGGER.error("Error al obtener lecciones completadas por userId y courseId", e);
             return new ResponseDTO("LESSON-1005", e.getMessage());
         }
     }

@@ -25,6 +25,6 @@ public interface LessonsDAO extends JpaRepository<Lessons, Long> {
     @Query(value = "SELECT * FROM lessons WHERE course_id = ?1 ORDER BY \"order\"", nativeQuery = true)
     List<Lessons> findByCourseIdOrderByOrder(Long courseId);
 
-    @Query(value = "SELECT * FROM lessons WHERE user_id = ?1 AND complete = true", nativeQuery = true)
-    List<Lessons> findCompletedLessonsByUserId(Long userId);
+    @Query(value = "SELECT * FROM lessons WHERE user_id = ?1 AND course_id = ?2 AND complete = true", nativeQuery = true)
+    List<Lessons> findCompletedLessonsByUserIdAndCourseId(Long userId, Long courseId);
 }

@@ -127,5 +127,5 @@ DELETE http://localhost:9999/api/v1/lessons/{id}
 Accept: application/json
 
 ### Obtener lecciones completadas por userId
-GET http://localhost:9999/api/v1/lessons/user/1/completed
+GET http://localhost:9999/api/v1/lessons/user/1/course/2/completed
 Accept: application/json

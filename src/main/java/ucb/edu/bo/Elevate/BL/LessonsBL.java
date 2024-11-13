@@ -74,10 +74,10 @@ public class LessonsBL {
         return new ResponseDTO(lessons);
     }
 
-    public ResponseDTO getCompletedLessonsByUserId(Long userId) {
-        List<Lessons> completedLessons = lessonsDao.findCompletedLessonsByUserId(userId);
+    public ResponseDTO getCompletedLessonsByUserIdAndCourseId(Long userId, Long courseId) {
+        List<Lessons> completedLessons = lessonsDao.findCompletedLessonsByUserIdAndCourseId(userId, courseId);
         if (completedLessons.isEmpty()) {
-            return new ResponseDTO("LESSON-1004", "No completed lessons found for user with id " + userId);
+            return new ResponseDTO("LESSON-1004", "No completed lessons found for user with id " + userId + " and course with id " + courseId);
         }
         return new ResponseDTO(completedLessons);
     }
