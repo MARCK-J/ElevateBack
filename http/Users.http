@@ -22,7 +22,7 @@ Accept: application/json
 
 {
   "identifier": "marcoreynolds",
-  "password": "Lolsito_12345"
+  "password": " "
 }
 
 ### Registro de un nuevo usuario (Sign-up)
