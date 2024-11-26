@@ -79,4 +79,10 @@ public class EnrollmentsAPI {
             return new ResponseDTO("ENROLLMENT-1002", e.getMessage());
         }
     }
+
+    @PostMapping("/complete")
+    public ResponseDTO completeCourse(@RequestParam Long enrollmentId) {
+        enrollmentsBl.completeCourse(enrollmentId);
+        return new ResponseDTO("Course completed and certification generated");
+    }
 }

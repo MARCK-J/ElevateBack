@@ -36,7 +36,8 @@ CREATE TABLE Enrollments (
     enrollment_id SERIAL PRIMARY KEY,
     enrollment_date timestamp  NOT NULL,
     Student_user_id int  NOT NULL,
-    Courses_course_id int  NOT NULL
+    Courses_course_id int  NOT NULL,
+    Completed boolean  NOT NULL
 );
 
 -- Table: Lessons
@@ -130,6 +131,18 @@ CREATE TABLE Results (
         REFERENCES Quizzes (quiz_id),
     CONSTRAINT Results_Student_fk FOREIGN KEY (Student_user_id)
         REFERENCES Student (user_id)
+);
+
+-- Table: Certification
+CREATE TABLE Certification (
+    certification_id SERIAL PRIMARY KEY,
+    student_user_id INT NOT NULL,
+    course_id INT NOT NULL,
+    issue_date TIMESTAMP NOT NULL,
+    CONSTRAINT Certification_Student_fk FOREIGN KEY (student_user_id)
+        REFERENCES Student (user_id),
+    CONSTRAINT Certification_Courses_fk FOREIGN KEY (course_id)
+        REFERENCES Courses (course_id)
 );
 
 -- foreign keys

@@ -7,6 +7,7 @@ import ucb.edu.bo.Elevate.Entity.Results;
 import ucb.edu.bo.Elevate.DTO.ResponseDTO;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ResultBL {
@@ -71,5 +72,14 @@ public class ResultBL {
             return new ResponseDTO("RESULT-1004", "No results found for student with id " + studentUserId);
         }
         return new ResponseDTO(results);
+    }
+
+    public ResponseDTO getQualificationByQuizIdAndStudentUserId(Long quizId, Long studentUserId) {
+        Optional<Results> result = resultDao.findByQuizIdAndStudentUserId(quizId, studentUserId);
+        if (result.isEmpty()) {
+            return new ResponseDTO("RESULT-1003", "No result found for quiz with id " + quizId + " and student with id " + studentUserId);
+        }
+
+        return new ResponseDTO(result.get().getScore());
     }
 }

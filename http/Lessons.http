@@ -7,7 +7,7 @@ GET http://localhost:9999/api/v1/lessons/1
 Accept: application/json
 
 ### Obtener lecciones por courseId
-GET http://localhost:9999/api/v1/lessons/course/3
+GET http://localhost:9999/api/v1/lessons/course/2
 Accept: application/json
 
 ### Crear una nueva lección
@@ -16,7 +16,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "courseId": 3,
+    "courseId": 1,
     "title": "Introducción",
     "description": "Primera lección del curso",
     "duration": "30 min",
@@ -32,7 +32,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "courseId": 3,
+    "courseId": 2,
     "title": "Fundamentos Básicos",
     "description": "Descripción de los fundamentos básicos",
     "duration": "45 min",
@@ -48,7 +48,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "courseId": 3,
+    "courseId": 2,
     "title": "Conceptos Avanzados",
     "description": "Explicación de conceptos avanzados",
     "duration": "50 min",
@@ -64,7 +64,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "courseId": 3,
+    "courseId": 2,
     "title": "Preparación del Entorno",
     "description": "Cómo preparar el entorno de desarrollo",
     "duration": "35 min",
@@ -80,7 +80,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "courseId": 3,
+    "courseId": 2,
     "title": "Primeros Pasos",
     "description": "Iniciando el proyecto desde cero",
     "duration": "40 min",
@@ -96,7 +96,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "courseId": 3,
+    "courseId": 2,
     "title": "Despliegue",
     "description": "Guía para el despliegue final",
     "duration": "30 min",
@@ -107,7 +107,7 @@ Accept: application/json
 }
 
 ### Obtener lecciones por courseId ordenadas
-GET http://localhost:9999/api/v1/lessons/course/3/ordered
+GET http://localhost:9999/api/v1/lessons/course/2/ordered
 Accept: application/json
 
 ### Actualizar una lección por ID

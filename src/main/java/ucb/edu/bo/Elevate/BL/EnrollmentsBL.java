@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import ucb.edu.bo.Elevate.DAO.EnrollmentsDAO;
 import ucb.edu.bo.Elevate.Entity.Enrollments;
 import ucb.edu.bo.Elevate.DTO.ResponseDTO;
+import ucb.edu.bo.Elevate.Entity.Certification;
 
 import java.util.List;
 
@@ -12,10 +13,12 @@ import java.util.List;
 public class EnrollmentsBL {
 
     private final EnrollmentsDAO enrollmentsDao;
+    private final CertificationBL certificationBl;
 
     @Autowired
-    public EnrollmentsBL(EnrollmentsDAO enrollmentsDao) {
+    public EnrollmentsBL(EnrollmentsDAO enrollmentsDao, CertificationBL certificationBl) {
         this.enrollmentsDao = enrollmentsDao;
+        this.certificationBl = certificationBl;
     }
 
     public ResponseDTO getAllEnrollments() {
@@ -32,13 +35,8 @@ public class EnrollmentsBL {
     }
 
     public ResponseDTO createEnrollment(Enrollments enrollment) {
-        // Obtener el último enrollment_id
         Long lastEnrollmentId = enrollmentsDao.findLastEnrollmentId();
-        
-        // Si no hay inscripciones, comenzamos desde 1
         long newEnrollmentId = (lastEnrollmentId != null) ? lastEnrollmentId + 1 : 1;
-
-        // Asignar el nuevo enrollmentId al registro
         enrollment.setEnrollmentId(newEnrollmentId);
         Enrollments createdEnrollment = enrollmentsDao.save(enrollment);
         return new ResponseDTO(createdEnrollment);
@@ -52,6 +50,7 @@ public class EnrollmentsBL {
         currentEnrollment.setEnrollmentDate(enrollment.getEnrollmentDate());
         currentEnrollment.setStudentUserId(enrollment.getStudentUserId());
         currentEnrollment.setCoursesCourseId(enrollment.getCoursesCourseId());
+        currentEnrollment.setCompleted(enrollment.isCompleted());
         return new ResponseDTO(enrollmentsDao.save(currentEnrollment));
     }
 
@@ -64,12 +63,20 @@ public class EnrollmentsBL {
         return new ResponseDTO("Enrollment deleted successfully");
     }
 
-
     public ResponseDTO getEnrollmentsByStudentId(Long studentUserId) {
         List<Enrollments> enrollments = enrollmentsDao.findByStudentUserId(studentUserId);
         if (enrollments.isEmpty()) {
             return new ResponseDTO("ENROLLMENT-1002", "No enrollments found for student with id " + studentUserId);
         }
         return new ResponseDTO(enrollments);
+    }
+
+    public void completeCourse(Long enrollmentId) {
+        Enrollments enrollment = enrollmentsDao.findById(enrollmentId).orElseThrow(() -> new RuntimeException("Enrollment not found"));
+        enrollment.setCompleted(true);
+        enrollmentsDao.save(enrollment);
+
+        // Generate certification
+        certificationBl.generateCertification(enrollment.getStudentUserId(), enrollment.getCoursesCourseId());
     }
 }
