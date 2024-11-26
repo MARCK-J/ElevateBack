@@ -15,7 +15,7 @@ Accept: application/json
   "title": "Sample Quiz",
   "description": "This is a sample quiz",
   "dueDate": "2023-12-31",
-  "lessonsId": 1,
+  "lessonsId": 15,
   "courseId": 1
 }
 

@@ -16,7 +16,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "courseId": 2,
+    "courseId": 1,
     "title": "Introducción",
     "description": "Primera lección del curso",
     "duration": "30 min",

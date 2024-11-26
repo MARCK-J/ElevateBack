@@ -52,4 +52,9 @@ public class ResultAPI {
     public ResponseDTO getResultsByStudentUserId(@PathVariable Integer studentUserId) {
         return resultBL.getResultsByStudentUserId(studentUserId);
     }
+
+    @GetMapping("/qualification/{quizId}/{studentUserId}")
+    public ResponseDTO getQualificationByQuizIdAndStudentUserId(@PathVariable Long quizId, @PathVariable Long studentUserId) {
+        return resultBL.getQualificationByQuizIdAndStudentUserId(quizId, studentUserId);
+    }
 }

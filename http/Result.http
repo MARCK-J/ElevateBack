@@ -14,7 +14,7 @@ Accept: application/json
 {
   "score": 85,
   "submissionDate": "2023-12-31",
-  "quizId": 1,
+  "quizId": 2,
   "studentUserId": 1
 }
 
@@ -39,4 +39,8 @@ Accept: application/json
 
 ### Obtener resultados por ID de usuario estudiante
 GET http://localhost:9999/api/v1/results/student/1
+Accept: application/json
+
+### Obtener la calificación de un quiz por ID de quiz y ID de estudiante
+GET http://localhost:9999/api/v1/results/qualification/2/1
 Accept: application/json
