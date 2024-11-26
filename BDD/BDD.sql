@@ -36,7 +36,8 @@ CREATE TABLE Enrollments (
     enrollment_id SERIAL PRIMARY KEY,
     enrollment_date timestamp  NOT NULL,
     Student_user_id int  NOT NULL,
-    Courses_course_id int  NOT NULL
+    Courses_course_id int  NOT NULL,
+    Completed boolean  NOT NULL
 );
 
 -- Table: Lessons

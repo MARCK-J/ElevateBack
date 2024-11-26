@@ -14,6 +14,7 @@ public class Enrollments {
         enrollment_date timestamp  NOT NULL,
         Student_user_id int  NOT NULL,
         Courses_course_id int  NOT NULL,
+        Completed boolean  NOT NULL,
         CONSTRAINT Enrollments_pk PRIMARY KEY (enrollment_id)
     );
     */
@@ -32,6 +33,9 @@ public class Enrollments {
 
     @Column(name = "courses_course_id", nullable = false)
     private Long coursesCourseId;
+
+    @Column(name = "completed", nullable = false)
+    private boolean completed;
 
     // Getters y Setters
     public Long getEnrollmentId() {
@@ -66,6 +70,14 @@ public class Enrollments {
         this.coursesCourseId = coursesCourseId;
     }
 
+    public boolean isCompleted() {
+        return completed;
+    }
+
+    public void setCompleted(boolean completed) {
+        this.completed = completed;
+    }
+
     // toString
     @Override
     public String toString() {
@@ -74,6 +86,7 @@ public class Enrollments {
                 ", enrollmentDate=" + enrollmentDate +
                 ", studentUserId=" + studentUserId +
                 ", coursesCourseId=" + coursesCourseId +
+                ", completed=" + completed +
                 '}';
     }
 }

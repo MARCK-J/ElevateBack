@@ -35,13 +35,8 @@ public class EnrollmentsBL {
     }
 
     public ResponseDTO createEnrollment(Enrollments enrollment) {
-        // Obtener el último enrollment_id
         Long lastEnrollmentId = enrollmentsDao.findLastEnrollmentId();
-        
-        // Si no hay inscripciones, comenzamos desde 1
         long newEnrollmentId = (lastEnrollmentId != null) ? lastEnrollmentId + 1 : 1;
-
-        // Asignar el nuevo enrollmentId al registro
         enrollment.setEnrollmentId(newEnrollmentId);
         Enrollments createdEnrollment = enrollmentsDao.save(enrollment);
         return new ResponseDTO(createdEnrollment);
@@ -55,6 +50,7 @@ public class EnrollmentsBL {
         currentEnrollment.setEnrollmentDate(enrollment.getEnrollmentDate());
         currentEnrollment.setStudentUserId(enrollment.getStudentUserId());
         currentEnrollment.setCoursesCourseId(enrollment.getCoursesCourseId());
+        currentEnrollment.setCompleted(enrollment.isCompleted());
         return new ResponseDTO(enrollmentsDao.save(currentEnrollment));
     }
 
@@ -66,7 +62,6 @@ public class EnrollmentsBL {
         enrollmentsDao.delete(enrollment);
         return new ResponseDTO("Enrollment deleted successfully");
     }
-
 
     public ResponseDTO getEnrollmentsByStudentId(Long studentUserId) {
         List<Enrollments> enrollments = enrollmentsDao.findByStudentUserId(studentUserId);

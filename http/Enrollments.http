@@ -3,7 +3,7 @@ GET http://localhost:9999/api/v1/enrollments/all
 Accept: application/json
 
 ### Obtener una inscripción por ID
-GET http://localhost:9999/api/v1/enrollments/{id}
+GET http://localhost:9999/api/v1/enrollments/1
 Accept: application/json
 
 ### Crear una nueva inscripción
@@ -14,7 +14,8 @@ Accept: application/json
 {
   "studentUserId": 1,
   "coursesCourseId": 1,
-  "enrollmentDate": "2024-09-14"
+  "enrollmentDate": "2024-09-14",
+  "completed": false
 }
 
 ### Actualizar una inscripción por ID
@@ -35,4 +36,14 @@ Accept: application/json
 ### Obtener todas las inscripciones por ID del estudiante
 GET http://localhost:9999/api/v1/enrollments/student/2
 Accept: application/json
+
+### Complete a course and generate certification
+POST http://localhost:9999/api/v1/enrollments/complete?enrollmentId=1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "studentUserId": 1,
+  "courseId": 1
+}
 
