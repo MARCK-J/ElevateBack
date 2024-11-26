@@ -132,6 +132,18 @@ CREATE TABLE Results (
         REFERENCES Student (user_id)
 );
 
+-- Table: Certification
+CREATE TABLE Certification (
+    certification_id SERIAL PRIMARY KEY,
+    student_user_id INT NOT NULL,
+    course_id INT NOT NULL,
+    issue_date TIMESTAMP NOT NULL,
+    CONSTRAINT Certification_Student_fk FOREIGN KEY (student_user_id)
+        REFERENCES Student (user_id),
+    CONSTRAINT Certification_Courses_fk FOREIGN KEY (course_id)
+        REFERENCES Courses (course_id)
+);
+
 -- foreign keys
 -- Reference: Courses_Category_course (table: Courses)
 ALTER TABLE Courses ADD CONSTRAINT Courses_Category_course
