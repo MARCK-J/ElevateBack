@@ -81,4 +81,14 @@ public class LessonsBL {
         }
         return new ResponseDTO(completedLessons);
     }
+
+    public ResponseDTO markLessonAsCompleted(Long id) {
+        Lessons lesson = lessonsDao.findById(id).orElse(null);
+        if (lesson == null) {
+            return new ResponseDTO("LESSON-1005", "Lesson does not exist");
+        }
+        lesson.setComplete(true);
+        lessonsDao.save(lesson);
+        return new ResponseDTO("Lesson marked as completed successfully");
+    }
 }
