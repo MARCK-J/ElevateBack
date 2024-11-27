@@ -131,5 +131,5 @@ GET http://localhost:9999/api/v1/lessons/user/1/course/2/completed
 Accept: application/json
 
 ### Marcar una lección como completada
-PUT http://localhost:9999/api/v1/lessons/1/complete
+PUT http://localhost:9999/api/v1/lessons/9/complete
 Accept: application/json
