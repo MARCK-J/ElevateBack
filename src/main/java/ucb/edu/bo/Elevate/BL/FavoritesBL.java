@@ -7,6 +7,7 @@ import ucb.edu.bo.Elevate.Entity.Favorites;
 import ucb.edu.bo.Elevate.DTO.ResponseDTO;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class FavoritesBL {
@@ -29,5 +30,15 @@ public class FavoritesBL {
     public ResponseDTO getFavoritesByStudentUserId(Long studentUserId) {
         List<Favorites> favorites = favoritesDao.findByStudentUserId(studentUserId);
         return new ResponseDTO(favorites);
+    }
+
+    public ResponseDTO deleteFavorite(Long studentUserId, Long courseId) {
+        Optional<Favorites> favorite = favoritesDao.findByStudentUserIdAndCourseId(studentUserId, courseId);
+        if (favorite.isPresent()) {
+            favoritesDao.delete(favorite.get());
+            return new ResponseDTO("Favorite deleted successfully");
+        } else {
+            return new ResponseDTO("Favorite not found");
+        }
     }
 }

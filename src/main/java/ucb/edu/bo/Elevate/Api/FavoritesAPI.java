@@ -27,4 +27,9 @@ public class FavoritesAPI {
     public ResponseDTO getFavoritesByStudentUserId(@PathVariable Long studentUserId) {
         return favoritesBl.getFavoritesByStudentUserId(studentUserId);
     }
+
+    @DeleteMapping("/delete")
+    public ResponseDTO deleteFavorite(@RequestParam Long studentUserId, @RequestParam Long courseId) {
+        return favoritesBl.deleteFavorite(studentUserId, courseId);
+    }
 }
