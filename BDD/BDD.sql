@@ -145,6 +145,15 @@ CREATE TABLE Certification (
         REFERENCES Courses (course_id)
 );
 
+-- Table: favorites
+CREATE TABLE favorites (
+    favorite_id SERIAL PRIMARY KEY,
+    student_user_id BIGINT NOT NULL,
+    course_id BIGINT NOT NULL,
+    FOREIGN KEY (student_user_id) REFERENCES student(user_id),
+    FOREIGN KEY (course_id) REFERENCES courses(course_id)
+);
+
 -- foreign keys
 -- Reference: Courses_Category_course (table: Courses)
 ALTER TABLE Courses ADD CONSTRAINT Courses_Category_course

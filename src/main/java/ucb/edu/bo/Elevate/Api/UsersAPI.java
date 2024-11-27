@@ -2,6 +2,8 @@ package ucb.edu.bo.Elevate.Api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import ucb.edu.bo.Elevate.BL.FavoritesBL;
 import ucb.edu.bo.Elevate.BL.UsersBL;
 import ucb.edu.bo.Elevate.Entity.Users;
 import ucb.edu.bo.Elevate.Exception.UserException;
@@ -10,6 +12,8 @@ import ucb.edu.bo.Elevate.DTO.PasswordChangeRequestDTO;
 import ucb.edu.bo.Elevate.DTO.PasswordRecoveryRequestDTO;
 import ucb.edu.bo.Elevate.DTO.ResponseDTO;
 
+import ucb.edu.bo.Elevate.BL.FavoritesBL;
+
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/api/v1/user")
@@ -17,10 +21,12 @@ public class UsersAPI {
 
     private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(UsersAPI.class);
     private UsersBL userBl;
+    private final FavoritesBL favoritesBl;
 
     @Autowired
-    public UsersAPI(UsersBL userBl) {
+    public UsersAPI(UsersBL userBl, FavoritesBL favoritesBl) {
         this.userBl = userBl;
+        this.favoritesBl = favoritesBl;
     }
 
     // Endpoint para el registro (Sign-up)
