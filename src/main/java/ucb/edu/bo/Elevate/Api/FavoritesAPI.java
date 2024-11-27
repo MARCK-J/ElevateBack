@@ -29,7 +29,7 @@ public class FavoritesAPI {
     }
 
     @DeleteMapping("/delete")
-    public ResponseDTO deleteFavorite(@RequestParam Long studentUserId, @RequestParam Long courseId) {
-        return favoritesBl.deleteFavorite(studentUserId, courseId);
+    public ResponseDTO deleteFavorite(@RequestBody FavoritesDTO favoritesDTO) {
+        return favoritesBl.deleteFavorite(favoritesDTO.getStudentUserId(), favoritesDTO.getCourseId());
     }
 }
