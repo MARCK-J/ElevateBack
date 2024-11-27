@@ -93,4 +93,14 @@ public class LessonsAPI {
             return new ResponseDTO("LESSON-1005", e.getMessage());
         }
     }
+
+    @PutMapping("/{id}/complete")
+    public ResponseDTO markLessonAsCompleted(@PathVariable("id") Long id) {
+        try {
+            return lessonsBl.markLessonAsCompleted(id);
+        } catch (Exception e) {
+            LOGGER.error("Error al marcar lección como completada", e);
+            return new ResponseDTO("LESSON-1006", e.getMessage());
+        }
+    }
 }

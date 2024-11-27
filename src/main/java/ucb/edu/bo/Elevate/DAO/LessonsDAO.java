@@ -3,9 +3,9 @@ package ucb.edu.bo.Elevate.DAO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+import ucb.edu.bo.Elevate.Entity.Lessons;
 
 import java.util.List;
-import ucb.edu.bo.Elevate.Entity.Lessons;
 
 @Repository
 public interface LessonsDAO extends JpaRepository<Lessons, Long> {
